@@ -1,4 +1,4 @@
-figures=figures/repo_histograms.png
+figures=figures/repo_histograms.svg
 summaries=journal_list repo_list dataset_list citation_distribution
 
 .PHONY: all clean
@@ -27,5 +27,5 @@ dataset_list: all_datasets.tsv process_dataset_list.py
 dataset_counts: dataset_list
 	cat $< | cut -f 1 | sort | uniq -c > $@
 
-figures/repo_histograms.png: plot_distributions.py citation_distribution dataset_counts
+figures/repo_histograms.svg: plot_distributions.py citation_distribution dataset_counts
 	python $< $@

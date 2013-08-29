@@ -1,9 +1,12 @@
 #!/usr/bin/env python
+import sys
+import matplotlib
+if len(sys.argv) > 1 and sys.argv[1].endswith('.svg'):
+    matplotlib.use('SVG')
 import matplotlib.pyplot as plt
 from matplotlib.font_manager import FontProperties
 import numpy as np
 import math
-import sys
 from mpltools import style
 from mpltools import layout
 style.use('ggplot')
