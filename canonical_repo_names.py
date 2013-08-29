@@ -3,7 +3,6 @@ import sys
 
 synonym_dict = {
 'ArrayExpress': ['Array Express'],
-'GEO': ['GEOROC'],
 'TreeBASE': ['TreeBase'],
 }
 
