@@ -4,10 +4,18 @@ import sys
 synonym_dict = {
 'ArrayExpress': ['Array Express'],
 'TreeBASE': ['TreeBase'],
+'ICPSR/IQSS': ['ICPSR', 'IQSS'],
 }
 
 for line in sys.stdin:
     for canonical_name, synonyms in synonym_dict.items():
-        for synonym in synonyms:
-            line = line.replace(synonym, canonical_name)
+        potential_replacements = ((synonym, canonical_name)
+                                  for synonym in synonyms
+                                  if synonym in line)
+
+        try:
+            replacement = potential_replacements.next()
+            line = line.replace(*replacement)
+        except StopIteration: pass
+    
     sys.stdout.write(line)
