@@ -10,7 +10,7 @@ font = FontProperties()
 font.set_size('medium')
 font.set_weight('semibold')
 
-distributions = {'all': []}
+distributions = {'ALL': []}
 with open('citation_distribution') as input_file:
     for line in input_file:
         line = line.lstrip()
@@ -24,14 +24,26 @@ with open('citation_distribution') as input_file:
         if not repo in distributions:
             distributions[repo] = []
         distributions[repo].append(int(n))
-        distributions['all'].append(int(n))
+        distributions['ALL'].append(int(n))
 
-del distributions['all']
+num_datasets = {}
+with open('dataset_counts') as input_file:
+    for line in input_file:
+        line = line.strip()
 
-fig = plt.figure(figsize=(12,6))
-for n, key in enumerate(sorted(distributions, key=lambda x:x.upper())):
+        if not line: continue
+
+        chunks = line.split('\t')[0].split()
+        n, repo = chunks[0], ' '.join(chunks[1:])
+
+        num_datasets[repo] = int(n)
+
+num_datasets['ALL'] = sum(num_datasets.values())
+            
+fig = plt.figure(figsize=(12,8))
+for n, key in enumerate(sorted(distributions, key=lambda x:(1 if x=='ALL' else 0, x.upper()))):
     # plot a histogram for each repository
-    sub = plt.subplot(2,5,n+1)
+    sub = plt.subplot(3,4,n+1)
     
     distributions[key].sort(reverse=True)
     xs = []
@@ -39,18 +51,22 @@ for n, key in enumerate(sorted(distributions, key=lambda x:x.upper())):
     for n, value in enumerate(distributions[key]):
         xs.append(n+1)
         ys.append(value)
+
+    zeroes = num_datasets[key] - len(ys)
+    xs += range(xs[-1] + 1, xs[-1] + 2 + zeroes)
+    ys += [0] * zeroes
     
-    bins = np.logspace(0, 8, num=9, base=2)
-    plt.ylim(0,80)
+    bins = [0] + list(np.logspace(0, 8, num=9, base=2))
+    plt.ylim(0,500 if key == 'ALL' else 100)
     plt.text(0.5, 0.9, key, fontproperties=font,
              horizontalalignment='center',
              verticalalignment='center',
              transform=sub.transAxes)
     # rank-citation plot
-    # plt.bar(xs, ys, width=1, log=key=='all')
+    # plt.bar(xs, ys, width=1, log=key=='ALL')
     # histogram
     plt.hist(ys, bins=bins)
-    plt.xscale('log', basex=2)
+    plt.xscale('symlog', basex=2)
 
 
 fig.text(0.5, 0.04, 'citations', ha='center', va='center')
