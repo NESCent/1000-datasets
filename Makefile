@@ -1,6 +1,13 @@
 figures=figures/citation_distributions.png
+summaries=journal_list repo_list dataset_list citation_distribution
 
-all: $(figures) journal_list repo_list dataset_list citation_distribution
+.PHONY: all clean
+
+all: $(figures) $(summaries)
+
+clean:
+	rm -f $(figures)
+	rm -f $(summaries)
 
 %.tsv: %.csv convert_to_tsv.py canonical_repo_names.py
 	python convert_to_tsv.py $< | python canonical_repo_names.py > $@
