@@ -4,6 +4,9 @@ from matplotlib.font_manager import FontProperties
 import numpy as np
 import math
 import sys
+from mpltools import style
+from mpltools import layout
+style.use('ggplot')
 
 
 font = FontProperties()
@@ -41,9 +44,11 @@ with open('dataset_counts') as input_file:
 num_datasets['ALL'] = sum(num_datasets.values())
             
 fig = plt.figure(figsize=(12,8))
+subs = []
 for n, key in enumerate(sorted(distributions, key=lambda x:(1 if x=='ALL' else 0, x.upper()))):
     # plot a histogram for each repository
     sub = plt.subplot(3,4,n+1)
+    subs.append(sub)
     
     distributions[key].sort(reverse=True)
     xs = []
@@ -73,6 +78,9 @@ for n, key in enumerate(sorted(distributions, key=lambda x:(1 if x=='ALL' else 0
 
 fig.text(0.5, 0.04, 'citations', ha='center', va='center')
 fig.text(0.06, 0.5, 'datasets', ha='center', va='center', rotation='vertical')
+
+for sub in subs:
+    layout.cross_spines(ax=sub)
 
 try:
     figname = sys.argv[1]
