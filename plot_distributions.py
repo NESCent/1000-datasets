@@ -40,9 +40,9 @@ for n, key in enumerate(sorted(distributions, key=lambda x:x.upper())):
         xs.append(n+1)
         ys.append(value)
     
-    bins = np.logspace(1, 8, num=8, base=2)
-    plt.ylim(0,50)
-    plt.text(0.5, 0.85, key, fontproperties=font,
+    bins = np.logspace(0, 8, num=9, base=2)
+    plt.ylim(0,80)
+    plt.text(0.5, 0.9, key, fontproperties=font,
              horizontalalignment='center',
              verticalalignment='center',
              transform=sub.transAxes)
