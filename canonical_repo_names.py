@@ -5,6 +5,7 @@ synonym_dict = {
 'ArrayExpress': ['Array Express'],
 'TreeBASE': ['TreeBase'],
 'ICPSR/IQSS': ['ICPSR', 'IQSS'],
+'Journal Archives': ['journalarchives'],
 }
 
 for line in sys.stdin:

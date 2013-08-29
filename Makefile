@@ -1,4 +1,6 @@
-all: journal_list repo_list dataset_list citation_distribution
+figures=figures/citation_distributions.png
+
+all: $(figures) journal_list repo_list dataset_list citation_distribution
 
 all_clean.tsv: all_clean.csv convert_to_tsv.py canonical_repo_names.py
 	python convert_to_tsv.py $< | python canonical_repo_names.py > $@
@@ -11,3 +13,6 @@ repo_list: all_clean.tsv
 
 citation_distribution: all_clean.tsv
 	cat $< | tail -n +2 | cut -f 8,15 | sort | uniq -c > $@
+
+figures/citation_distributions.png: plot_distributions.py citation_distribution
+	python $< $@
