@@ -45,7 +45,11 @@ num_datasets['ALL'] = sum(num_datasets.values())
             
 fig = plt.figure(figsize=(12,8))
 subs = []
-for n, key in enumerate(sorted(distributions, key=lambda x:(1 if x=='ALL' else 0, x.upper()))):
+
+column_order=['Journal Archives', 'ALL']
+for n, key in enumerate(sorted(distributions, 
+                        key=lambda x:(column_order.index(x) if x in column_order else -1, 
+                                      x.upper()))):
     # plot a histogram for each repository
     sub = plt.subplot(3,4,n+1)
     subs.append(sub)
@@ -63,6 +67,14 @@ for n, key in enumerate(sorted(distributions, key=lambda x:(1 if x=='ALL' else 0
     bins = [0] + list(np.logspace(0, 6, num=7, base=2))
     plt.ylim(0,100)
     plt.text(0.5, 0.9, key, fontproperties=font,
+             horizontalalignment='center',
+             verticalalignment='center',
+             transform=sub.transAxes)
+    plt.text(0.5, 0.8, 'median=%s' % int(np.median(data)),
+             horizontalalignment='center',
+             verticalalignment='center',
+             transform=sub.transAxes)
+    plt.text(0.5, 0.7, 'mean=%s' % round(np.mean(data), 1),
              horizontalalignment='center',
              verticalalignment='center',
              transform=sub.transAxes)
