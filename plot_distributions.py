@@ -80,6 +80,7 @@ fig.text(0.5, 0.04, 'citations', ha='center', va='center')
 fig.text(0.06, 0.5, 'datasets', ha='center', va='center', rotation='vertical')
 
 for sub in subs:
+    sub.minorticks_off()
     layout.cross_spines(ax=sub)
 
 try:
