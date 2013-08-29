@@ -51,33 +51,30 @@ for n, key in enumerate(sorted(distributions, key=lambda x:(1 if x=='ALL' else 0
     subs.append(sub)
     
     distributions[key].sort(reverse=True)
-    xs = []
-    ys = []
-    for n, value in enumerate(distributions[key]):
-        xs.append(n+1)
-        ys.append(value)
+    data = []
+    data = []
+    for value in distributions[key]:
+        data.append(value)
 
-    zeroes = num_datasets[key] - len(ys)
-    xs += range(xs[-1] + 1, xs[-1] + 2 + zeroes)
-    ys += [0] * zeroes
+    zeroes = num_datasets[key] - len(data)
+    data += [0] * zeroes
+    weights = [100./num_datasets[key] for x in data]
     
     bins = [0] + list(np.logspace(0, 6, num=7, base=2))
-    plt.ylim(0,500 if key == 'ALL' else 100)
+    plt.ylim(0,100)
     plt.text(0.5, 0.9, key, fontproperties=font,
              horizontalalignment='center',
              verticalalignment='center',
              transform=sub.transAxes)
-    # rank-citation plot
-    # plt.bar(xs, ys, width=1, log=key=='ALL')
-    # histogram
-    plt.hist(ys, bins=bins)
+
+    plt.hist(data, bins=bins, weights=weights)
     plt.xscale('symlog', basex=2)
     sub.set_xticks([x*2 if x > 0 else 1 for x in bins])
     sub.set_xticklabels([int(x) for x in bins],rotation=45, rotation_mode="anchor", ha="right")
 
 
 fig.text(0.5, 0.04, 'citations', ha='center', va='center')
-fig.text(0.06, 0.5, 'datasets', ha='center', va='center', rotation='vertical')
+fig.text(0.06, 0.5, '% of datasets', ha='center', va='center', rotation='vertical')
 
 for sub in subs:
     sub.minorticks_off()
