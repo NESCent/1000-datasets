@@ -59,13 +59,12 @@ for n, key in enumerate(sorted(distributions,
     
     distributions[key].sort(reverse=True)
     data = []
-    data = []
     for value in distributions[key]:
         data.append(value)
 
-    zeroes = num_datasets[key] - len(data)
-    data += [0] * zeroes
+    zeroes = [0] * (num_datasets[key] - len(data))
     weights = [100./num_datasets[key] for x in data]
+    zero_weights = [100./num_datasets[key] for x in zeroes]
     
     bins = [0] + list(np.logspace(0, 6, num=7, base=2))
     plt.ylim(0,100)
@@ -73,16 +72,17 @@ for n, key in enumerate(sorted(distributions,
              horizontalalignment='center',
              verticalalignment='center',
              transform=sub.transAxes)
-    plt.text(0.5, 0.8, 'median=%s' % int(np.median(data)),
+    plt.text(0.5, 0.8, 'median=%s' % int(np.median(data+zeroes)),
              horizontalalignment='center',
              verticalalignment='center',
              transform=sub.transAxes)
-    plt.text(0.5, 0.7, 'mean=%s' % round(np.mean(data), 1),
+    plt.text(0.5, 0.7, 'mean=%s' % round(np.mean(data+zeroes), 1),
              horizontalalignment='center',
              verticalalignment='center',
              transform=sub.transAxes)
 
-    plt.hist(data, bins=bins, weights=weights)
+    plt.hist(data, bins=bins, weights=weights, color='blue')
+    plt.hist(zeroes, bins=bins, weights=zero_weights, color='red')
     plt.xscale('symlog', basex=2)
     sub.set_xticks([x*2 if x > 0 else 1 for x in bins])
     sub.set_xticklabels([int(x) for x in bins],rotation=45, rotation_mode="anchor", ha="right")
