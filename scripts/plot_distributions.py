@@ -17,7 +17,7 @@ font.set_size('medium')
 font.set_weight('semibold')
 
 distributions = {'ALL': []}
-with open('citation_distribution') as input_file:
+with open('data/citation_distribution') as input_file:
     for line in input_file:
         line = line.lstrip()
 
@@ -33,7 +33,7 @@ with open('citation_distribution') as input_file:
         distributions['ALL'].append(int(n))
 
 num_datasets = {}
-with open('dataset_counts') as input_file:
+with open('data/dataset_counts') as input_file:
     for line in input_file:
         line = line.strip()
 
