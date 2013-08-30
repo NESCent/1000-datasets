@@ -1,5 +1,7 @@
-figures=$(patsubst %, figures/%, repo_histograms.svg)
-summaries=$(patsubst %, data/%, journal_list repo_list dataset_list citation_distribution dataset_counts)
+figs=repo_histograms.svg most_cited_datasets.svg
+sums=journal_list repo_list dataset_list citation_distribution dataset_counts
+figures=$(patsubst %, figures/%, $(figs))
+summaries=$(patsubst %, data/%, $(sums))
 
 .PHONY: all clean
 
@@ -32,4 +34,7 @@ figures:
 	mkdir figures
 
 figures/repo_histograms.svg: scripts/plot_distributions.py data/citation_distribution data/dataset_counts
+	python $< $@
+
+figures/most_cited_datasets.svg: scripts/most_cited_datasets.py data/citation_distribution
 	python $< $@

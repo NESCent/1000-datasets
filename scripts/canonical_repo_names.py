@@ -13,6 +13,18 @@ synonym_dict = {
 'Pangaea': [],
 'PDB': [],
 }
+colors = {
+'ArrayExpress': 'blue',
+'TreeBASE': 'cyan',
+'ICPSR/IQSS': 'red',
+'Journal Archives': 'black',
+'BMRB': 'purple',
+'GEO': 'silver',
+'GEOROC': 'yellow',
+'HEPData': 'green',
+'Pangaea': 'brown',
+'PDB': 'orange',
+}
 
 if __name__ == '__main__':
     for line in sys.stdin:
