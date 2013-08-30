@@ -3,7 +3,7 @@ summaries=$(patsubst %, data/%, journal_list repo_list dataset_list citation_dis
 
 .PHONY: all clean
 
-all: $(figures) $(summaries)
+all: figures $(figures) $(summaries)
 
 clean:
 	rm -f $(figures)
@@ -27,6 +27,9 @@ data/dataset_list: data/all_datasets.tsv scripts/process_dataset_list.py
 
 data/dataset_counts: data/dataset_list
 	cat $< | cut -f 1 | sort | uniq -c > $@
+
+figures:
+	mkdir figures
 
 figures/repo_histograms.svg: scripts/plot_distributions.py data/citation_distribution data/dataset_counts
 	python $< $@
