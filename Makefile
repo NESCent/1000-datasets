@@ -1,11 +1,11 @@
 figs=repo_histograms.svg most_cited_datasets.svg
 sums=journal_list repo_list dataset_list citation_distribution dataset_counts
-figures=$(patsubst %, figures/%, $(figs))
+figures=figures $(patsubst %, figures/%, $(figs))
 summaries=$(patsubst %, data/%, $(sums))
 
 .PHONY: all clean
 
-all: figures $(figures) $(summaries)
+all: $(figures) $(summaries)
 
 clean:
 	rm -f $(figures)
