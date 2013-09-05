@@ -8,7 +8,7 @@ summaries=$(patsubst %, data/%, $(sums))
 all: $(figures) $(summaries)
 
 clean:
-	rm -f $(figures)
+	rm -rf figures
 	rm -f $(summaries)
 	rm -f figures/*.tsv
 
