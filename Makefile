@@ -21,8 +21,8 @@ data/journal_list: data/all.tsv scripts/title_case.py
 data/repo_list: data/all.tsv
 	cat $< | tail -n +2 | cut -f 8 | sort | uniq > $@
 
-data/citation_distribution: data/all.tsv
-	cat $< | tail -n +2 | cut -f 8,15 | sort | uniq -c > $@
+data/citation_distribution: data/all_datasets.tsv scripts/process_dataset_list.py
+	cat $< | cut -f 2,3,4 | python scripts/process_dataset_list.py > $@
 
 data/dataset_list: data/all_datasets.tsv scripts/process_dataset_list.py
 	cat $< | cut -f 2,3 | python scripts/process_dataset_list.py | sort | uniq > $@

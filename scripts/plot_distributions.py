@@ -17,34 +17,28 @@ font.set_size('medium')
 font.set_weight('semibold')
 
 distributions = {'ALL': []}
+num_datasets = {'ALL': 0}
 with open('data/citation_distribution') as input_file:
     for line in input_file:
-        line = line.lstrip()
+        line = line.strip('\r\n ')
 
         # skip blank lines or lines with no dataset id
         if not line: continue
-        if not line.split('\t')[1].strip(): continue
 
-        chunks = line.split('\t')[0].split()
-        n, repo = chunks[0], ' '.join(chunks[1:])
-        if not repo in distributions:
-            distributions[repo] = []
-        distributions[repo].append(int(n))
-        distributions['ALL'].append(int(n))
+        repo, id, count = line.split('\t')
+        try: count = int(count)
+        except: count = 0
 
-num_datasets = {}
-with open('data/dataset_counts') as input_file:
-    for line in input_file:
-        line = line.strip()
+        if not repo in distributions: distributions[repo] = []
+        if not repo in num_datasets: num_datasets[repo] = 0
 
-        if not line: continue
+        if count > 0:
+            distributions[repo].append(count)
+            distributions['ALL'].append(count)
 
-        chunks = line.split('\t')[0].split()
-        n, repo = chunks[0], ' '.join(chunks[1:])
+        num_datasets[repo] += 1
+        num_datasets['ALL'] += 1           
 
-        num_datasets[repo] = int(n)
-
-num_datasets['ALL'] = sum(num_datasets.values())
             
 fig = plt.figure(figsize=(12,8))
 subs = []
@@ -66,7 +60,7 @@ for n, key in enumerate(sorted(distributions,
     weights = [100./num_datasets[key] for x in data]
     zero_weights = [100./num_datasets[key] for x in zeroes]
     
-    bins = [0] + list(np.logspace(0, 6, num=7, base=2))
+    bins = [0] + list(np.logspace(0, 10, num=11, base=2))
     plt.ylim(0,100)
     plt.text(0.5, 0.9, key, fontproperties=font,
              horizontalalignment='center',
@@ -86,6 +80,7 @@ for n, key in enumerate(sorted(distributions,
     plt.xscale('symlog', basex=2)
     sub.set_xticks([x*2 if x > 0 else 1 for x in bins])
     sub.set_xticklabels([int(x) for x in bins],rotation=45, rotation_mode="anchor", ha="right")
+    sub.set_xlim(0,bins[-1])
 
 
 fig.text(0.5, 0.04, 'citations', ha='center', va='center')

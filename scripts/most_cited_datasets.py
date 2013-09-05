@@ -19,21 +19,26 @@ font = FontProperties()
 font.set_size('medium')
 font.set_weight('semibold')
 
+
 distribution = []
 with open('data/citation_distribution') as input_file:
     for line in input_file:
-        line = line.lstrip()
+        line = line.strip('\r\n ')
 
         # skip blank lines or lines with no dataset id
         if not line: continue
-        if not line.split('\t')[1].strip(): continue
 
-        chunks = line.split('\t')[0].split()
-        n, repo = chunks[0], ' '.join(chunks[1:])
-        distribution.append((int(n), repo))
+        repo, id, count = line.split('\t')
+        try: count = int(count)
+        except: count = 0
+
+        distribution.append((count, repo))
+
 
 distribution.sort(reverse=True)
-repo_order = sorted(colors.keys(), key=lambda x:[i[1] for i in distribution].index(x))
+distribution = distribution[:DATASETS]
+c = [x for x in colors.keys() if x in [i[1] for i in distribution]]
+repo_order = sorted(c, key=lambda x:[i[1] for i in distribution].index(x))
 repo_pos = [[x[1] for x in distribution].index(c) for c in repo_order]
 
 fig = plt.figure()
