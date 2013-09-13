@@ -13,7 +13,7 @@ style.use('ggplot')
 from canonical_repo_names import colors
 
 
-DATASETS = 100
+DATASETS = 50
 
 font = FontProperties()
 font.set_size('medium')
@@ -21,7 +21,7 @@ font.set_weight('semibold')
 
 
 distribution = []
-with open('data/citation_distribution') as input_file:
+with open('data/reuse_estimates') as input_file:
     for line in input_file:
         line = line.strip('\r\n ')
 
@@ -29,8 +29,8 @@ with open('data/citation_distribution') as input_file:
         if not line: continue
 
         repo, id, count = line.split('\t')
-        try: count = int(count)
-        except: count = 0
+        try: count = float(count)
+        except ValueError: count = 0
 
         distribution.append((count, repo))
 

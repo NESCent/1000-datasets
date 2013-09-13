@@ -18,7 +18,7 @@ font.set_weight('semibold')
 
 distributions = {'ALL': []}
 num_datasets = {'ALL': 0}
-with open('data/citation_distribution') as input_file:
+with open(sys.argv[1]) as input_file:
     for line in input_file:
         line = line.strip('\r\n ')
 
@@ -26,7 +26,7 @@ with open('data/citation_distribution') as input_file:
         if not line: continue
 
         repo, id, count = line.split('\t')
-        try: count = int(count)
+        try: count = float(count)
         except: count = 0
 
         if not repo in distributions: distributions[repo] = []
@@ -91,7 +91,7 @@ for sub in subs:
     layout.cross_spines(ax=sub)
 
 try:
-    figname = sys.argv[1]
+    figname = sys.argv[2]
     plt.savefig(figname, dpi=200)
 except IndexError:
     plt.show()
