@@ -32,7 +32,7 @@ with open(sys.argv[1]) as input_file:
         if not repo in distributions: distributions[repo] = []
         if not repo in num_datasets: num_datasets[repo] = 0
 
-        if count > 0:
+        if count >= 1:
             distributions[repo].append(count)
             distributions['ALL'].append(count)
 
@@ -55,10 +55,11 @@ for n, key in enumerate(sorted(distributions,
     data = []
     for value in distributions[key]:
         data.append(value)
-
+    
     zeroes = [0] * (num_datasets[key] - len(data))
-    weights = [100./num_datasets[key] for x in data]
-    zero_weights = [100./num_datasets[key] for x in zeroes]
+    weight = 100./num_datasets[key]
+    weights = [weight for x in data]
+    zero_weights = [weight for x in zeroes]
     
     bins = [0] + list(np.logspace(0, 10, num=11, base=2))
     plt.ylim(0,100)
@@ -74,9 +75,10 @@ for n, key in enumerate(sorted(distributions,
              horizontalalignment='center',
              verticalalignment='center',
              transform=sub.transAxes)
-
+    
     plt.hist(data, bins=bins, weights=weights, color='blue')
-    plt.hist(zeroes, bins=bins, weights=zero_weights, color='red')
+    if zeroes:
+        plt.hist(zeroes, bins=bins, weights=zero_weights, color='red')
     plt.xscale('symlog', basex=2)
     sub.set_xticks([x*2 if x > 0 else 1 for x in bins])
     sub.set_xticklabels([int(x) for x in bins],rotation=45, rotation_mode="anchor", ha="right")
