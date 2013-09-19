@@ -6,7 +6,7 @@ summaries=$(patsubst %, data/%, $(sums))
 
 .PHONY: all clean
 
-all: $(figures) $(summaries)
+all: $(figures)
 
 clean:
 	rm -rf figures
@@ -25,8 +25,8 @@ data/repo_list: data/all.tsv
 data/citation_distribution: data/all_datasets.tsv scripts/process_dataset_list.py
 	cat $< | cut -f 2,3,4 | python scripts/process_dataset_list.py > $@
 
-data/dataset_reuse: data/all.tsv
-	cat $< | tail -n +2 | cut -f 4,8,15 | sort | uniq -c > $@
+data/reuse_subsample: data/all.tsv
+	cat $< | tail -n +2 | cut -f 3,4,8 | sort | uniq -c > $@
 
 data/dataset_list: data/all_datasets.tsv scripts/process_dataset_list.py
 	cat $< | cut -f 2,3 | python scripts/process_dataset_list.py | sort | uniq > $@
@@ -34,8 +34,8 @@ data/dataset_list: data/all_datasets.tsv scripts/process_dataset_list.py
 data/dataset_counts: data/dataset_list
 	cat $< | cut -f 1 | sort | uniq -c > $@
 
-data/reuse_estimates: scripts/weighted_citations.py data/citation_distribution data/dataset_reuse
-	python $< data/citation_distribution data/dataset_reuse > $@
+data/reuse_estimates: scripts/weighted_citations.py data/citation_distribution data/reuse_subsample
+	python $^ > $@
 
 figures:
 	mkdir figures
