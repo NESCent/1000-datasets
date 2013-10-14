@@ -58,8 +58,9 @@ fig.text(0.06, 0.5, '# of citations', ha='center', va='center', rotation='vertic
 
 plt.legend([bar[x] for x in repo_pos], repo_order)
 
-try:
-    figname = sys.argv[1]
-    plt.savefig(figname, dpi=200)
-except IndexError:
-    plt.show()
+if __name__ == '__main__':
+    try:
+        figname = sys.argv[1]
+        plt.savefig(figname, dpi=200)
+    except IndexError:
+        plt.show()

@@ -13,6 +13,14 @@ synonym_dict = {
 'Pangaea': [],
 'PDB': [],
 }
+
+# create a dictionary linking bad names to canonical ones
+bad_names = {}
+for k, v in synonym_dict.items():
+    for i in v:
+        bad_names[i] = k
+
+# colors for use in figures
 colors = {
 'ArrayExpress': 'blue',
 'TreeBASE': 'cyan',

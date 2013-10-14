@@ -4,14 +4,17 @@ fig_format=svg
 figures=figures $(patsubst %, figures/%.$(fig_format), $(figs))
 summaries=$(patsubst %, data/%, $(sums))
 
-.PHONY: all clean
+.PHONY: all clean tests
 
-all: $(figures)
+all: tests $(figures)
 
 clean:
 	rm -rf figures
 	rm -f $(summaries)
 	rm -f figures/*.tsv
+
+tests: $(wildcard scripts/*.py Makefile)
+	python run_tests.py
 
 %.tsv: %.csv scripts/convert_to_tsv.py scripts/canonical_repo_names.py
 	python scripts/convert_to_tsv.py $< | python scripts/canonical_repo_names.py > $@

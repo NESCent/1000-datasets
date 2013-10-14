@@ -1,5 +1,17 @@
 #!/usr/bin/env python
-import sys
+'''Quick script to convert text to title case.'''
 
-input = sys.stdin.read()
-print input.title(),
+def title_case(text):
+    '''Returns the input text converted to title case.
+    
+    >>> title_case('abc')
+    'Abc'
+    >>> title_case('apple banana')
+    'Apple Banana'
+    '''
+    return text.title()
+
+
+if __name__ == '__main__':
+    import sys
+    print title_case(sys.stdin.read()),
