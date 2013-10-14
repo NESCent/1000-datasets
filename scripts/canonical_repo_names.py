@@ -17,8 +17,10 @@ synonym_dict = {
 # create a dictionary linking bad names to canonical ones
 bad_names = {}
 for k, v in synonym_dict.items():
+    bad_names[k.lower()] = k
     for i in v:
         bad_names[i] = k
+        bad_names[i.lower()] = k
 
 # colors for use in figures
 colors = {

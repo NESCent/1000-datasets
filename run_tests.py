@@ -23,4 +23,6 @@ for script in scripts:
 
 doctest.testfile('README.md', verbose=True)
 
-if failures > 0: raise Exception('%s tests failed.' % failures)
+print
+if failures > 0: raise Exception('** %s tests failed. **' % failures)
+else: print '** All tests passed. **'

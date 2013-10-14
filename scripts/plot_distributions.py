@@ -24,7 +24,7 @@ if __name__ == '__main__':
             line = line.strip('\r\n ')
             
             # skip blank lines or lines with no dataset id
-            if not line: continue
+            if not line or line.startswith('#'): continue
             
             repo, id, count = line.split('\t')
             try: count = float(count)

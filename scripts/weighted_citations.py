@@ -14,6 +14,8 @@ Necessary input files:
         For each repository, this gives the number of manually-verified
         citations with each reuse status (reused, not reused, ambiguous, etc.)
         
+        
+Outputs to stdout, which is captured and saved as data/reuse_estimates.
 '''
 
 if __name__ == '__main__':
@@ -58,5 +60,6 @@ if __name__ == '__main__':
         # output repo, dataset, weighted estimate of reuse citations
         print '\t'.join((repo, dataset)+(str(float(total) * reuse[repo] / no_reuse[repo]),))
         
-    '''for repo in reuse:
-        print repo, reuse[repo], no_reuse[repo], float(reuse[repo]) / (reuse[repo] + no_reuse[repo])'''
+    
+    for repo in reuse:
+        print '#', repo, reuse[repo], no_reuse[repo], float(reuse[repo]) / (reuse[repo] + no_reuse[repo])
