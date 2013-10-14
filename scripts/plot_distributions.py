@@ -11,43 +11,44 @@ if __name__ == '__main__':
     from mpltools import style
     from mpltools import layout
     style.use('ggplot')
-
-
+    
+    
     font = FontProperties()
     font.set_size('medium')
     font.set_weight('semibold')
-
+    
     distributions = {'ALL': []}
     num_datasets = {'ALL': 0}
     with open(sys.argv[1]) as input_file:
         for line in input_file:
             line = line.strip('\r\n ')
-
+            
             # skip blank lines or lines with no dataset id
             if not line: continue
-
+            
             repo, id, count = line.split('\t')
             try: count = float(count)
             except: count = 0
-
+            
             if not repo in distributions: distributions[repo] = []
             if not repo in num_datasets: num_datasets[repo] = 0
-
+            
             if count >= 1:
                 distributions[repo].append(count)
                 distributions['ALL'].append(count)
-
+            
             num_datasets[repo] += 1
-            num_datasets['ALL'] += 1           
-
-                
+            num_datasets['ALL'] += 1
+    
+    
     fig = plt.figure(figsize=(12,8))
     subs = []
-
+    
     column_order=['Journal Archives', 'ALL']
     for n, key in enumerate(sorted(distributions, 
                             key=lambda x:(column_order.index(x) if x in column_order else -1, 
                                           x.upper()))):
+        print n, key
         # plot a histogram for each repository
         sub = plt.subplot(3,4,n+1)
         subs.append(sub)
@@ -80,20 +81,21 @@ if __name__ == '__main__':
         plt.hist(data, bins=bins, weights=weights, color='blue')
         if zeroes:
             plt.hist(zeroes, bins=bins, weights=zero_weights, color='red')
+        
         plt.xscale('symlog', basex=2)
         sub.set_xticks([x*2 if x > 0 else 1 for x in bins])
         sub.set_xticklabels([int(x) for x in bins],rotation=45, rotation_mode="anchor", ha="right")
         sub.set_xlim(0,bins[-1])
-
-
+    
+    
     fig.text(0.5, 0.04, 'citations', ha='center', va='center')
     fig.text(0.06, 0.5, '% of datasets', ha='center', va='center', rotation='vertical')
-
+    
     for sub in subs:
         sub.minorticks_off()
         layout.cross_spines(ax=sub)
-
-
+    
+    
     try:
         figname = sys.argv[2]
         plt.savefig(figname, dpi=200)

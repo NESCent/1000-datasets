@@ -3,7 +3,7 @@
 canonical version. Works on tab-delimited files where the first column is the
 repository name.'''
 import sys
-from canonical_repo_names import bad_names
+from canonical_repo_names import synonym_dict, bad_names
 
 def processed_line(line):
     '''Return the synonym-replaced version of a single line of text.
@@ -16,9 +16,17 @@ def processed_line(line):
     repo = line.split('\t')[0]
     rest_of_line = '\t'.join(line.split('\t')[1:])
     if 'pangaea.de' in repo:
+        # these values refer to Pangaea
         line = 'Pangaea\t' + rest_of_line
     elif repo in bad_names:
+        # replace with canonical synonym
         line = bad_names[repo] + '\t' + rest_of_line
+    elif repo in synonym_dict:
+        # this is already a canonical synonym
+        pass
+    else:
+        # first value of this line is unrecognizable
+        return None
     return line
 
 

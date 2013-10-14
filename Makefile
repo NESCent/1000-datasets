@@ -4,15 +4,22 @@ fig_format=svg
 figures=figures $(patsubst %, figures/%.$(fig_format), $(figs))
 summaries=$(patsubst %, data/%, $(sums))
 
-.PHONY: all clean tests
+.PHONY: all clean tests figures
+.SECONDARY: %.tsv
 
-all: tests $(figures)
+# by default, run all tests, then generate all figures
+all: tests figs
 
+# just generate the figures (create the figures directory first)
+figs: figures $(figures)
+
+# delete all intermediate files and products
 clean:
 	rm -rf figures
 	rm -f $(summaries)
 	rm -f figures/*.tsv
 
+# run all unit tests - will fail and give summary if any tests fail
 tests: $(wildcard scripts/*.py Makefile)
 	python run_tests.py
 
