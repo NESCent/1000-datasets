@@ -1,6 +1,16 @@
 #!/usr/bin/env python
-'''Returns the total number of citations per repository.
+'''Determines the number of citations within the subsample that were considered
+to have been instances of reuse with high confidence.
 
+>>> test = {'HEPData': 154, 'ArrayExpress': 157, 'GEOROC': 170, 'Pangaea': 160, 'ICPSR': 85, 'Journal Archives': 168, 'IQSS': 95, 'TreeBASE': 164, 'GEO': 162, 'PDB': 157, 'BMRB': 211}
+>>> test_sorted = sorted(candidate_counts.items(), key=lambda (a,b): b)
+>>> data_sorted = sorted(candidate_counts.items(), key=lambda (a,b): b)
+>>> [x[0] for x in data_sorted]
+['ICPSR', 'IQSS', 'HEPData', 'ArrayExpress', 'PDB', 'Pangaea', 'GEO', 'TreeBase', 'journalarchives', 'GEOROC', 'BMRB']
+>>> abs(data_sorted[0][1] - test_sorted[0][1]) < 20
+True
+>>> abs(data_sorted[-1][1] - test_sorted[-1][1]) < 20
+True
 '''
 from collections import defaultdict
 from process_dataset_list import clean_repo_name
