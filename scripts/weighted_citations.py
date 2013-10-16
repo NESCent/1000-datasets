@@ -23,6 +23,7 @@ if __name__ == '__main__':
     input_path1 = sys.argv[1]
     input_path2 = sys.argv[2]
     from collections import defaultdict
+    from process_dataset_list import clean_repo_name
     
     
     totals = {}
@@ -31,6 +32,7 @@ if __name__ == '__main__':
             if not line.strip(): continue
             
             repo, dataset, n = line.split('\t')
+            repo = clean_repo_name(repo)
             try: n = int(n)
             except: n = 0
             if not repo.strip() or not dataset.strip(): continue
@@ -46,7 +48,8 @@ if __name__ == '__main__':
             n = int(line[:8])
             line = line[8:].rstrip('\n')
             confidence, reuse_status, repo = line.split('\t')
-            if not repo.strip() or not dataset.strip(): continue
+            repo = clean_repo_name(repo)
+            if repo is None or not dataset.strip(): continue
             
             if 'low' in confidence: pass
             elif 'not reused' in reuse_status:
@@ -58,7 +61,7 @@ if __name__ == '__main__':
         # total number of citations for this dataset
         total = totals.get((repo, dataset), 0)
         # output repo, dataset, weighted estimate of reuse citations
-        print '\t'.join((repo, dataset)+(str(float(total) * reuse[repo] / no_reuse[repo]),))
+        print '\t'.join((repo, dataset)+(str(float(total) * reuse[repo] / float(reuse[repo] + no_reuse[repo])),))
         
     
     for repo in reuse:
