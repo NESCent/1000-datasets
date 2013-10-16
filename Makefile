@@ -8,7 +8,7 @@ summaries=$(patsubst %, data/%, $(sums))
 .SECONDARY: %.tsv
 
 # by default, run all tests, then generate all figures
-all: tests sums figs
+all: sums tests figs
 
 # just generate the figures (create the figures directory first)
 figs: figures $(figures)
@@ -18,14 +18,14 @@ sums: $(summaries)
 clean:
 	rm -rf figures
 	rm -f $(summaries)
-	rm -f figures/*.tsv
+	#rm -f figures/*.tsv
 
 # run all unit tests - will fail and give summary if any tests fail
 tests: $(wildcard scripts/*.py Makefile)
 	python run_tests.py
 
-%.tsv: %.csv scripts/convert_to_tsv.py scripts/canonical_repo_names.py
-	python scripts/convert_to_tsv.py $< | python scripts/canonical_repo_names.py > $@
+#all_datasets.tsv: %.tsv: %.csv scripts/convert_to_tsv.py scripts/canonical_repo_names.py
+#	python scripts/convert_to_tsv.py $< | python scripts/canonical_repo_names.py > $@
 
 data/journal_list: data/all.tsv scripts/title_case.py
 	cat $< | tail -n +2 | cut -f 21 | python scripts/title_case.py | sort | uniq > $@
@@ -54,11 +54,11 @@ data/repo_citation_counts: scripts/repo_citation_counts.py data/all_datasets.tsv
 data/repo_dataset_counts: scripts/repo_dataset_counts.py data/all_datasets.tsv
 	python $< > $@
 
-data/repo_reuse_counts: scripts/repo_reuse_counts.py
+data/repo_reuse_counts: scripts/repo_reuse_counts.py data/reuse_subsample
 	python $< > $@
 
 figures:
-	mkdir figures
+	mkdir -p figures
 
 figures/repo_histograms_reuse.svg: scripts/plot_distributions.py data/reuse_estimates data/dataset_counts
 	python $< data/reuse_estimates $@
