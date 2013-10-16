@@ -29,11 +29,12 @@ if __name__ == '__main__':
             repo, id, count = line.split('\t')
             try: count = float(count)
             except: count = 0
+            count = int(round(count))
             
             if not repo in distributions: distributions[repo] = []
             if not repo in num_datasets: num_datasets[repo] = 0
             
-            if count >= 1:
+            if count > 0:
                 distributions[repo].append(count)
                 distributions['ALL'].append(count)
             
@@ -78,7 +79,8 @@ if __name__ == '__main__':
                  verticalalignment='center',
                  transform=sub.transAxes)
         
-        plt.hist(data, bins=bins, weights=weights, color='blue')
+        if data:
+            plt.hist(data, bins=bins, weights=weights, color='blue')
         if zeroes:
             plt.hist(zeroes, bins=bins, weights=zero_weights, color='red')
         

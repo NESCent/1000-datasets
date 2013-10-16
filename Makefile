@@ -46,7 +46,7 @@ data/dataset_counts: data/dataset_list
 	cat $< | cut -f 1 | sort | uniq -c > $@
 
 data/reuse_estimates: scripts/weighted_citations.py data/citation_distribution data/reuse_subsample
-	python $^ > $@
+	python $< > $@
 
 data/repo_citation_counts: scripts/repo_citation_counts.py data/all_datasets.tsv
 	python $< > $@

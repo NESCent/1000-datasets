@@ -20,14 +20,11 @@ Outputs to stdout, which is captured and saved as data/reuse_estimates.
 
 if __name__ == '__main__':
     import sys
-    input_path1 = sys.argv[1]
-    input_path2 = sys.argv[2]
     from collections import defaultdict
     from process_dataset_list import clean_repo_name
     
-    
     totals = {}
-    with open(input_path1) as input_file:
+    with open('data/citation_distribution') as input_file:
         for line in input_file:
             if not line.strip(): continue
             
@@ -41,7 +38,7 @@ if __name__ == '__main__':
             
     reuse = defaultdict(lambda: 0)
     no_reuse = defaultdict(lambda: 0)
-    with open(input_path2) as input_file:
+    with open('data/reuse_subsample') as input_file:
         for line in input_file:
             if not line.strip(): continue
             
