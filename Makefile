@@ -1,6 +1,6 @@
 figs=repo_histograms_reuse repo_histograms_citation most_cited_datasets
 sums=journal_list repo_list dataset_list dataset_counts reuse_estimates repo_citation_counts repo_dataset_counts repo_reuse_counts
-fig_format=svg
+fig_format=png
 figures=figures $(patsubst %, figures/%.$(fig_format), $(figs))
 summaries=$(patsubst %, data/%, $(sums))
 
@@ -60,8 +60,8 @@ data/repo_reuse_counts: scripts/repo_reuse_counts.py data/reuse_subsample_wos da
 figures:
 	mkdir -p figures
 
-figures/repo_histograms_%.svg: scripts/plot_distributions.py data/reuse_estimates
+figures/repo_histograms_%.$(fig_format): scripts/plot_distributions.py data/reuse_estimates
 	python $< $* $@
 
-figures/most_cited_datasets.svg: scripts/most_cited_datasets.py data/reuse_estimates
+figures/most_cited_datasets.$(fig_format): scripts/most_cited_datasets.py data/reuse_estimates
 	python $< $@
