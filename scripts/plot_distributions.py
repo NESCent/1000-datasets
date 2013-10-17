@@ -19,7 +19,7 @@ if __name__ == '__main__':
     
     distributions = {'ALL': []}
     num_datasets = {'ALL': 0}
-    with open(sys.argv[1]) as input_file:
+    with open('data/reuse_estimates') as input_file:
         for line in input_file:
             line = line.strip('\r\n ')
             
@@ -34,7 +34,7 @@ if __name__ == '__main__':
             if not repo in distributions: distributions[repo] = []
             if not repo in num_datasets: num_datasets[repo] = 0
             
-            if count > 0:
+            if count >= 1:
                 distributions[repo].append(count)
                 distributions['ALL'].append(count)
             

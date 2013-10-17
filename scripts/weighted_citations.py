@@ -23,43 +23,57 @@ if __name__ == '__main__':
     from collections import defaultdict
     from process_dataset_list import clean_repo_name
     
-    totals = {}
-    with open('data/citation_distribution') as input_file:
+    totals = {'wos': {}, 'gs': {}}
+    datasets = set()
+    with open('data/all_datasets.tsv') as input_file:
+        input_file.readline()
         for line in input_file:
             if not line.strip(): continue
             
-            repo, dataset, n = line.split('\t')
-            repo = clean_repo_name(repo)
-            try: n = int(n)
-            except: n = 0
-            if not repo.strip() or not dataset.strip(): continue
-            
-            totals[repo, dataset] = n
-            
-    reuse = defaultdict(lambda: 0)
-    no_reuse = defaultdict(lambda: 0)
-    with open('data/reuse_subsample') as input_file:
-        for line in input_file:
-            if not line.strip(): continue
-            
-            n = int(line[:8])
-            line = line[8:].rstrip('\n')
-            confidence, reuse_status, repo = line.split('\t')
+            repo, dataset, wos, gs = line.split('\t')
             repo = clean_repo_name(repo)
             if repo is None or not dataset.strip(): continue
             
-            if 'low' in confidence: pass
-            elif 'not reused' in reuse_status:
-                no_reuse[repo] += n
-            elif 'reused' in reuse_status:
-                reuse[repo] += n
+            wos, gs = int(wos), int(gs)
             
-    for repo, dataset in totals:
+            datasets.add((repo,dataset))
+            totals['wos'][repo, dataset] = wos
+            totals['gs'][repo, dataset] = gs
+    
+    reuse = {key: defaultdict(lambda: 0) for key in ('wos', 'gs')}
+    no_reuse = {key: defaultdict(lambda: 0) for key in ('wos', 'gs')}
+    for key in ('wos', 'gs'):
+        with open('data/reuse_subsample_%s' % key) as input_file:
+            for line in input_file:
+                if not line.strip(): continue
+                
+                n = int(line[:8])
+                line = line[8:].rstrip('\n')
+                confidence, reuse_status, repo = line.split('\t')
+                repo = clean_repo_name(repo)
+                if repo is None or not dataset.strip(): continue
+                
+                if 'low' in confidence: pass
+                elif 'not reused' in reuse_status:
+                    no_reuse[key][repo] += n
+                elif 'reused' in reuse_status:
+                    reuse[key][repo] += n
+            
+    for repo, dataset in datasets:
         # total number of citations for this dataset
-        total = totals.get((repo, dataset), 0)
+        total = 0
+        for key in ('wos', 'gs'):
+            n = totals[key].get((repo, dataset), 0)
+            try: weight = reuse[key][repo] / float(reuse[key][repo] + no_reuse[key][repo])
+            except: weight = 0
+            total += n * weight
+            
         # output repo, dataset, weighted estimate of reuse citations
-        print '\t'.join((repo, dataset)+(str(float(total) * reuse[repo] / float(reuse[repo] + no_reuse[repo])),))
+        print '\t'.join(map(str, (repo, dataset, total)))
         
     
     for repo in reuse:
-        print '#', repo, reuse[repo], no_reuse[repo], float(reuse[repo]) / (reuse[repo] + no_reuse[repo])
+        print '#', repo, [(reuse[key][repo], no_reuse[key][repo], 
+                           float(reuse[key][repo]) / 
+                                 max(1, (reuse[key][repo] + no_reuse[key][repo]))) 
+                          for key in ('wos', 'gs')]
