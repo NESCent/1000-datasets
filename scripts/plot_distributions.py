@@ -99,7 +99,7 @@ if __name__ == '__main__':
         sub.set_xlim(0,bins[-1])
     
     
-    fig.text(0.5, 0.04, 'citations', ha='center', va='center')
+    fig.text(0.5, 0.04, '%s count' % plot_type, ha='center', va='center')
     fig.text(0.06, 0.5, '% of datasets', ha='center', va='center', rotation='vertical')
     
     for sub in subs:
