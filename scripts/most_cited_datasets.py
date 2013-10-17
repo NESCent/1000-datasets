@@ -55,7 +55,7 @@ if __name__ == '__main__':
     plt.xticks([])
 
     #fig.text(0.5, 0.04, 'rank', ha='center', va='center')
-    fig.text(0.06, 0.5, '# of citations', ha='center', va='center', rotation='vertical')
+    fig.text(0.06, 0.5, '# of times reused', ha='center', va='center', rotation='vertical')
 
     plt.legend([bar[x] for x in repo_pos], repo_order)
 

@@ -18,11 +18,11 @@ Prerequisites
 Figures
 =======
 
-![citation histograms by repository](http://dl.dropboxusercontent.com/u/7636896/1000-datasets-figures/repo_histograms.svg)
+![reuse histograms by repository](https://raw.github.com/bendmorris/1000-datasets/master/figures/repo_histograms_reuse.svg)
 
 *Histogram showing frequency of datasets with a given number of citations. Red 
 bar indicates no citations.*
 
-![top 100 most cited datasets](http://dl.dropboxusercontent.com/u/7636896/1000-datasets-figures/most_cited_datasets.svg)
+![top 100 most cited datasets](https://raw.github.com/bendmorris/1000-datasets/master/figures/most_cited_datasets.svg)
 
 *The top 100 datasets by citation totals, and the repositories they come from.*
