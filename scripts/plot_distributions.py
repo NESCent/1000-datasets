@@ -2,7 +2,9 @@
 if __name__ == '__main__':
     import sys
     import matplotlib
-    if len(sys.argv) > 1 and sys.argv[1].endswith('.svg'):
+    # plot is either reuse, or all citations
+    plot_type = sys.argv[1]
+    if len(sys.argv) > 1 and sys.argv[2].endswith('.svg'):
         matplotlib.use('SVG')
     import matplotlib.pyplot as plt
     from matplotlib.font_manager import FontProperties
@@ -12,29 +14,36 @@ if __name__ == '__main__':
     from mpltools import layout
     style.use('ggplot')
     
-    
     font = FontProperties()
     font.set_size('medium')
     font.set_weight('semibold')
     
+    plt.title(plot_type)
+    
     distributions = {'ALL': []}
     num_datasets = {'ALL': 0}
-    with open('data/reuse_estimates') as input_file:
+    filename = {'reuse': 'data/reuse_estimates',
+                'citation': 'data/all_datasets.tsv'}[plot_type]
+    with open(filename) as input_file:
+        if plot_type == 'citation': input_file.readline()
+        
         for line in input_file:
             line = line.strip('\r\n ')
             
             # skip blank lines or lines with no dataset id
             if not line or line.startswith('#'): continue
             
-            repo, id, count = line.split('\t')
+            repo, id, count = line.split('\t')[:3]
             try: count = float(count)
             except: count = 0
             count = int(round(count))
             
+            if plot_type == 'citation': count += int(line.split('\t')[3])
+            
             if not repo in distributions: distributions[repo] = []
             if not repo in num_datasets: num_datasets[repo] = 0
             
-            if count >= 1:
+            if count > 0:
                 distributions[repo].append(count)
                 distributions['ALL'].append(count)
             

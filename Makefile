@@ -54,17 +54,14 @@ data/repo_citation_counts: scripts/repo_citation_counts.py data/all_datasets.tsv
 data/repo_dataset_counts: scripts/repo_dataset_counts.py data/all_datasets.tsv
 	python $< > $@
 
-data/repo_reuse_counts: scripts/repo_reuse_counts.py data/reuse_subsample
+data/repo_reuse_counts: scripts/repo_reuse_counts.py data/reuse_subsample_wos data/reuse_subsample_gs
 	python $< > $@
 
 figures:
 	mkdir -p figures
 
-figures/repo_histograms_reuse.svg: scripts/plot_distributions.py data/reuse_estimates
-	python $< $@
-
-figures/repo_histograms_citation.svg: scripts/plot_distributions.py data/reuse_estimates
-	python $< $@
+figures/repo_histograms_%.svg: scripts/plot_distributions.py data/reuse_estimates
+	python $< $* $@
 
 figures/most_cited_datasets.svg: scripts/most_cited_datasets.py data/reuse_estimates
 	python $< $@

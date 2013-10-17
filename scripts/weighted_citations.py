@@ -72,7 +72,7 @@ if __name__ == '__main__':
         print '\t'.join(map(str, (repo, dataset, total)))
         
     
-    for repo in reuse:
+    for repo in reuse['wos']:
         print '#', repo, [(reuse[key][repo], no_reuse[key][repo], 
                            float(reuse[key][repo]) / 
                                  max(1, (reuse[key][repo] + no_reuse[key][repo]))) 

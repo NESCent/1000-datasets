@@ -34,7 +34,8 @@ if __name__ == '__main__':
             # find the GS search results column by looking at the column titles
             gs_cols = [n for n, x in enumerate(header)
                        if 'results' in x.lower()
-                       and ('gs' in x.lower() or 'google' in x.lower())]
+                       and ('gs' in x.lower() or 'google' in x.lower()
+                            or 'search' in x.lower())]
             try:
                 gs_col = gs_cols[0]
             except IndexError:
