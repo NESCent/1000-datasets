@@ -14,7 +14,7 @@ if __name__ == '__main__':
     from canonical_repo_names import colors
 
 
-    DATASETS = 50
+    DATASETS = 100
 
     font = FontProperties()
     font.set_size('medium')
