@@ -4,7 +4,7 @@ if __name__ == '__main__':
     import matplotlib
     # plot is either reuse, or all citations
     plot_type = sys.argv[1]
-    if len(sys.argv) > 1 and sys.argv[2].endswith('.svg'):
+    if sys.argv[2].endswith('.svg'):
         matplotlib.use('SVG')
     import matplotlib.pyplot as plt
     from matplotlib.font_manager import FontProperties

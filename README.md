@@ -26,3 +26,7 @@ bar indicates no citations.*
 ![top 100 most cited datasets](https://raw.github.com/bendmorris/1000-datasets/master/figures/most_cited_datasets.png)
 
 *The top 100 datasets by number of times reused, and the repositories they come from.*
+
+![citations and reuse](https://raw.github.com/bendmorris/1000-datasets/master/figures/repo_comparison.png)
+
+*A comparison of per-dataset citation and reuse rates between repositories.*
