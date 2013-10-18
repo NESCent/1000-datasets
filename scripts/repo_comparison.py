@@ -13,7 +13,7 @@ if __name__ == '__main__':
     if len(sys.argv) > 1 and sys.argv[1].endswith('.svg'):
         matplotlib.use('SVG')
     
-    # get the reuse rate for each repo, per 100 datasets
+    # get the reuse rate for each repo, per dataset
     reuses = defaultdict(lambda: 0.0)
     totals = defaultdict(lambda: 0)
     with open('data/reuse_estimates') as input_file:
@@ -29,7 +29,7 @@ if __name__ == '__main__':
             
     reuse_rate = {key: reuses[key] / totals[key] for key in reuses}
     
-    # get the total number of citations per 100 datasets
+    # get the total number of citations per dataset
     citations = defaultdict(lambda: 0.0)
     totals = defaultdict(lambda: 0)
     with open('data/all_datasets.tsv') as input_file:
@@ -51,8 +51,8 @@ if __name__ == '__main__':
     ys = np.log10([citation_rate[key] for key in reuses])
     labels = reuses.keys()
     
-    plt.xlabel('Instances of reuse per 100 datasets')
-    plt.ylabel('Total citations per 100 datasets')
+    plt.xlabel('Instances of reuse per dataset')
+    plt.ylabel('Citations per data paper')
     
     plt.xlim(-2,1)
     
