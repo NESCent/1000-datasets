@@ -9,7 +9,6 @@ to have been instances of reuse with high confidence.
 'HEPData,ArrayExpress,PDB,Pangaea,GEO,TreeBASE,Journal Archives,GEOROC,ICPSR/IQSS,BMRB'
 >>> all(abs(data_sorted[i][1] - test_sorted[i][1]) < 20 for i in range(len(test)))
 True
->>> data_sorted
 '''
 from collections import defaultdict
 from process_dataset_list import clean_repo_name
