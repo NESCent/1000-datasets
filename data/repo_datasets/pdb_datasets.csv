@@ -2,577 +2,150 @@ rand,ID,url,article reference,PMID,in ISI Web of Science? (Y/N),How many merged 
 0.000130981537817,1X8C,http://www.rcsb.org/pdb/explore/explore.do?structureId=1X8C,"Crystal structure of the copper homeostasis protein (CutCm) from Shigella flexneri at 1.7 A resolution: the first structure of a new sequence family of TIM barrels.Zhu, D.Y.,   Zhu, Y.Q.,   Huang, R.H.,   Xiang, Y.,   Yang, N.,   Lu, H.X.,   Li, G.P.,   Jin, Q.,   Wang, D.C.Journal: (2005) Proteins 58: 764-768",15624211,y,1,3,,,"(PDB OR ""Protein Data Bank"") AND ""1X8C"" -heinonline ",0
 0.000387818997981,1VGK,http://www.rcsb.org/pdb/explore/explore.do?structureId=1VGK,to be published,"since no article details, don't try to look this one up in ISI, don't count towards the 100, skip to the next line"
 0.00076046043498,1TCU,http://www.rcsb.org/pdb/explore/explore.do?structureId=1TCU,"Structures for the potential drug target purine nucleoside phosphorylase from Schistosoma mansoni causal agent of schistosomiasis.Pereira, H.D.,   Franco, G.R.,   Cleasby, A.,   Garratt, R.C.Journal: (2005) J.Mol.Biol. 353: 584-599",16182308,y,1,11,,,"(PDB OR ""Protein Data Bank"") AND ""1TCU"" -heinonline ",2,y,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221TCU%22+-heinonline+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.000797572621357,1Y4C,http://www.rcsb.org/pdb/explore/explore.do?structureId=1Y4C,"Laporte SL, Forsyth CM, Cunningham BC, Miercke LJ, Akhavan D, Stroud RM. De
-novo design of an IL-4 antagonist and its structure at 1.9 A. Proc Natl Acad Sci 
-U S A. 2005 Feb 8;102(6):1889-94. Epub 2005 Jan 31. PubMed PMID: 15684085; PubMed
-Central PMCID: PMC548554.
-",15684085,y,1,8,,,"(PDB OR ""Protein Data Bank"") AND ""1Y4C"" -heinonline ",2,y,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221Y4C%22+-heinonline+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.001065139445834,1XSF,http://www.rcsb.org/pdb/explore/explore.do?structureId=1XSF,"Cohen-Gonsaud M, Barthe P, Bagnéris C, Henderson B, Ward J, Roumestand C, Keep
-NH. The structure of a resuscitation-promoting factor domain from Mycobacterium
-tuberculosis shows homology to lysozymes. Nat Struct Mol Biol. 2005
-Mar;12(3):270-3. Epub 2005 Feb 20. PubMed PMID: 15723078.
-",15723078,y,1,44,,,"(PDB OR ""Protein Data Bank"") AND ""1XSF"" -heinonline ",9,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221XSF%22+-heinonline+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.001343281864225,1Z73,http://www.rcsb.org/pdb/explore/explore.do?structureId=1Z73,"Gatzeva-Topalova PZ, May AP, Sousa MC. Structure and mechanism of ArnA:
-conformational change implies ordered dehydrogenase mechanism in key enzyme for
-polymyxin resistance. Structure. 2005 Jun;13(6):929-42. PubMed PMID: 15939024.
-",15939024,y,1,13,,,"(PDB OR ""Protein Data Bank"") AND ""1Z73"" -heinonline ",0
-0.001422841426406,2A0J,http://www.rcsb.org/pdb/explore/explore.do?structureId=2A0J,"Ren J, Sainsbury S, Berrow NS, Alderton D, Nettleship JE, Stammers DK,
-Saunders NJ, Owens RJ. Crystal structure of nitrogen regulatory protein IIANtr
-from Neisseria meningitidis. BMC Struct Biol. 2005 Aug 10;5:13. PubMed PMID:
-16092953; PubMed Central PMCID: PMC1201152.
-",16092953,y,1,3,,,"(PDB OR ""Protein Data Bank"") AND ""2A0J"" -heinonline ",0
-0.002041959012058,2A4F,http://www.rcsb.org/pdb/explore/explore.do?structureId=2A4F,"Zhao C, Sham HL, Sun M, Stoll VS, Stewart KD, Lin S, Mo H, Vasavanonda S,
-Saldivar A, Park C, McDonald EJ, Marsh KC, Klein LL, Kempf DJ, Norbeck DW.
-Synthesis and activity of N-acyl azacyclic urea HIV-1 protease inhibitors with
-high potency against multiple drug resistant viral strains. Bioorg Med Chem Lett.
-2005 Dec 15;15(24):5499-503. Epub 2005 Oct 3. PubMed PMID: 16203141.
-",16203141,y,1,2,,,"(PDB OR ""Protein Data Bank"") AND ""2A4F"" -heinonline ",0
-0.002048559410801,2BH8,http://www.rcsb.org/pdb/explore/explore.do?structureId=2BH8,"de Bono S, Riechmann L, Girard E, Williams RL, Winter G. A segment of cold
-shock protein directs the folding of a combinatorial protein. Proc Natl Acad Sci 
-U S A. 2005 Feb 1;102(5):1396-401. Epub 2005 Jan 25. PubMed PMID: 15671167;
-PubMed Central PMCID: PMC547839.
-",15671167,y,1,12,,,"(PDB OR ""Protein Data Bank"") AND ""2BH8"" -heinonline ",5,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222BH8%22+-heinonline+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.002101656677545,1Y3W,http://www.rcsb.org/pdb/explore/explore.do?structureId=1Y3W,"Fokkens J, Klebe G. A simple protocol to estimate differences in protein
-binding affinity for enantiomers without prior resolution of racemates. Angew
-Chem Int Ed Engl. 2006 Jan 30;45(6):985-9. PubMed PMID: 16374786.",16374786,y,1,9,,,"(PDB OR ""Protein Data Bank"") AND ""1Y3W"" -heinonline -patents ",1,y
+0.000797572621357,1Y4C,http://www.rcsb.org/pdb/explore/explore.do?structureId=1Y4C,"Laporte SL, Forsyth CM, Cunningham BC, Miercke LJ, Akhavan D, Stroud RM. Denovo design of an IL-4 antagonist and its structure at 1.9 A. Proc Natl Acad Sci U S A. 2005 Feb 8;102(6):1889-94. Epub 2005 Jan 31. PubMed PMID: 15684085; PubMedCentral PMCID: PMC548554.",15684085,y,1,8,,,"(PDB OR ""Protein Data Bank"") AND ""1Y4C"" -heinonline ",2,y,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221Y4C%22+-heinonline+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.001065139445834,1XSF,http://www.rcsb.org/pdb/explore/explore.do?structureId=1XSF,"Cohen-Gonsaud M, Barthe P, Bagnéris C, Henderson B, Ward J, Roumestand C, KeepNH. The structure of a resuscitation-promoting factor domain from Mycobacteriumtuberculosis shows homology to lysozymes. Nat Struct Mol Biol. 2005Mar;12(3):270-3. Epub 2005 Feb 20. PubMed PMID: 15723078.",15723078,y,1,44,,,"(PDB OR ""Protein Data Bank"") AND ""1XSF"" -heinonline ",9,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221XSF%22+-heinonline+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.001343281864225,1Z73,http://www.rcsb.org/pdb/explore/explore.do?structureId=1Z73,"Gatzeva-Topalova PZ, May AP, Sousa MC. Structure and mechanism of ArnA:conformational change implies ordered dehydrogenase mechanism in key enzyme forpolymyxin resistance. Structure. 2005 Jun;13(6):929-42. PubMed PMID: 15939024.",15939024,y,1,13,,,"(PDB OR ""Protein Data Bank"") AND ""1Z73"" -heinonline ",0
+0.001422841426406,2A0J,http://www.rcsb.org/pdb/explore/explore.do?structureId=2A0J,"Ren J, Sainsbury S, Berrow NS, Alderton D, Nettleship JE, Stammers DK,Saunders NJ, Owens RJ. Crystal structure of nitrogen regulatory protein IIANtrfrom Neisseria meningitidis. BMC Struct Biol. 2005 Aug 10;5:13. PubMed PMID:16092953; PubMed Central PMCID: PMC1201152.",16092953,y,1,3,,,"(PDB OR ""Protein Data Bank"") AND ""2A0J"" -heinonline ",0
+0.002041959012058,2A4F,http://www.rcsb.org/pdb/explore/explore.do?structureId=2A4F,"Zhao C, Sham HL, Sun M, Stoll VS, Stewart KD, Lin S, Mo H, Vasavanonda S,Saldivar A, Park C, McDonald EJ, Marsh KC, Klein LL, Kempf DJ, Norbeck DW.Synthesis and activity of N-acyl azacyclic urea HIV-1 protease inhibitors withhigh potency against multiple drug resistant viral strains. Bioorg Med Chem Lett.2005 Dec 15;15(24):5499-503. Epub 2005 Oct 3. PubMed PMID: 16203141.",16203141,y,1,2,,,"(PDB OR ""Protein Data Bank"") AND ""2A4F"" -heinonline ",0
+0.002048559410801,2BH8,http://www.rcsb.org/pdb/explore/explore.do?structureId=2BH8,"de Bono S, Riechmann L, Girard E, Williams RL, Winter G. A segment of coldshock protein directs the folding of a combinatorial protein. Proc Natl Acad Sci U S A. 2005 Feb 1;102(5):1396-401. Epub 2005 Jan 25. PubMed PMID: 15671167;PubMed Central PMCID: PMC547839.",15671167,y,1,12,,,"(PDB OR ""Protein Data Bank"") AND ""2BH8"" -heinonline ",5,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222BH8%22+-heinonline+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.002101656677545,1Y3W,http://www.rcsb.org/pdb/explore/explore.do?structureId=1Y3W,"Fokkens J, Klebe G. A simple protocol to estimate differences in proteinbinding affinity for enantiomers without prior resolution of racemates. AngewChem Int Ed Engl. 2006 Jan 30;45(6):985-9. PubMed PMID: 16374786.",16374786,y,1,9,,,"(PDB OR ""Protein Data Bank"") AND ""1Y3W"" -heinonline -patents ",1,y
 0.002254999356284,1VBJ,http://www.rcsb.org/pdb/explore/explore.do?structureId=1VBJ,to be published
-0.002325848330945,1TL6,http://www.rcsb.org/pdb/explore/explore.do?structureId=1TL6,"Lambert LJ, Wei Y, Schirf V, Demeler B, Werner MH. T4 AsiA blocks DNA
-recognition by remodeling sigma70 region 4. EMBO J. 2004 Aug 4;23(15):2952-62.
-Epub 2004 Jul 15. PubMed PMID: 15257291; PubMed Central PMCID: PMC514929.
-",15257291,y,1,30,,,"(PDB OR ""Protein Data Bank"") AND ""1TL6"" -heinonline -patents ",1,y
-0.002331486610657,2BO7,http://www.rcsb.org/pdb/explore/explore.do?structureId=2BO7,"Flint J, Taylor E, Yang M, Bolam DN, Tailford LE, Martinez-Fleites C, Dodson
-EJ, Davis BG, Gilbert HJ, Davies GJ. Structural dissection and high-throughput
-screening of mannosylglycerate synthase. Nat Struct Mol Biol. 2005
-Jul;12(7):608-14. Epub 2005 Jun 12. PubMed PMID: 15951819.
-",15951819,y,2,31,,,"(PDB OR ""Protein Data Bank"") AND ""2BO7"" -heinonline -patents ",1,y
-0.002672683456077,1W6G,http://www.rcsb.org/pdb/explore/explore.do?structureId=1W6G,"Langley DB, Duff AP, Freeman HC, Guss JM. The copper-containing amine oxidase 
-from Arthrobacter globiformis: refinement at 1.55 and 2.20 A resolution in two
-crystal forms. Acta Crystallogr Sect F Struct Biol Cryst Commun. 2006 Nov 1;62(Pt
-11):1052-7. Epub 2006 Oct 25. PubMed PMID: 17077478; PubMed Central PMCID:
-PMC2225227.
-",17077478,y,1,3,,,"(PDB OR ""Protein Data Bank"") AND ""1W6G"" -heinonline -patents ",9,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221W6G%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.002831253031929,2C43,http://www.rcsb.org/pdb/explore/explore.do?structureId=2C43,"Bunkoczi G, Pasta S, Joshi A, Wu X, Kavanagh KL, Smith S, Oppermann U.
-Mechanism and substrate recognition of human holo ACP synthase. Chem Biol. 2007
-Nov;14(11):1243-53. PubMed PMID: 18022563; PubMed Central PMCID: PMC2148441.
-",18022563,y,1,13,,,"(PDB OR ""Protein Data Bank"") AND ""2C43"" -heinonline -patents ",1,y
-0.003077936780342,2A1X,http://www.rcsb.org/pdb/explore/explore.do?structureId=2A1X,"McDonough MA, Kavanagh KL, Butler D, Searls T, Oppermann U, Schofield CJ.
-Structure of human phytanoyl-CoA 2-hydroxylase identifies molecular mechanisms of
-Refsum disease. J Biol Chem. 2005 Dec 9;280(49):41101-10. Epub 2005 Sep 25.
-PubMed PMID: McDonough MA, Kavanagh KL, Butler D, Searls T, Oppermann U, Schofield CJ.
-Structure of human phytanoyl-CoA 2-hydroxylase identifies molecular mechanisms of
-Refsum disease. J Biol Chem. 2005 Dec 9;280(49):41101-10. Epub 2005 Sep 25.
-PubMed PMID: 16186124.
-.
-",16186124,y,1,26,,,"(PDB OR ""Protein Data Bank"") AND ""2A1X"" -heinonline -patents ",10,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222A1X%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.003092156677318,1U3H,http://www.rcsb.org/pdb/explore/explore.do?structureId=1U3H,"Maynard J, Petersson K, Wilson DH, Adams EJ, Blondelle SE, Boulanger MJ,
-Wilson DB, Garcia KC. Structure of an autoimmune T cell receptor complexed with
-class II peptide-MHC: insights into MHC bias and antigen specificity. Immunity.
-2005 Jan;22(1):81-92. PubMed PMID: 15664161.
-",15664161,y,1,78,,,"(PDB OR ""Protein Data Bank"") AND ""1U3H"" -heinonline -patents ",14,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221U3H%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.003546155519343,2C3D,http://www.rcsb.org/pdb/explore/explore.do?structureId=2C3D,"Pandey AS, Nocek B, Clark DD, Ensign SA, Peters JW. Mechanistic implications
-of the structure of the mixed-disulfide intermediate of the disulfide
-oxidoreductase, 2-ketopropyl-coenzyme M oxidoreductase/carboxylase. Biochemistry.
-2006 Jan 10;45(1):113-20. PubMed PMID: 16388586.
-",16388586,y,1,3,,,"(PDB OR ""Protein Data Bank"") AND ""2C3D"" -heinonline -patents ",2,y
-0.003618214609446,1TI8,http://www.rcsb.org/pdb/explore/explore.do?structureId=1TI8,"Russell RJ, Gamblin SJ, Haire LF, Stevens DJ, Xiao B, Ha Y, Skehel JJ. H1 and 
-H7 influenza haemagglutinin structures extend a structural classification of
-haemagglutinin subtypes. Virology. 2004 Aug 1;325(2):287-96. PubMed PMID:
-15246268.",15246268,y,1,42,,,"(PDB OR ""Protein Data Bank"") AND ""1TI8"" -heinonline -patents ",10,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221TI8%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.003653227470256,2A5D,http://www.rcsb.org/pdb/explore/explore.do?structureId=2A5D,"O'Neal CJ, Jobling MG, Holmes RK, Hol WG. Structural basis for the activation 
-of cholera toxin by human ARF6-GTP. Science. 2005 Aug 12;309(5737):1093-6. PubMed
-PMID: 16099990.
-",16099990,y,1,30,,,"(PDB OR ""Protein Data Bank"") AND ""2A5D"" -heinonline -patents ",13,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222A5D%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.00408534943024,2C1N,http://www.rcsb.org/pdb/explore/explore.do?structureId=2C1N,"Macdonald N, Welburn JP, Noble ME, Nguyen A, Yaffe MB, Clynes D, Moggs JG,
-Orphanides G, Thomson S, Edmunds JW, Clayton AL, Endicott JA, Mahadevan LC.
-Molecular basis for the recognition of phosphorylated and phosphoacetylated
-histone h3 by 14-3-3. Mol Cell. 2005 Oct 28;20(2):199-211. PubMed PMID: 16246723.
-",16246723,y,1,60,,,"(PDB OR ""Protein Data Bank"") AND ""2C1N"" -heinonline -patents ",6,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222C1N%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.004748930932788,1U6T,http://www.rcsb.org/pdb/explore/explore.do?structureId=1U6T," Yin L, Xiang Y, Zhu DY, Yan N, Huang RH, Zhang Y, Wang DC. Crystal structure
-of human SH3BGRL protein: the first structure of the human SH3BGR family
-representing a novel class of thioredoxin fold proteins. Proteins. 2005 Oct
-1;61(1):213-6. PubMed PMID: 16080146.
-",16080146,y,1,2,,,"(PDB OR ""Protein Data Bank"") AND ""1U6T"" -heinonline -patents ",4,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221U6T%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.004754075970643,2ADJ,http://www.rcsb.org/pdb/explore/explore.do?structureId=2ADJ,"Zhou T, Hamer DH, Hendrickson WA, Sattentau QJ, Kwong PD. Interfacial metal
-and antibody recognition. Proc Natl Acad Sci U S A. 2005 Oct 11;102(41):14575-80.
-Epub 2005 Sep 29. PubMed PMID: 16195378; PubMed Central PMCID: PMC1237054.
-",16195378,y,1,11,,,"(PDB OR ""Protein Data Bank"") AND ""2ADJ"" -heinonline -patents ",2,y
-0.004798021245347,1YQ2,http://www.rcsb.org/pdb/explore/explore.do?structureId=1YQ2,"Skálová T, Dohnálek J, Spiwok V, Lipovová P, Vondrácková E, Petroková H,
-Dusková J, Strnad H, Králová B, Hasek J. Cold-active beta-galactosidase from
-Arthrobacter sp. C2-2 forms compact 660 kDa hexamers: crystal structure at 1.9A
-resolution. J Mol Biol. 2005 Oct 21;353(2):282-94. PubMed PMID: 16171818.
-",16171818,y,1,9,,,"(PDB OR ""Protein Data Bank"") AND ""1YQ2"" -heinonline -patents ",6,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221YQ2%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.002325848330945,1TL6,http://www.rcsb.org/pdb/explore/explore.do?structureId=1TL6,"Lambert LJ, Wei Y, Schirf V, Demeler B, Werner MH. T4 AsiA blocks DNArecognition by remodeling sigma70 region 4. EMBO J. 2004 Aug 4;23(15):2952-62.Epub 2004 Jul 15. PubMed PMID: 15257291; PubMed Central PMCID: PMC514929.",15257291,y,1,30,,,"(PDB OR ""Protein Data Bank"") AND ""1TL6"" -heinonline -patents ",1,y
+0.002331486610657,2BO7,http://www.rcsb.org/pdb/explore/explore.do?structureId=2BO7,"Flint J, Taylor E, Yang M, Bolam DN, Tailford LE, Martinez-Fleites C, DodsonEJ, Davis BG, Gilbert HJ, Davies GJ. Structural dissection and high-throughputscreening of mannosylglycerate synthase. Nat Struct Mol Biol. 2005Jul;12(7):608-14. Epub 2005 Jun 12. PubMed PMID: 15951819.",15951819,y,2,31,,,"(PDB OR ""Protein Data Bank"") AND ""2BO7"" -heinonline -patents ",1,y
+0.002672683456077,1W6G,http://www.rcsb.org/pdb/explore/explore.do?structureId=1W6G,"Langley DB, Duff AP, Freeman HC, Guss JM. The copper-containing amine oxidase from Arthrobacter globiformis: refinement at 1.55 and 2.20 A resolution in twocrystal forms. Acta Crystallogr Sect F Struct Biol Cryst Commun. 2006 Nov 1;62(Pt11):1052-7. Epub 2006 Oct 25. PubMed PMID: 17077478; PubMed Central PMCID:PMC2225227.",17077478,y,1,3,,,"(PDB OR ""Protein Data Bank"") AND ""1W6G"" -heinonline -patents ",9,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221W6G%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.002831253031929,2C43,http://www.rcsb.org/pdb/explore/explore.do?structureId=2C43,"Bunkoczi G, Pasta S, Joshi A, Wu X, Kavanagh KL, Smith S, Oppermann U.Mechanism and substrate recognition of human holo ACP synthase. Chem Biol. 2007Nov;14(11):1243-53. PubMed PMID: 18022563; PubMed Central PMCID: PMC2148441.",18022563,y,1,13,,,"(PDB OR ""Protein Data Bank"") AND ""2C43"" -heinonline -patents ",1,y
+0.003077936780342,2A1X,http://www.rcsb.org/pdb/explore/explore.do?structureId=2A1X,"McDonough MA, Kavanagh KL, Butler D, Searls T, Oppermann U, Schofield CJ.Structure of human phytanoyl-CoA 2-hydroxylase identifies molecular mechanisms ofRefsum disease. J Biol Chem. 2005 Dec 9;280(49):41101-10. Epub 2005 Sep 25.PubMed PMID: McDonough MA, Kavanagh KL, Butler D, Searls T, Oppermann U, Schofield CJ.Structure of human phytanoyl-CoA 2-hydroxylase identifies molecular mechanisms ofRefsum disease. J Biol Chem. 2005 Dec 9;280(49):41101-10. Epub 2005 Sep 25.PubMed PMID: 16186124..",16186124,y,1,26,,,"(PDB OR ""Protein Data Bank"") AND ""2A1X"" -heinonline -patents ",10,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222A1X%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.003092156677318,1U3H,http://www.rcsb.org/pdb/explore/explore.do?structureId=1U3H,"Maynard J, Petersson K, Wilson DH, Adams EJ, Blondelle SE, Boulanger MJ,Wilson DB, Garcia KC. Structure of an autoimmune T cell receptor complexed withclass II peptide-MHC: insights into MHC bias and antigen specificity. Immunity.2005 Jan;22(1):81-92. PubMed PMID: 15664161.",15664161,y,1,78,,,"(PDB OR ""Protein Data Bank"") AND ""1U3H"" -heinonline -patents ",14,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221U3H%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=00.003546155519343,2C3D,http://www.rcsb.org/pdb/explore/explore.do?structureId=2C3D,"Pandey AS, Nocek B, Clark DD, Ensign SA, Peters JW. Mechanistic implicationsof the structure of the mixed-disulfide intermediate of the disulfideoxidoreductase, 2-ketopropyl-coenzyme M oxidoreductase/carboxylase. Biochemistry.2006 Jan 10;45(1):113-20. PubMed PMID: 16388586.",16388586,y,1,3,,,"(PDB OR ""Protein Data Bank"") AND ""2C3D"" -heinonline -patents ",2,y
+0.003618214609446,1TI8,http://www.rcsb.org/pdb/explore/explore.do?structureId=1TI8,"Russell RJ, Gamblin SJ, Haire LF, Stevens DJ, Xiao B, Ha Y, Skehel JJ. H1 and H7 influenza haemagglutinin structures extend a structural classification ofhaemagglutinin subtypes. Virology. 2004 Aug 1;325(2):287-96. PubMed PMID:15246268.",15246268,y,1,42,,,"(PDB OR ""Protein Data Bank"") AND ""1TI8"" -heinonline -patents ",10,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221TI8%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.003653227470256,2A5D,http://www.rcsb.org/pdb/explore/explore.do?structureId=2A5D,"O'Neal CJ, Jobling MG, Holmes RK, Hol WG. Structural basis for the activation of cholera toxin by human ARF6-GTP. Science. 2005 Aug 12;309(5737):1093-6. PubMedPMID: 16099990.",16099990,y,1,30,,,"(PDB OR ""Protein Data Bank"") AND ""2A5D"" -heinonline -patents ",13,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222A5D%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.00408534943024,2C1N,http://www.rcsb.org/pdb/explore/explore.do?structureId=2C1N,"Macdonald N, Welburn JP, Noble ME, Nguyen A, Yaffe MB, Clynes D, Moggs JG,Orphanides G, Thomson S, Edmunds JW, Clayton AL, Endicott JA, Mahadevan LC.Molecular basis for the recognition of phosphorylated and phosphoacetylatedhistone h3 by 14-3-3. Mol Cell. 2005 Oct 28;20(2):199-211. PubMed PMID: 16246723.",16246723,y,1,60,,,"(PDB OR ""Protein Data Bank"") AND ""2C1N"" -heinonline -patents ",6,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222C1N%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.004748930932788,1U6T,http://www.rcsb.org/pdb/explore/explore.do?structureId=1U6T," Yin L, Xiang Y, Zhu DY, Yan N, Huang RH, Zhang Y, Wang DC. Crystal structureof human SH3BGRL protein: the first structure of the human SH3BGR familyrepresenting a novel class of thioredoxin fold proteins. Proteins. 2005 Oct1;61(1):213-6. PubMed PMID: 16080146.",16080146,y,1,2,,,"(PDB OR ""Protein Data Bank"") AND ""1U6T"" -heinonline -patents ",4,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221U6T%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.004754075970643,2ADJ,http://www.rcsb.org/pdb/explore/explore.do?structureId=2ADJ,"Zhou T, Hamer DH, Hendrickson WA, Sattentau QJ, Kwong PD. Interfacial metaland antibody recognition. Proc Natl Acad Sci U S A. 2005 Oct 11;102(41):14575-80.Epub 2005 Sep 29. PubMed PMID: 16195378; PubMed Central PMCID: PMC1237054.",16195378,y,1,11,,,"(PDB OR ""Protein Data Bank"") AND ""2ADJ"" -heinonline -patents ",2,y
+0.004798021245347,1YQ2,http://www.rcsb.org/pdb/explore/explore.do?structureId=1YQ2,"Skálová T, Dohnálek J, Spiwok V, Lipovová P, Vondrácková E, Petroková H,Dusková J, Strnad H, Králová B, Hasek J. Cold-active beta-galactosidase fromArthrobacter sp. C2-2 forms compact 660 kDa hexamers: crystal structure at 1.9Aresolution. J Mol Biol. 2005 Oct 21;353(2):282-94. PubMed PMID: 16171818.",16171818,y,1,9,,,"(PDB OR ""Protein Data Bank"") AND ""1YQ2"" -heinonline -patents ",6,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221YQ2%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
 0.00481363194779,1YVI,http://www.rcsb.org/pdb/explore/explore.do?structureId=1YVI,to be published
-0.004945729762229,2A78,http://www.rcsb.org/pdb/explore/explore.do?structureId=2A78,"Pautsch A, Vogelsgesang M, Tränkle J, Herrmann C, Aktories K. Crystal
-structure of the C3bot-RalA complex reveals a novel type of action of a bacterial
-exoenzyme. EMBO J. 2005 Oct 19;24(20):3670-80. Epub 2005 Sep 22. PubMed PMID:
-16177825; PubMed Central PMCID: PMC1276701.
-",16177825,y,1,7,,,"(PDB OR ""Protein Data Bank"") AND ""2A78"" -heinonline -patents ",2,y
-0.004988025469489,1ZR5,http://www.rcsb.org/pdb/explore/explore.do?structureId=1ZR5,"Kustatscher G, Hothorn M, Pugieux C, Scheffzek K, Ladurner AG. Splicing
-regulates NAD metabolite binding to histone macroH2A. Nat Struct Mol Biol. 2005
-Jul;12(7):624-5. Epub 2005 Jun 19. PubMed PMID: 15965484.",15965484,y,1,73,,,"(PDB OR ""Protein Data Bank"") AND ""1ZR5"" -heinonline -patents ",2,y
-0.005387013793473,1WVL,http://www.rcsb.org/pdb/explore/explore.do?structureId=1WVL,"Wu SW, Ko TP, Chou CC, Wang AH. Design and characterization of a multimeric
-DNA binding protein using Sac7d and GCN4 as templates. Proteins. 2005 Sep
-1;60(4):617-28. PubMed PMID: 16028219.
-",16028219,y,1,1,,,"(PDB OR ""Protein Data Bank"") AND ""1WVL"" -heinonline -patents ",0
-0.005453081543513,2ACV,http://www.rcsb.org/pdb/explore/explore.do?structureId=2ACV,"Shao H, He X, Achnine L, Blount JW, Dixon RA, Wang X. Crystal structures of a 
-multifunctional triterpene/flavonoid glycosyltransferase from Medicago
-truncatula. Plant Cell. 2005 Nov;17(11):3141-54. Epub 2005 Oct 7. PubMed PMID:
-16214900; PubMed Central PMCID: PMC1276034.
-",16214900,y,1,80,,,"(PDB OR ""Protein Data Bank"") AND ""2ACV"" -heinonline -patents ",13,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222ACV%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.005600033588415,2BLV,http://www.rcsb.org/pdb/explore/explore.do?structureId=2BLV,"Nanao MH, Sheldrick GM, Ravelli RB. Improving radiation-damage substructures
-for RIP. Acta Crystallogr D Biol Crystallogr. 2005 Sep;61(Pt 9):1227-37. Epub
-2005 Aug 16. PubMed PMID: 16131756.
-",16131756,y,1,33,,,"(PDB OR ""Protein Data Bank"") AND ""2BLV"" -heinonline -patents ",7,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222BLV%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.005832607036879,2A3L,http://www.rcsb.org/pdb/explore/explore.do?structureId=2A3L,"Han BW, Bingman CA, Mahnke DK, Bannen RM, Bednarek SY, Sabina RL, Phillips GN 
-Jr. Membrane association, mechanism of action, and structure of Arabidopsis
-embryonic factor 1 (FAC1). J Biol Chem. 2006 May 26;281(21):14939-47. Epub 2006
-Mar 16. PubMed PMID: 16543243.
-",16543243,y,1,3,,,"(PDB OR ""Protein Data Bank"") AND ""2A3L"" -heinonline -patents ",8,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222A3L%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.005876971401494,2AXY,http://www.rcsb.org/pdb/explore/explore.do?structureId=2AXY,"Du Z, Lee JK, Tjhen R, Li S, Pan H, Stroud RM, James TL. Crystal structure of 
-the first KH domain of human poly(C)-binding protein-2 in complex with a C-rich
-strand of human telomeric DNA at 1.7 A. J Biol Chem. 2005 Nov
-18;280(46):38823-30. Epub 2005 Sep 25. PubMed PMID: 16186123.",16186123,y,1,17,,,"(PDB OR ""Protein Data Bank"") AND ""2AXY"" -heinonline -patents ",8,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222AXY%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.00593261161225,2D2S,http://www.rcsb.org/pdb/explore/explore.do?structureId=2D2S,"Dong G, Hutagalung AH, Fu C, Novick P, Reinisch KM. The structures of exocyst 
-subunit Exo70p and the Exo84p C-terminal domains reveal a common motif. Nat
-Struct Mol Biol. 2005 Dec;12(12):1094-100. Epub 2005 Oct 26. PubMed PMID:
-16249794.",16249794,y,1,35,,,"(PDB OR ""Protein Data Bank"") AND ""2D2S"" -heinonline -patents ",13,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222D2S%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.004945729762229,2A78,http://www.rcsb.org/pdb/explore/explore.do?structureId=2A78,"Pautsch A, Vogelsgesang M, Tränkle J, Herrmann C, Aktories K. Crystalstructure of the C3bot-RalA complex reveals a novel type of action of a bacterialexoenzyme. EMBO J. 2005 Oct 19;24(20):3670-80. Epub 2005 Sep 22. PubMed PMID:16177825; PubMed Central PMCID: PMC1276701.",16177825,y,1,7,,,"(PDB OR ""Protein Data Bank"") AND ""2A78"" -heinonline -patents ",2,y
+0.004988025469489,1ZR5,http://www.rcsb.org/pdb/explore/explore.do?structureId=1ZR5,"Kustatscher G, Hothorn M, Pugieux C, Scheffzek K, Ladurner AG. Splicingregulates NAD metabolite binding to histone macroH2A. Nat Struct Mol Biol. 2005Jul;12(7):624-5. Epub 2005 Jun 19. PubMed PMID: 15965484.",15965484,y,1,73,,,"(PDB OR ""Protein Data Bank"") AND ""1ZR5"" -heinonline -patents ",2,y
+0.005387013793473,1WVL,http://www.rcsb.org/pdb/explore/explore.do?structureId=1WVL,"Wu SW, Ko TP, Chou CC, Wang AH. Design and characterization of a multimericDNA binding protein using Sac7d and GCN4 as templates. Proteins. 2005 Sep1;60(4):617-28. PubMed PMID: 16028219.",16028219,y,1,1,,,"(PDB OR ""Protein Data Bank"") AND ""1WVL"" -heinonline -patents ",0
+0.005453081543513,2ACV,http://www.rcsb.org/pdb/explore/explore.do?structureId=2ACV,"Shao H, He X, Achnine L, Blount JW, Dixon RA, Wang X. Crystal structures of a multifunctional triterpene/flavonoid glycosyltransferase from Medicagotruncatula. Plant Cell. 2005 Nov;17(11):3141-54. Epub 2005 Oct 7. PubMed PMID:16214900; PubMed Central PMCID: PMC1276034.",16214900,y,1,80,,,"(PDB OR ""Protein Data Bank"") AND ""2ACV"" -heinonline -patents ",13,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222ACV%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.005600033588415,2BLV,http://www.rcsb.org/pdb/explore/explore.do?structureId=2BLV,"Nanao MH, Sheldrick GM, Ravelli RB. Improving radiation-damage substructuresfor RIP. Acta Crystallogr D Biol Crystallogr. 2005 Sep;61(Pt 9):1227-37. Epub2005 Aug 16. PubMed PMID: 16131756.",16131756,y,1,33,,,"(PDB OR ""Protein Data Bank"") AND ""2BLV"" -heinonline -patents ",7,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222BLV%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.005832607036879,2A3L,http://www.rcsb.org/pdb/explore/explore.do?structureId=2A3L,"Han BW, Bingman CA, Mahnke DK, Bannen RM, Bednarek SY, Sabina RL, Phillips GN Jr. Membrane association, mechanism of action, and structure of Arabidopsisembryonic factor 1 (FAC1). J Biol Chem. 2006 May 26;281(21):14939-47. Epub 2006Mar 16. PubMed PMID: 16543243.",16543243,y,1,3,,,"(PDB OR ""Protein Data Bank"") AND ""2A3L"" -heinonline -patents ",8,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222A3L%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.005876971401494,2AXY,http://www.rcsb.org/pdb/explore/explore.do?structureId=2AXY,"Du Z, Lee JK, Tjhen R, Li S, Pan H, Stroud RM, James TL. Crystal structure of the first KH domain of human poly(C)-binding protein-2 in complex with a C-richstrand of human telomeric DNA at 1.7 A. J Biol Chem. 2005 Nov18;280(46):38823-30. Epub 2005 Sep 25. PubMed PMID: 16186123.",16186123,y,1,17,,,"(PDB OR ""Protein Data Bank"") AND ""2AXY"" -heinonline -patents ",8,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222AXY%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.00593261161225,2D2S,http://www.rcsb.org/pdb/explore/explore.do?structureId=2D2S,"Dong G, Hutagalung AH, Fu C, Novick P, Reinisch KM. The structures of exocyst subunit Exo70p and the Exo84p C-terminal domains reveal a common motif. NatStruct Mol Biol. 2005 Dec;12(12):1094-100. Epub 2005 Oct 26. PubMed PMID:16249794.",16249794,y,1,35,,,"(PDB OR ""Protein Data Bank"") AND ""2D2S"" -heinonline -patents ",13,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222D2S%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
 0.006281459408596,1WNM,http://www.rcsb.org/pdb/explore/explore.do?structureId=1WNM,to be published
-0.006304707591149,2FDS,http://www.rcsb.org/pdb/explore/explore.do?structureId=2FDS,"Vedadi M, Lew J, Artz J, Amani M, Zhao Y, Dong A, Wasney GA, Gao M, Hills T,
-Brokx S, Qiu W, Sharma S, Diassiti A, Alam Z, Melone M, Mulichak A, Wernimont A, 
-Bray J, Loppnau P, Plotnikova O, Newberry K, Sundararajan E, Houston S, Walker J,
-Tempel W, Bochkarev A, Kozieradzki I, Edwards A, Arrowsmith C, Roos D, Kain K,
-Hui R. Genome-scale protein expression and structural biology of Plasmodium
-falciparum and related Apicomplexan organisms. Mol Biochem Parasitol. 2007
-Jan;151(1):100-10. Epub 2006 Nov 13. PubMed PMID: 17125854.",17125854,y,1,66,,,"(PDB OR ""Protein Data Bank"") AND ""2FDS"" -heinonline -patents ",5,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222FDS%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.006327398652863,1W78,http://www.rcsb.org/pdb/explore/explore.do?structureId=1W78,"Mathieu M, Debousker G, Vincent S, Viviani F, Bamas-Jacques N, Mikol V.
-Escherichia coli FolC structure reveals an unexpected dihydrofolate binding site 
-providing an attractive target for anti-microbial therapy. J Biol Chem. 2005 May 
-13;280(19):18916-22. Epub 2005 Feb 10. PubMed PMID: 15705579.",15705579,y,1,15,,,"(PDB OR ""Protein Data Bank"") AND ""1W78"" -heinonline -patents ",12,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221W78%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.006304707591149,2FDS,http://www.rcsb.org/pdb/explore/explore.do?structureId=2FDS,"Vedadi M, Lew J, Artz J, Amani M, Zhao Y, Dong A, Wasney GA, Gao M, Hills T,Brokx S, Qiu W, Sharma S, Diassiti A, Alam Z, Melone M, Mulichak A, Wernimont A, Bray J, Loppnau P, Plotnikova O, Newberry K, Sundararajan E, Houston S, Walker J,Tempel W, Bochkarev A, Kozieradzki I, Edwards A, Arrowsmith C, Roos D, Kain K,Hui R. Genome-scale protein expression and structural biology of Plasmodiumfalciparum and related Apicomplexan organisms. Mol Biochem Parasitol. 2007Jan;151(1):100-10. Epub 2006 Nov 13. PubMed PMID: 17125854.",17125854,y,1,66,,,"(PDB OR ""Protein Data Bank"") AND ""2FDS"" -heinonline -patents ",5,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222FDS%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.006327398652863,1W78,http://www.rcsb.org/pdb/explore/explore.do?structureId=1W78,"Mathieu M, Debousker G, Vincent S, Viviani F, Bamas-Jacques N, Mikol V.Escherichia coli FolC structure reveals an unexpected dihydrofolate binding site providing an attractive target for anti-microbial therapy. J Biol Chem. 2005 May 13;280(19):18916-22. Epub 2005 Feb 10. PubMed PMID: 15705579.",15705579,y,1,15,,,"(PDB OR ""Protein Data Bank"") AND ""1W78"" -heinonline -patents ",12,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221W78%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
 0.006392167516665,1YZS,http://www.rcsb.org/pdb/explore/explore.do?structureId=1YZS,to be published
-0.006529991762761,1WA9,http://www.rcsb.org/pdb/explore/explore.do?structureId=1WA9,"Yildiz O, Doi M, Yujnovsky I, Cardone L, Berndt A, Hennig S, Schulze S,
-Urbanke C, Sassone-Corsi P, Wolf E. Crystal structure and interactions of the PAS
-repeat region of the Drosophila clock protein PERIOD. Mol Cell. 2005 Jan
-7;17(1):69-82. PubMed PMID: 15629718.",15629718,y,1,44,,,"(PDB OR ""Protein Data Bank"") AND ""1WA9"" -heinonline -patents ",16,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221WA9%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.006964275636407,2AFT,http://www.rcsb.org/pdb/explore/explore.do?structureId=2AFT,"Roeser D, Preusser-Kunze A, Schmidt B, Gasow K, Wittmann JG, Dierks T, von
-Figura K, Rudolph MG. A general binding mechanism for all human sulfatases by the
-formylglycine-generating enzyme. Proc Natl Acad Sci U S A. 2006 Jan
-3;103(1):81-6. Epub 2005 Dec 20. PubMed PMID: 16368756; PubMed Central PMCID:
-PMC1324989.",16368756,y,1,20,,,"(PDB OR ""Protein Data Bank"") AND ""2AFT"" -heinonline -patents ",0
-0.007032883929388,2A9M,http://www.rcsb.org/pdb/explore/explore.do?structureId=2A9M,"Honegger A, Spinelli S, Cambillau C, Plückthun A. A mutation designed to alter
-crystal packing permits structural analysis of a tight-binding fluorescein-scFv
-complex. Protein Sci. 2005 Oct;14(10):2537-49. PubMed PMID: 16195545; PubMed
-Central PMCID: PMC2253284.",16195545,y,1,4,,,"(PDB OR ""Protein Data Bank"") AND ""2A9M"" -heinonline -patents ",4,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222A9M%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.007360553889739,2B7O,http://www.rcsb.org/pdb/explore/explore.do?structureId=2B7O,"Webby CJ, Baker HM, Lott JS, Baker EN, Parker EJ. The structure of
-3-deoxy-d-arabino-heptulosonate 7-phosphate synthase from Mycobacterium
-tuberculosis reveals a common catalytic scaffold and ancestry for type I and type
-II enzymes. J Mol Biol. 2005 Dec 9;354(4):927-39. Epub 2005 Oct 21. PubMed PMID: 
-16288916.",16288916,y,2,12,,,"(PDB OR ""Protein Data Bank"") AND ""2B7O"" -heinonline -patents ",9,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222B7O%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.007403752052947,1ZI9,http://www.rcsb.org/pdb/explore/explore.do?structureId=1ZI9,"Kim HK, Liu JW, Carr PD, Ollis DL. Following directed evolution with
-crystallography: structural changes observed in changing the substrate
-specificity of dienelactone hydrolase. Acta Crystallogr D Biol Crystallogr. 2005 
-Jul;61(Pt 7):920-31. Epub 2005 Jun 24. PubMed PMID: 15983415.",15983415,y,1,4,,,"(PDB OR ""Protein Data Bank"") AND ""1ZI9"" -heinonline -patents ",0
-0.00772389116645,1YKQ,http://www.rcsb.org/pdb/explore/explore.do?structureId=1YKQ,"Serganov A, Keiper S, Malinina L, Tereshko V, Skripkin E, Höbartner C,
-Polonskaia A, Phan AT, Wombacher R, Micura R, Dauter Z, Jäschke A, Patel DJ.
-Structural basis for Diels-Alder ribozyme-catalyzed carbon-carbon bond formation.
-Nat Struct Mol Biol. 2005 Mar;12(3):218-24. Epub 2005 Feb 20. PubMed PMID:
-15723077.",15723077,y,1,85,,,"(PDB OR ""Protein Data Bank"") AND ""1YKQ"" -heinonline -patents ",2,y
-0.007738167621598,1WBU,http://www.rcsb.org/pdb/explore/explore.do?structureId=1WBU,"Hartshorn MJ, Murray CW, Cleasby A, Frederickson M, Tickle IJ, Jhoti H.
-Fragment-based lead discovery using X-ray crystallography. J Med Chem. 2005 Jan
-27;48(2):403-13. PubMed PMID: 15658854.",15658854,y,4,134,,,"(PDB OR ""Protein Data Bank"") AND ""1WBU"" -heinonline -patents ",1,y
-0.007789572035338,1XRO,http://www.rcsb.org/pdb/explore/explore.do?structureId=1XRO,"Goettig P, Brandstetter H, Groll M, Göhring W, Konarev PV, Svergun DI, Huber
-R, Kim JS. X-ray snapshots of peptide processing in mutants of
-tricorn-interacting factor F1 from Thermoplasma acidophilum. J Biol Chem. 2005
-Sep 30;280(39):33387-96. Epub 2005 Jul 1. PubMed PMID: 15994304.",15994304,y,1,5,,,"(PDB OR ""Protein Data Bank"") AND ""1XRO"" -heinonline -patents ",4,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221XRO%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.007927827911193,1YZR,http://www.rcsb.org/pdb/explore/explore.do?structureId=1YZR,"Sundaramoorthy M, Youngs HL, Gold MH, Poulos TL. High-resolution crystal
-structure of manganese peroxidase: substrate and inhibitor complexes.
-Biochemistry. 2005 May 3;44(17):6463-70. PubMed PMID: 15850380.",15850380,y,1,17,,,"(PDB OR ""Protein Data Bank"") AND ""1YZR"" -heinonline -patents ",0
-0.008147587392061,1TB0,http://www.rcsb.org/pdb/explore/explore.do?structureId=1TB0,"Fisher Z, Hernandez Prada JA, Tu C, Duda D, Yoshioka C, An H, Govindasamy L,
-Silverman DN, McKenna R. Structural and kinetic characterization of active-site
-histidine as a proton shuttle in catalysis by human carbonic anhydrase II.
-Biochemistry. 2005 Feb 1;44(4):1097-105. PubMed PMID: 15667203.",15667203,y,1,44,,,"(PDB OR ""Protein Data Bank"") AND ""1TB0"" -heinonline -patents ",1,y
-0.008267617384905,1WZ5,http://www.rcsb.org/pdb/explore/explore.do?structureId=1WZ5,"Carrega L, Mosbah A, Ferrat G, Beeton C, Andreotti N, Mansuelle P, Darbon H,
-De Waard M, Sabatier JM. The impact of the fourth disulfide bridge in scorpion
-toxins of the alpha-KTx6 subfamily. Proteins. 2005 Dec 1;61(4):1010-23. PubMed
-PMID: 16247791.",16247791,y,1,5,,,"(PDB OR ""Protein Data Bank"") AND ""1WZ5"" -heinonline -patents ",1,y
-0.008774484391238,1Y3A,http://www.rcsb.org/pdb/explore/explore.do?structureId=1Y3A,"Johnston CA, Willard FS, Jezyk MR, Fredericks Z, Bodor ET, Jones MB, Blaesius 
-R, Watts VJ, Harden TK, Sondek J, Ramer JK, Siderovski DP. Structure of
-Galpha(i1) bound to a GDP-selective peptide provides insight into guanine
-nucleotide exchange. Structure. 2005 Jul;13(7):1069-80. PubMed PMID: 16004878;
-PubMed Central PMCID: PMC1405235.",16004878,y,1,27,,,"(PDB OR ""Protein Data Bank"") AND ""1Y3A"" -heinonline -patents ",10,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221Y3A%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.008823720695459,2BU1,http://www.rcsb.org/pdb/explore/explore.do?structureId=2BU1,"Grahn E, Moss T, Helgstrand C, Fridborg K, Sundaram M, Tars K, Lago H,
-Stonehouse NJ, Davis DR, Stockley PG, Liljas L. Structural basis of pyrimidine
-specificity in the MS2 RNA hairpin-coat-protein complex. RNA. 2001
-Nov;7(11):1616-27. PubMed PMID: 11720290; PubMed Central PMCID: PMC1370203.",11720290,y,1,15,,,"(PDB OR ""Protein Data Bank"") AND ""2BU1"" -heinonline -patents ",9,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222BU1%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.006529991762761,1WA9,http://www.rcsb.org/pdb/explore/explore.do?structureId=1WA9,"Yildiz O, Doi M, Yujnovsky I, Cardone L, Berndt A, Hennig S, Schulze S,Urbanke C, Sassone-Corsi P, Wolf E. Crystal structure and interactions of the PASrepeat region of the Drosophila clock protein PERIOD. Mol Cell. 2005 Jan7;17(1):69-82. PubMed PMID: 15629718.",15629718,y,1,44,,,"(PDB OR ""Protein Data Bank"") AND ""1WA9"" -heinonline -patents ",16,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221WA9%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.006964275636407,2AFT,http://www.rcsb.org/pdb/explore/explore.do?structureId=2AFT,"Roeser D, Preusser-Kunze A, Schmidt B, Gasow K, Wittmann JG, Dierks T, vonFigura K, Rudolph MG. A general binding mechanism for all human sulfatases by theformylglycine-generating enzyme. Proc Natl Acad Sci U S A. 2006 Jan3;103(1):81-6. Epub 2005 Dec 20. PubMed PMID: 16368756; PubMed Central PMCID:PMC1324989.",16368756,y,1,20,,,"(PDB OR ""Protein Data Bank"") AND ""2AFT"" -heinonline -patents ",0
+0.007032883929388,2A9M,http://www.rcsb.org/pdb/explore/explore.do?structureId=2A9M,"Honegger A, Spinelli S, Cambillau C, Plückthun A. A mutation designed to altercrystal packing permits structural analysis of a tight-binding fluorescein-scFvcomplex. Protein Sci. 2005 Oct;14(10):2537-49. PubMed PMID: 16195545; PubMedCentral PMCID: PMC2253284.",16195545,y,1,4,,,"(PDB OR ""Protein Data Bank"") AND ""2A9M"" -heinonline -patents ",4,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222A9M%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.007360553889739,2B7O,http://www.rcsb.org/pdb/explore/explore.do?structureId=2B7O,"Webby CJ, Baker HM, Lott JS, Baker EN, Parker EJ. The structure of3-deoxy-d-arabino-heptulosonate 7-phosphate synthase from Mycobacteriumtuberculosis reveals a common catalytic scaffold and ancestry for type I and typeII enzymes. J Mol Biol. 2005 Dec 9;354(4):927-39. Epub 2005 Oct 21. PubMed PMID: 16288916.",16288916,y,2,12,,,"(PDB OR ""Protein Data Bank"") AND ""2B7O"" -heinonline -patents ",9,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222B7O%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.007403752052947,1ZI9,http://www.rcsb.org/pdb/explore/explore.do?structureId=1ZI9,"Kim HK, Liu JW, Carr PD, Ollis DL. Following directed evolution withcrystallography: structural changes observed in changing the substratespecificity of dienelactone hydrolase. Acta Crystallogr D Biol Crystallogr. 2005 Jul;61(Pt 7):920-31. Epub 2005 Jun 24. PubMed PMID: 15983415.",15983415,y,1,4,,,"(PDB OR ""Protein Data Bank"") AND ""1ZI9"" -heinonline -patents ",0
+0.00772389116645,1YKQ,http://www.rcsb.org/pdb/explore/explore.do?structureId=1YKQ,"Serganov A, Keiper S, Malinina L, Tereshko V, Skripkin E, Höbartner C,Polonskaia A, Phan AT, Wombacher R, Micura R, Dauter Z, Jäschke A, Patel DJ.Structural basis for Diels-Alder ribozyme-catalyzed carbon-carbon bond formation.Nat Struct Mol Biol. 2005 Mar;12(3):218-24. Epub 2005 Feb 20. PubMed PMID:15723077.",15723077,y,1,85,,,"(PDB OR ""Protein Data Bank"") AND ""1YKQ"" -heinonline -patents ",2,y
+0.007738167621598,1WBU,http://www.rcsb.org/pdb/explore/explore.do?structureId=1WBU,"Hartshorn MJ, Murray CW, Cleasby A, Frederickson M, Tickle IJ, Jhoti H.Fragment-based lead discovery using X-ray crystallography. J Med Chem. 2005 Jan27;48(2):403-13. PubMed PMID: 15658854.",15658854,y,4,134,,,"(PDB OR ""Protein Data Bank"") AND ""1WBU"" -heinonline -patents ",1,y
+0.007789572035338,1XRO,http://www.rcsb.org/pdb/explore/explore.do?structureId=1XRO,"Goettig P, Brandstetter H, Groll M, Göhring W, Konarev PV, Svergun DI, HuberR, Kim JS. X-ray snapshots of peptide processing in mutants oftricorn-interacting factor F1 from Thermoplasma acidophilum. J Biol Chem. 2005Sep 30;280(39):33387-96. Epub 2005 Jul 1. PubMed PMID: 15994304.",15994304,y,1,5,,,"(PDB OR ""Protein Data Bank"") AND ""1XRO"" -heinonline -patents ",4,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221XRO%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.007927827911193,1YZR,http://www.rcsb.org/pdb/explore/explore.do?structureId=1YZR,"Sundaramoorthy M, Youngs HL, Gold MH, Poulos TL. High-resolution crystalstructure of manganese peroxidase: substrate and inhibitor complexes.Biochemistry. 2005 May 3;44(17):6463-70. PubMed PMID: 15850380.",15850380,y,1,17,,,"(PDB OR ""Protein Data Bank"") AND ""1YZR"" -heinonline -patents ",0
+0.008147587392061,1TB0,http://www.rcsb.org/pdb/explore/explore.do?structureId=1TB0,"Fisher Z, Hernandez Prada JA, Tu C, Duda D, Yoshioka C, An H, Govindasamy L,Silverman DN, McKenna R. Structural and kinetic characterization of active-sitehistidine as a proton shuttle in catalysis by human carbonic anhydrase II.Biochemistry. 2005 Feb 1;44(4):1097-105. PubMed PMID: 15667203.",15667203,y,1,44,,,"(PDB OR ""Protein Data Bank"") AND ""1TB0"" -heinonline -patents ",1,y
+0.008267617384905,1WZ5,http://www.rcsb.org/pdb/explore/explore.do?structureId=1WZ5,"Carrega L, Mosbah A, Ferrat G, Beeton C, Andreotti N, Mansuelle P, Darbon H,De Waard M, Sabatier JM. The impact of the fourth disulfide bridge in scorpiontoxins of the alpha-KTx6 subfamily. Proteins. 2005 Dec 1;61(4):1010-23. PubMedPMID: 16247791.",16247791,y,1,5,,,"(PDB OR ""Protein Data Bank"") AND ""1WZ5"" -heinonline -patents ",1,y
+0.008774484391238,1Y3A,http://www.rcsb.org/pdb/explore/explore.do?structureId=1Y3A,"Johnston CA, Willard FS, Jezyk MR, Fredericks Z, Bodor ET, Jones MB, Blaesius R, Watts VJ, Harden TK, Sondek J, Ramer JK, Siderovski DP. Structure ofGalpha(i1) bound to a GDP-selective peptide provides insight into guaninenucleotide exchange. Structure. 2005 Jul;13(7):1069-80. PubMed PMID: 16004878;PubMed Central PMCID: PMC1405235.",16004878,y,1,27,,,"(PDB OR ""Protein Data Bank"") AND ""1Y3A"" -heinonline -patents ",10,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221Y3A%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.008823720695459,2BU1,http://www.rcsb.org/pdb/explore/explore.do?structureId=2BU1,"Grahn E, Moss T, Helgstrand C, Fridborg K, Sundaram M, Tars K, Lago H,Stonehouse NJ, Davis DR, Stockley PG, Liljas L. Structural basis of pyrimidinespecificity in the MS2 RNA hairpin-coat-protein complex. RNA. 2001Nov;7(11):1616-27. PubMed PMID: 11720290; PubMed Central PMCID: PMC1370203.",11720290,y,1,15,,,"(PDB OR ""Protein Data Bank"") AND ""2BU1"" -heinonline -patents ",9,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222BU1%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
 0.008862428641673,1VDN,http://www.rcsb.org/pdb/explore/explore.do?structureId=1VDN,to be published
-0.009013186245945,1XYU,http://www.rcsb.org/pdb/explore/explore.do?structureId=1XYU,"Lysek DA, Schorn C, Nivon LG, Esteve-Moya V, Christen B, Calzolai L, von
-Schroetter C, Fiorito F, Herrmann T, Güntert P, Wüthrich K. Prion protein NMR
-structures of cats, dogs, pigs, and sheep. Proc Natl Acad Sci U S A. 2005 Jan
-18;102(3):640-5. Epub 2005 Jan 12. PubMed PMID: 15647367; PubMed Central PMCID:
-PMC545531.",15647367,y,2,73,,,"(PDB OR ""Protein Data Bank"") AND ""1XYU"" -heinonline -patents ",5,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221XYU%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.00938952115391,2ET4,http://www.rcsb.org/pdb/explore/explore.do?structureId=2ET4,"François B, Russell RJ, Murray JB, Aboul-ela F, Masquida B, Vicens Q, Westhof 
-E. Crystal structures of complexes between aminoglycosides and decoding A site
-oligonucleotides: role of the number of rings and positive charges in the
-specific binding leading to miscoding. Nucleic Acids Res. 2005 Oct
-7;33(17):5677-90. Print 2005. PubMed PMID: 16214802; PubMed Central PMCID:
-PMC1251667.",16214802,y,2,95,,,"(PDB OR ""Protein Data Bank"") AND ""2ET4"" -heinonline -patents ",18,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222ET4%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.009617468217959,1ZRS,http://www.rcsb.org/pdb/explore/explore.do?structureId=1ZRS,"Korza HJ, Bochtler M. Pseudomonas aeruginosa LD-carboxypeptidase, a serine
-peptidase with a Ser-His-Glu triad and a nucleophilic elbow. J Biol Chem. 2005
-Dec 9;280(49):40802-12. Epub 2005 Sep 14. PubMed PMID: 16162494.",16162494,y,1,13,,,"(PDB OR ""Protein Data Bank"") AND ""1ZRS"" -heinonline -patents ",6,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221ZRS%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.00991233312475,1YSH,http://www.rcsb.org/pdb/explore/explore.do?structureId=1YSH,"Halic M, Becker T, Frank J, Spahn CM, Beckmann R. Localization and dynamic
-behavior of ribosomal protein L30e. Nat Struct Mol Biol. 2005 May;12(5):467-8.
-Epub 2005 May 1. PubMed PMID: 15864315.",15864315,y,1,15,,,"(PDB OR ""Protein Data Bank"") AND ""1YSH"" -heinonline -patents ",2,y
-0.010203240414601,2BHM,http://www.rcsb.org/pdb/explore/explore.do?structureId=2BHM,"Terradot L, Bayliss R, Oomen C, Leonard GA, Baron C, Waksman G. Structures of 
-two core subunits of the bacterial type IV secretion system, VirB8 from Brucella 
-suis and ComB10 from Helicobacter pylori. Proc Natl Acad Sci U S A. 2005 Mar
-22;102(12):4596-601. Epub 2005 Mar 11. PubMed PMID: 15764702; PubMed Central
-PMCID: PMC555499.",15764702,y,2,29,,,"(PDB OR ""Protein Data Bank"") AND ""2BHM"" -heinonline -patents ",5,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222BHM%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.010365570142912,1YLR,http://www.rcsb.org/pdb/explore/explore.do?structureId=1YLR,"Race PR, Lovering AL, Green RM, Ossor A, White SA, Searle PF, Wrighton CJ,
-Hyde EI. Structural and mechanistic studies of Escherichia coli nitroreductase
-with the antibiotic nitrofurazone. Reversed binding orientations in different
-redox states of the enzyme. J Biol Chem. 2005 Apr 8;280(14):13256-64. Epub 2005
-Jan 31. PubMed PMID: 15684426.",15684426,y,1,27,,,"(PDB OR ""Protein Data Bank"") AND ""1YLR"" -heinonline -patents ",0
+0.009013186245945,1XYU,http://www.rcsb.org/pdb/explore/explore.do?structureId=1XYU,"Lysek DA, Schorn C, Nivon LG, Esteve-Moya V, Christen B, Calzolai L, vonSchroetter C, Fiorito F, Herrmann T, Güntert P, Wüthrich K. Prion protein NMRstructures of cats, dogs, pigs, and sheep. Proc Natl Acad Sci U S A. 2005 Jan18;102(3):640-5. Epub 2005 Jan 12. PubMed PMID: 15647367; PubMed Central PMCID:PMC545531.",15647367,y,2,73,,,"(PDB OR ""Protein Data Bank"") AND ""1XYU"" -heinonline -patents ",5,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221XYU%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.00938952115391,2ET4,http://www.rcsb.org/pdb/explore/explore.do?structureId=2ET4,"François B, Russell RJ, Murray JB, Aboul-ela F, Masquida B, Vicens Q, Westhof E. Crystal structures of complexes between aminoglycosides and decoding A siteoligonucleotides: role of the number of rings and positive charges in thespecific binding leading to miscoding. Nucleic Acids Res. 2005 Oct7;33(17):5677-90. Print 2005. PubMed PMID: 16214802; PubMed Central PMCID:PMC1251667.",16214802,y,2,95,,,"(PDB OR ""Protein Data Bank"") AND ""2ET4"" -heinonline -patents ",18,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222ET4%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.009617468217959,1ZRS,http://www.rcsb.org/pdb/explore/explore.do?structureId=1ZRS,"Korza HJ, Bochtler M. Pseudomonas aeruginosa LD-carboxypeptidase, a serinepeptidase with a Ser-His-Glu triad and a nucleophilic elbow. J Biol Chem. 2005Dec 9;280(49):40802-12. Epub 2005 Sep 14. PubMed PMID: 16162494.",16162494,y,1,13,,,"(PDB OR ""Protein Data Bank"") AND ""1ZRS"" -heinonline -patents ",6,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221ZRS%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.00991233312475,1YSH,http://www.rcsb.org/pdb/explore/explore.do?structureId=1YSH,"Halic M, Becker T, Frank J, Spahn CM, Beckmann R. Localization and dynamicbehavior of ribosomal protein L30e. Nat Struct Mol Biol. 2005 May;12(5):467-8.Epub 2005 May 1. PubMed PMID: 15864315.",15864315,y,1,15,,,"(PDB OR ""Protein Data Bank"") AND ""1YSH"" -heinonline -patents ",2,y0.010203240414601,2BHM,http://www.rcsb.org/pdb/explore/explore.do?structureId=2BHM,"Terradot L, Bayliss R, Oomen C, Leonard GA, Baron C, Waksman G. Structures of two core subunits of the bacterial type IV secretion system, VirB8 from Brucella suis and ComB10 from Helicobacter pylori. Proc Natl Acad Sci U S A. 2005 Mar22;102(12):4596-601. Epub 2005 Mar 11. PubMed PMID: 15764702; PubMed CentralPMCID: PMC555499.",15764702,y,2,29,,,"(PDB OR ""Protein Data Bank"") AND ""2BHM"" -heinonline -patents ",5,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222BHM%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.010365570142912,1YLR,http://www.rcsb.org/pdb/explore/explore.do?structureId=1YLR,"Race PR, Lovering AL, Green RM, Ossor A, White SA, Searle PF, Wrighton CJ,Hyde EI. Structural and mechanistic studies of Escherichia coli nitroreductasewith the antibiotic nitrofurazone. Reversed binding orientations in differentredox states of the enzyme. J Biol Chem. 2005 Apr 8;280(14):13256-64. Epub 2005Jan 31. PubMed PMID: 15684426.",15684426,y,1,27,,,"(PDB OR ""Protein Data Bank"") AND ""1YLR"" -heinonline -patents ",0
 0.010422641870444,1TZ1,http://www.rcsb.org/pdb/explore/explore.do?structureId=1TZ1,to be published
-0.01064357453526,1Y8K,http://www.rcsb.org/pdb/explore/explore.do?structureId=1Y8K,"Sankaranarayanan R, Biswal BK, Vijayan M. A new relaxed state in horse
-methemoglobin characterized by crystallographic studies. Proteins. 2005 Aug
-15;60(3):547-51. PubMed PMID: 15887226.",15887226,y,1,3,,,"(PDB OR ""Protein Data Bank"") AND ""1Y8K"" -heinonline -patents ",1,y
+0.01064357453526,1Y8K,http://www.rcsb.org/pdb/explore/explore.do?structureId=1Y8K,"Sankaranarayanan R, Biswal BK, Vijayan M. A new relaxed state in horsemethemoglobin characterized by crystallographic studies. Proteins. 2005 Aug15;60(3):547-51. PubMed PMID: 15887226.",15887226,y,1,3,,,"(PDB OR ""Protein Data Bank"") AND ""1Y8K"" -heinonline -patents ",1,y
 0.010722206934674,1VGP,http://www.rcsb.org/pdb/explore/explore.do?structureId=1VGP,to be published
-0.010759614392546,1XKF,http://www.rcsb.org/pdb/explore/explore.do?structureId=1XKF,"Sharpe ML, Gao C, Kendall SL, Baker EN, Lott JS. The structure and unusual
-protein chemistry of hypoxic response protein 1, a latency antigen and highly
-expressed member of the DosR regulon in Mycobacterium tuberculosis. J Mol Biol.
-2008 Nov 21;383(4):822-36. Epub 2008 Jul 9. PubMed PMID: 18640126.",18640126,y,1,1,,,"(PDB OR ""Protein Data Bank"") AND ""1XKF"" -heinonline -patents ",6,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221XKF%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.010874144960183,1Y0J,http://www.rcsb.org/pdb/explore/explore.do?structureId=1Y0J,"Liew CK, Simpson RJ, Kwan AH, Crofts LA, Loughlin FE, Matthews JM, Crossley M,
-Mackay JP. Zinc fingers as protein recognition motifs: structural basis for the
-GATA-1/friend of GATA interaction. Proc Natl Acad Sci U S A. 2005 Jan
-18;102(3):583-8. Epub 2005 Jan 11. PubMed PMID: 15644435; PubMed Central PMCID:
-PMC545545.",15644435,y,1,34,,,"(PDB OR ""Protein Data Bank"") AND ""1Y0J"" -heinonline -patents ",8,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221Y0J%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.01170651954402,1XSX,http://www.rcsb.org/pdb/explore/explore.do?structureId=1XSX,"Kahsai MA, Vogler B, Clark AT, Edmondson SP, Shriver JW. Solution structure,
-stability, and flexibility of Sso10a: a hyperthermophile coiled-coil DNA-binding 
-protein. Biochemistry. 2005 Mar 1;44(8):2822-32. PubMed PMID: 15723526.",15723526,y,1,3,,,"(PDB OR ""Protein Data Bank"") AND ""1XSX"" -heinonline -patents ",1,y
-0.011727240625022,1TT9,http://www.rcsb.org/pdb/explore/explore.do?structureId=1TT9,"Mao Y, Vyas NK, Vyas MN, Chen DH, Ludtke SJ, Chiu W, Quiocho FA. Structure of 
-the bifunctional and Golgi-associated formiminotransferase cyclodeaminase
-octamer. EMBO J. 2004 Aug 4;23(15):2963-71. Epub 2004 Jul 22. PubMed PMID:
-15272307; PubMed Central PMCID: PMC514939.",15272307,y,2,4,,,"(PDB OR ""Protein Data Bank"") AND ""1TT9"" -heinonline -patents ",6,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221TT9%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.011814163740556,1X7A,http://www.rcsb.org/pdb/explore/explore.do?structureId=1X7A,"Smallheer JM, Alexander RS, Wang J, Wang S, Nakajima S, Rossi KA, Smallwood A,
-Barbera F, Burdick D, Luettgen JM, Knabb RM, Wexler RR, Jadhav PK. SAR and factor
-IXa crystal structure of a dual inhibitor of factors IXa and Xa. Bioorg Med Chem 
-Lett. 2004 Nov 1;14(21):5263-7. PubMed PMID: 15454208.",15454208,y,1,19,,,"(PDB OR ""Protein Data Bank"") AND ""1X7A"" -heinonline -patents ",6,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221X7A%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.01191500855178,1XQX,http://www.rcsb.org/pdb/explore/explore.do?structureId=1XQX,"Goettig P, Brandstetter H, Groll M, Göhring W, Konarev PV, Svergun DI, Huber
-R, Kim JS. X-ray snapshots of peptide processing in mutants of
-tricorn-interacting factor F1 from Thermoplasma acidophilum. J Biol Chem. 2005
-Sep 30;280(39):33387-96. Epub 2005 Jul 1. PubMed PMID: 15994304.",15994304,y,1,5,,,"(PDB OR ""Protein Data Bank"") AND ""1XQX"" -heinonline -patents ",0
+0.010759614392546,1XKF,http://www.rcsb.org/pdb/explore/explore.do?structureId=1XKF,"Sharpe ML, Gao C, Kendall SL, Baker EN, Lott JS. The structure and unusualprotein chemistry of hypoxic response protein 1, a latency antigen and highlyexpressed member of the DosR regulon in Mycobacterium tuberculosis. J Mol Biol.2008 Nov 21;383(4):822-36. Epub 2008 Jul 9. PubMed PMID: 18640126.",18640126,y,1,1,,,"(PDB OR ""Protein Data Bank"") AND ""1XKF"" -heinonline -patents ",6,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221XKF%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.010874144960183,1Y0J,http://www.rcsb.org/pdb/explore/explore.do?structureId=1Y0J,"Liew CK, Simpson RJ, Kwan AH, Crofts LA, Loughlin FE, Matthews JM, Crossley M,Mackay JP. Zinc fingers as protein recognition motifs: structural basis for theGATA-1/friend of GATA interaction. Proc Natl Acad Sci U S A. 2005 Jan18;102(3):583-8. Epub 2005 Jan 11. PubMed PMID: 15644435; PubMed Central PMCID:PMC545545.",15644435,y,1,34,,,"(PDB OR ""Protein Data Bank"") AND ""1Y0J"" -heinonline -patents ",8,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221Y0J%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.01170651954402,1XSX,http://www.rcsb.org/pdb/explore/explore.do?structureId=1XSX,"Kahsai MA, Vogler B, Clark AT, Edmondson SP, Shriver JW. Solution structure,stability, and flexibility of Sso10a: a hyperthermophile coiled-coil DNA-binding protein. Biochemistry. 2005 Mar 1;44(8):2822-32. PubMed PMID: 15723526.",15723526,y,1,3,,,"(PDB OR ""Protein Data Bank"") AND ""1XSX"" -heinonline -patents ",1,y
+0.011727240625022,1TT9,http://www.rcsb.org/pdb/explore/explore.do?structureId=1TT9,"Mao Y, Vyas NK, Vyas MN, Chen DH, Ludtke SJ, Chiu W, Quiocho FA. Structure of the bifunctional and Golgi-associated formiminotransferase cyclodeaminaseoctamer. EMBO J. 2004 Aug 4;23(15):2963-71. Epub 2004 Jul 22. PubMed PMID:15272307; PubMed Central PMCID: PMC514939.",15272307,y,2,4,,,"(PDB OR ""Protein Data Bank"") AND ""1TT9"" -heinonline -patents ",6,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221TT9%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.011814163740556,1X7A,http://www.rcsb.org/pdb/explore/explore.do?structureId=1X7A,"Smallheer JM, Alexander RS, Wang J, Wang S, Nakajima S, Rossi KA, Smallwood A,Barbera F, Burdick D, Luettgen JM, Knabb RM, Wexler RR, Jadhav PK. SAR and factorIXa crystal structure of a dual inhibitor of factors IXa and Xa. Bioorg Med Chem Lett. 2004 Nov 1;14(21):5263-7. PubMed PMID: 15454208.",15454208,y,1,19,,,"(PDB OR ""Protein Data Bank"") AND ""1X7A"" -heinonline -patents ",6,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221X7A%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.01191500855178,1XQX,http://www.rcsb.org/pdb/explore/explore.do?structureId=1XQX,"Goettig P, Brandstetter H, Groll M, Göhring W, Konarev PV, Svergun DI, HuberR, Kim JS. X-ray snapshots of peptide processing in mutants oftricorn-interacting factor F1 from Thermoplasma acidophilum. J Biol Chem. 2005Sep 30;280(39):33387-96. Epub 2005 Jul 1. PubMed PMID: 15994304.",15994304,y,1,5,,,"(PDB OR ""Protein Data Bank"") AND ""1XQX"" -heinonline -patents ",0
 0.011927237440631,2CVJ,http://www.rcsb.org/pdb/explore/explore.do?structureId=2CVJ,to be published
-0.012263964136655,2AV4,http://www.rcsb.org/pdb/explore/explore.do?structureId=2AV4,"Vedadi M, Lew J, Artz J, Amani M, Zhao Y, Dong A, Wasney GA, Gao M, Hills T,
-Brokx S, Qiu W, Sharma S, Diassiti A, Alam Z, Melone M, Mulichak A, Wernimont A, 
-Bray J, Loppnau P, Plotnikova O, Newberry K, Sundararajan E, Houston S, Walker J,
-Tempel W, Bochkarev A, Kozieradzki I, Edwards A, Arrowsmith C, Roos D, Kain K,
-Hui R. Genome-scale protein expression and structural biology of Plasmodium
-falciparum and related Apicomplexan organisms. Mol Biochem Parasitol. 2007
-Jan;151(1):100-10. Epub 2006 Nov 13. PubMed PMID: 17125854.",17125854,y,1,66,,,"(PDB OR ""Protein Data Bank"") AND ""2AV4"" -heinonline -patents ",2,y
+0.012263964136655,2AV4,http://www.rcsb.org/pdb/explore/explore.do?structureId=2AV4,"Vedadi M, Lew J, Artz J, Amani M, Zhao Y, Dong A, Wasney GA, Gao M, Hills T,Brokx S, Qiu W, Sharma S, Diassiti A, Alam Z, Melone M, Mulichak A, Wernimont A,Bray J, Loppnau P, Plotnikova O, Newberry K, Sundararajan E, Houston S, Walker J,Tempel W, Bochkarev A, Kozieradzki I, Edwards A, Arrowsmith C, Roos D, Kain K,Hui R. Genome-scale protein expression and structural biology of Plasmodiumfalciparum and related Apicomplexan organisms. Mol Biochem Parasitol. 2007Jan;151(1):100-10. Epub 2006 Nov 13. PubMed PMID: 17125854.",17125854,y,1,66,,,"(PDB OR ""Protein Data Bank"") AND ""2AV4"" -heinonline -patents ",2,y
 0.012284065654727,1X5E,http://www.rcsb.org/pdb/explore/explore.do?structureId=1X5E,to be published
 0.01232131535175,1OHO,http://www.rcsb.org/pdb/explore/explore.do?structureId=1OHO,to be published
-0.012691438460717,1U72,http://www.rcsb.org/pdb/explore/explore.do?structureId=1U72,"Cody V, Luft JR, Pangborn W. Understanding the role of Leu22 variants in
-methotrexate resistance: comparison of wild-type and Leu22Arg variant mouse and
-human dihydrofolate reductase ternary crystal complexes with methotrexate and
-NADPH. Acta Crystallogr D Biol Crystallogr. 2005 Feb;61(Pt 2):147-55. Epub 2005
-Jan 19. PubMed PMID: 15681865.",15681865,y,1,26,,,"(PDB OR ""Protein Data Bank"") AND ""1U72"" -heinonline -patents ",33,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221U72%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.012708760424148,1YJI,http://www.rcsb.org/pdb/explore/explore.do?structureId=1YJI,"Jain NU, Tjioe E, Savidor A, Boulie J. Redox-dependent structural differences 
-in putidaredoxin derived from homologous structure refinement via residual
-dipolar couplings. Biochemistry. 2005 Jun 28;44(25):9067-78. PubMed PMID:
-15966730.",15966730,y,1,9,,,"(PDB OR ""Protein Data Bank"") AND ""1YJI"" -heinonline -patents ",1,y
-0.01288523132785,1WCY,http://www.rcsb.org/pdb/explore/explore.do?structureId=1WCY,"Hiramatsu H, Yamamoto A, Kyono K, Higashiyama Y, Fukushima C, Shima H,
-Sugiyama S, Inaka K, Shimizu R. The crystal structure of human dipeptidyl
-peptidase IV (DPPIV) complex with diprotin A. Biol Chem. 2004 Jun;385(6):561-4.
-PubMed PMID: 15255191.",15255191,y,1,19,,,"(PDB OR ""Protein Data Bank"") AND ""1WCY"" -heinonline -patents ",2,y
-0.01303562286706,1UWA,http://www.rcsb.org/pdb/explore/explore.do?structureId=1UWA,"Karkehabadi S, Taylor TC, Spreitzer RJ, Andersson I. Altered intersubunit
-interactions in crystal structures of catalytically compromised
-ribulose-1,5-bisphosphate carboxylase/oxygenase. Biochemistry. 2005 Jan
-11;44(1):113-20. PubMed PMID: 15628851.",15628851,y,1,9,,,"(PDB OR ""Protein Data Bank"") AND ""1UWA"" -heinonline -patents ",1,y
-0.013156900356638,1YSW,http://www.rcsb.org/pdb/explore/explore.do?structureId=1YSW,"Oltersdorf T, Elmore SW, Shoemaker AR, Armstrong RC, Augeri DJ, Belli BA,
-Bruncko M, Deckwerth TL, Dinges J, Hajduk PJ, Joseph MK, Kitada S, Korsmeyer SJ, 
-Kunzer AR, Letai A, Li C, Mitten MJ, Nettesheim DG, Ng S, Nimmer PM, O'Connor JM,
-Oleksijew A, Petros AM, Reed JC, Shen W, Tahir SK, Thompson CB, Tomaselli KJ,
-Wang B, Wendt MD, Zhang H, Fesik SW, Rosenberg SH. An inhibitor of Bcl-2 family
-proteins induces regression of solid tumours. Nature. 2005 Jun
-2;435(7042):677-81. Epub 2005 May 15. PubMed PMID: 15902208.",15902208,y,4,787,2 dropbox files,1YSW_1to500,"(PDB OR ""Protein Data Bank"") AND ""1YSW"" -heinonline -patents ",20,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221YSW%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-,,,,,,,,,1YSW_501to787
-0.013288815464823,1ZJ2,http://www.rcsb.org/pdb/explore/explore.do?structureId=1ZJ2,"Letts JA, Rose NL, Fang YR, Barry CH, Borisova SN, Seto NO, Palcic MM, Evans
-SV. Differential recognition of the type I and II H antigen acceptors by the
-human ABO(H) blood group A and B glycosyltransferases. J Biol Chem. 2006 Feb
-10;281(6):3625-32. Epub 2005 Dec 2. PubMed PMID: 16326711.
-",16326711,y,1,10,,,"(PDB OR ""Protein Data Bank"") AND ""1ZJ2"" -heinonline -patents ",2,y
-0.013298999709319,1XWR,http://www.rcsb.org/pdb/explore/explore.do?structureId=1XWR,"Datta AB, Panjikar S, Weiss MS, Chakrabarti P, Parrack P. Structure of lambda 
-CII: implications for recognition of direct-repeat DNA by an unusual tetrameric
-organization. Proc Natl Acad Sci U S A. 2005 Aug 9;102(32):11242-7. Epub 2005 Aug
-1. PubMed PMID: 16061804; PubMed Central PMCID: PMC1183575.
-",16061804,y,1,6,,,"(PDB OR ""Protein Data Bank"") AND ""1XWR"" -heinonline -patents ",2,y
-0.013498382416604,1T2B,http://www.rcsb.org/pdb/explore/explore.do?structureId=1T2B,"Meharenna YT, Li H, Hawkes DB, Pearson AG, De Voss J, Poulos TL. Crystal
-structure of P450cin in a complex with its substrate, 1,8-cineole, a close
-structural homologue to D-camphor, the substrate for P450cam. Biochemistry. 2004 
-Jul 27;43(29):9487-94. PubMed PMID: 15260491.",15260491,y,1,14,,,"(PDB OR ""Protein Data Bank"") AND ""1T2B"" -heinonline -patents ",9,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221T2B%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.013585830014,2BYD,http://www.rcsb.org/pdb/explore/explore.do?structureId=2BYD,"Bunkoczi G, Pasta S, Joshi A, Wu X, Kavanagh KL, Smith S, Oppermann U.
-Mechanism and substrate recognition of human holo ACP synthase. Chem Biol. 2007
-Nov;14(11):1243-53. PubMed PMID: 18022563; PubMed Central PMCID: PMC2148441.",18022563,y,1,13,,,"(PDB OR ""Protein Data Bank"") AND ""2BYD"" -heinonline -patents ",1,y
-0.013798315922531,1XLN,http://www.rcsb.org/pdb/explore/explore.do?structureId=1XLN,"Sevrioukova IF. Redox-dependent structural reorganization in putidaredoxin, a 
-vertebrate-type [2Fe-2S] ferredoxin from Pseudomonas putida. J Mol Biol. 2005 Apr
-1;347(3):607-21. PubMed PMID: 15755454.
-",15755454,y,1,27,,,"(PDB OR ""Protein Data Bank"") AND ""1XLN"" -heinonline -patents ",0
-0.013863807959364,1YO8,http://www.rcsb.org/pdb/explore/explore.do?structureId=1YO8,"Carlson CB, Bernstein DA, Annis DS, Misenheimer TM, Hannah BL, Mosher DF, Keck
-JL. Structure of the calcium-rich signature domain of human thrombospondin-2. Nat
-Struct Mol Biol. 2005 Oct;12(10):910-4. Epub 2005 Sep 25. PubMed PMID: 16186819; 
-PubMed Central PMCID: PMC2219892.",16186819,y,1,35,,,"(PDB OR ""Protein Data Bank"") AND ""1YO8"" -heinonline -patents ",8,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221YO8%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.012691438460717,1U72,http://www.rcsb.org/pdb/explore/explore.do?structureId=1U72,"Cody V, Luft JR, Pangborn W. Understanding the role of Leu22 variants inmethotrexate resistance: comparison of wild-type and Leu22Arg variant mouse andhuman dihydrofolate reductase ternary crystal complexes with methotrexate andNADPH. Acta Crystallogr D Biol Crystallogr. 2005 Feb;61(Pt 2):147-55. Epub 2005Jan 19. PubMed PMID: 15681865.",15681865,y,1,26,,,"(PDB OR ""Protein Data Bank"") AND ""1U72"" -heinonline -patents ",33,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221U72%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.012708760424148,1YJI,http://www.rcsb.org/pdb/explore/explore.do?structureId=1YJI,"Jain NU, Tjioe E, Savidor A, Boulie J. Redox-dependent structural differencesin putidaredoxin derived from homologous structure refinement via residualdipolar couplings. Biochemistry. 2005 Jun 28;44(25):9067-78. PubMed PMID:15966730.",15966730,y,1,9,,,"(PDB OR ""Protein Data Bank"") AND ""1YJI"" -heinonline -patents ",1,y
+0.01288523132785,1WCY,http://www.rcsb.org/pdb/explore/explore.do?structureId=1WCY,"Hiramatsu H, Yamamoto A, Kyono K, Higashiyama Y, Fukushima C, Shima H,Sugiyama S, Inaka K, Shimizu R. The crystal structure of human dipeptidylpeptidase IV (DPPIV) complex with diprotin A. Biol Chem. 2004 Jun;385(6):561-4.PubMed PMID: 15255191.",15255191,y,1,19,,,"(PDB OR ""Protein Data Bank"") AND ""1WCY"" -heinonline -patents ",2,y
+0.01303562286706,1UWA,http://www.rcsb.org/pdb/explore/explore.do?structureId=1UWA,"Karkehabadi S, Taylor TC, Spreitzer RJ, Andersson I. Altered intersubunitinteractions in crystal structures of catalytically compromisedribulose-1,5-bisphosphate carboxylase/oxygenase. Biochemistry. 2005 Jan11;44(1):113-20. PubMed PMID: 15628851.",15628851,y,1,9,,,"(PDB OR ""Protein Data Bank"") AND ""1UWA"" -heinonline -patents ",1,y
+0.013156900356638,1YSW,http://www.rcsb.org/pdb/explore/explore.do?structureId=1YSW,"Oltersdorf T, Elmore SW, Shoemaker AR, Armstrong RC, Augeri DJ, Belli BA,Bruncko M, Deckwerth TL, Dinges J, Hajduk PJ, Joseph MK, Kitada S, Korsmeyer SJ,Kunzer AR, Letai A, Li C, Mitten MJ, Nettesheim DG, Ng S, Nimmer PM, O'Connor JM,Oleksijew A, Petros AM, Reed JC, Shen W, Tahir SK, Thompson CB, Tomaselli KJ,Wang B, Wendt MD, Zhang H, Fesik SW, Rosenberg SH. An inhibitor of Bcl-2 familyproteins induces regression of solid tumours. Nature. 2005 Jun2;435(7042):677-81. Epub 2005 May 15. PubMed PMID: 15902208.",15902208,y,4,787,2 dropbox files,1YSW_1to500,"(PDB OR ""Protein Data Bank"") AND ""1YSW"" -heinonline -patents ",20,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221YSW%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0,,,,,,,,,1YSW_501to787
+0.013288815464823,1ZJ2,http://www.rcsb.org/pdb/explore/explore.do?structureId=1ZJ2,"Letts JA, Rose NL, Fang YR, Barry CH, Borisova SN, Seto NO, Palcic MM, EvansSV. Differential recognition of the type I and II H antigen acceptors by thehuman ABO(H) blood group A and B glycosyltransferases. J Biol Chem. 2006 Feb10;281(6):3625-32. Epub 2005 Dec 2. PubMed PMID: 16326711.",16326711,y,1,10,,,"(PDB OR ""Protein Data Bank"") AND ""1ZJ2"" -heinonline -patents ",2,y
+0.013298999709319,1XWR,http://www.rcsb.org/pdb/explore/explore.do?structureId=1XWR,"Datta AB, Panjikar S, Weiss MS, Chakrabarti P, Parrack P. Structure of lambdaCII: implications for recognition of direct-repeat DNA by an unusual tetramericorganization. Proc Natl Acad Sci U S A. 2005 Aug 9;102(32):11242-7. Epub 2005 Aug1. PubMed PMID: 16061804; PubMed Central PMCID: PMC1183575.",16061804,y,1,6,,,"(PDB OR ""Protein Data Bank"") AND ""1XWR"" -heinonline -patents ",2,y
+0.013498382416604,1T2B,http://www.rcsb.org/pdb/explore/explore.do?structureId=1T2B,"Meharenna YT, Li H, Hawkes DB, Pearson AG, De Voss J, Poulos TL. Crystalstructure of P450cin in a complex with its substrate, 1,8-cineole, a closestructural homologue to D-camphor, the substrate for P450cam. Biochemistry. 2004Jul 27;43(29):9487-94. PubMed PMID: 15260491.",15260491,y,1,14,,,"(PDB OR ""Protein Data Bank"") AND ""1T2B"" -heinonline -patents ",9,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221T2B%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.013585830014,2BYD,http://www.rcsb.org/pdb/explore/explore.do?structureId=2BYD,"Bunkoczi G, Pasta S, Joshi A, Wu X, Kavanagh KL, Smith S, Oppermann U.Mechanism and substrate recognition of human holo ACP synthase. Chem Biol. 2007Nov;14(11):1243-53. PubMed PMID: 18022563; PubMed Central PMCID: PMC2148441.",18022563,y,1,13,,,"(PDB OR ""Protein Data Bank"") AND ""2BYD"" -heinonline -patents ",1,y
+0.013798315922531,1XLN,http://www.rcsb.org/pdb/explore/explore.do?structureId=1XLN,"Sevrioukova IF. Redox-dependent structural reorganization in putidaredoxin, avertebrate-type [2Fe-2S] ferredoxin from Pseudomonas putida. J Mol Biol. 2005 Apr1;347(3):607-21. PubMed PMID: 15755454.",15755454,y,1,27,,,"(PDB OR ""Protein Data Bank"") AND ""1XLN"" -heinonline -patents ",0
+0.013863807959364,1YO8,http://www.rcsb.org/pdb/explore/explore.do?structureId=1YO8,"Carlson CB, Bernstein DA, Annis DS, Misenheimer TM, Hannah BL, Mosher DF, KeckJL. Structure of the calcium-rich signature domain of human thrombospondin-2. NatStruct Mol Biol. 2005 Oct;12(10):910-4. Epub 2005 Sep 25. PubMed PMID: 16186819;PubMed Central PMCID: PMC2219892.",16186819,y,1,35,,,"(PDB OR ""Protein Data Bank"") AND ""1YO8"" -heinonline -patents ",8,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221YO8%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
 0.014288412794729,1ZQ9,http://www.rcsb.org/pdb/explore/explore.do?structureId=1ZQ9,to be published
 0.014449252206594,1V9X,http://www.rcsb.org/pdb/explore/explore.do?structureId=1V9X,to be published
 0.014579314385016,1Y1Q,http://www.rcsb.org/pdb/explore/explore.do?structureId=1Y1Q,to be published
-0.014821384406357,2BRL,http://www.rcsb.org/pdb/explore/explore.do?structureId=2BRL,"Di Marco S, Volpari C, Tomei L, Altamura S, Harper S, Narjes F, Koch U, Rowley
-M, De Francesco R, Migliaccio G, Carfí A. Interdomain communication in hepatitis 
-C virus polymerase abolished by small molecule inhibitors bound to a novel
-allosteric site. J Biol Chem. 2005 Aug 19;280(33):29765-70. Epub 2005 Jun 13.
-PubMed PMID: 15955819.",15955819,y,1,61,,,"(PDB OR ""Protein Data Bank"") AND ""2BRL"" -heinonline -patents ",13,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222BRL%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.014902945756863,1S7Y,http://www.rcsb.org/pdb/explore/explore.do?structureId=1S7Y,"Mayer ML. Crystal structures of the GluR5 and GluR6 ligand binding cores:
-molecular mechanisms underlying kainate receptor selectivity. Neuron. 2005 Feb
-17;45(4):539-52. PubMed PMID: 15721240.
-",15721240,y,1,105,,,"(PDB OR ""Protein Data Bank"") AND ""1S7Y"" -heinonline -patents ",15,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221S7Y%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.014905432349423,1ZND,http://www.rcsb.org/pdb/explore/explore.do?structureId=1ZND,"Malham R, Johnstone S, Bingham RJ, Barratt E, Phillips SE, Laughton CA, Homans
-SW. Strong solute-solute dispersive interactions in a protein-ligand complex. J
-Am Chem Soc. 2005 Dec 7;127(48):17061-7. PubMed PMID: 16316253.
-",16316253,y,1,24,,,"(PDB OR ""Protein Data Bank"") AND ""1ZND"" -heinonline -patents ",5,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221ZND%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.015186990117434,1WV0,http://www.rcsb.org/pdb/explore/explore.do?structureId=1WV0,"Oikonomakos NG, Kosmopoulou MN, Chrysina ED, Leonidas DD, Kostas ID, Wendt KU,
-Klabunde T, Defossa E. Crystallographic studies on acyl ureas, a new class of
-glycogen phosphorylase inhibitors, as potential antidiabetic drugs. Protein Sci. 
-2005 Jul;14(7):1760-71. PubMed PMID: 15987904; PubMed Central PMCID: PMC2253349.",15987904,y,1,14,,,"(PDB OR ""Protein Data Bank"") AND ""1WV0"" -heinonline -patents ",1,y
-0.01544592163862,1YIG,http://www.rcsb.org/pdb/explore/explore.do?structureId=1YIG,"Slep KC, Rogers SL, Elliott SL, Ohkura H, Kolodziej PA, Vale RD. Structural
-determinants for EB1-mediated recruitment of APC and spectraplakins to the
-microtubule plus end. J Cell Biol. 2005 Feb 14;168(4):587-98. Epub 2005 Feb 7.
-PubMed PMID: 15699215; PubMed Central PMCID: PMC2171753.",15699215,y,1,53,,,"(PDB OR ""Protein Data Bank"") AND ""1YIG"" -heinonline -patents ",0
-0.015629123443256,1XQQ,http://www.rcsb.org/pdb/explore/explore.do?structureId=1XQQ,"Lindorff-Larsen K, Best RB, Depristo MA, Dobson CM, Vendruscolo M.
-Simultaneous determination of protein structure and dynamics. Nature. 2005 Jan
-13;433(7022):128-32. PubMed PMID: 15650731.",15650731,y,1,197,,,"(PDB OR ""Protein Data Bank"") AND ""1XQQ"" -heinonline -patents ",25,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221XQQ%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.014821384406357,2BRL,http://www.rcsb.org/pdb/explore/explore.do?structureId=2BRL,"Di Marco S, Volpari C, Tomei L, Altamura S, Harper S, Narjes F, Koch U, RowleyM, De Francesco R, Migliaccio G, Carfí A. Interdomain communication in hepatitisC virus polymerase abolished by small molecule inhibitors bound to a novelallosteric site. J Biol Chem. 2005 Aug 19;280(33):29765-70. Epub 2005 Jun 13.PubMed PMID: 15955819.",15955819,y,1,61,,,"(PDB OR ""Protein Data Bank"") AND ""2BRL"" -heinonline -patents ",13,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222BRL%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.014902945756863,1S7Y,http://www.rcsb.org/pdb/explore/explore.do?structureId=1S7Y,"Mayer ML. Crystal structures of the GluR5 and GluR6 ligand binding cores:molecular mechanisms underlying kainate receptor selectivity. Neuron. 2005 Feb17;45(4):539-52. PubMed PMID: 15721240.",15721240,y,1,105,,,"(PDB OR ""Protein Data Bank"") AND ""1S7Y"" -heinonline -patents ",15,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221S7Y%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.014905432349423,1ZND,http://www.rcsb.org/pdb/explore/explore.do?structureId=1ZND,"Malham R, Johnstone S, Bingham RJ, Barratt E, Phillips SE, Laughton CA, HomansSW. Strong solute-solute dispersive interactions in a protein-ligand complex. JAm Chem Soc. 2005 Dec 7;127(48):17061-7. PubMed PMID: 16316253.",16316253,y,1,24,,,"(PDB OR ""Protein Data Bank"") AND ""1ZND"" -heinonline -patents ",5,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221ZND%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.015186990117434,1WV0,http://www.rcsb.org/pdb/explore/explore.do?structureId=1WV0,"Oikonomakos NG, Kosmopoulou MN, Chrysina ED, Leonidas DD, Kostas ID, Wendt KU,Klabunde T, Defossa E. Crystallographic studies on acyl ureas, a new class ofglycogen phosphorylase inhibitors, as potential antidiabetic drugs. Protein Sci.2005 Jul;14(7):1760-71. PubMed PMID: 15987904; PubMed Central PMCID: PMC2253349.",15987904,y,1,14,,,"(PDB OR ""Protein Data Bank"") AND ""1WV0"" -heinonline -patents ",1,y
+0.01544592163862,1YIG,http://www.rcsb.org/pdb/explore/explore.do?structureId=1YIG,"Slep KC, Rogers SL, Elliott SL, Ohkura H, Kolodziej PA, Vale RD. Structuraldeterminants for EB1-mediated recruitment of APC and spectraplakins to themicrotubule plus end. J Cell Biol. 2005 Feb 14;168(4):587-98. Epub 2005 Feb 7.PubMed PMID: 15699215; PubMed Central PMCID: PMC2171753.",15699215,y,1,53,,,"(PDB OR ""Protein Data Bank"") AND ""1YIG"" -heinonline -patents ",0
+0.015629123443256,1XQQ,http://www.rcsb.org/pdb/explore/explore.do?structureId=1XQQ,"Lindorff-Larsen K, Best RB, Depristo MA, Dobson CM, Vendruscolo M.Simultaneous determination of protein structure and dynamics. Nature. 2005 Jan13;433(7022):128-32. PubMed PMID: 15650731.",15650731,y,1,197,,,"(PDB OR ""Protein Data Bank"") AND ""1XQQ"" -heinonline -patents ",25,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221XQQ%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
 0.015944343682799,2CRL,http://www.rcsb.org/pdb/explore/explore.do?structureId=2CRL,to be published
-0.016288223761067,1X32,http://www.rcsb.org/pdb/explore/explore.do?structureId=1X32,"Sivaraja V, Kumar TK, Leena PS, Chang AN, Vidya C, Goforth RL, Rajalingam D,
-Arvind K, Ye JL, Chou J, Henry R, Yu C. Three-dimensional solution structures of 
-the chromodomains of cpSRP43. J Biol Chem. 2005 Dec 16;280(50):41465-71. Epub
-2005 Sep 23. PubMed PMID: 16183644.
-",16183644,y,1,11,,,"(PDB OR ""Protein Data Bank"") AND ""1X32"" -heinonline -patents ",0
-0.016303582154831,1RJC,http://www.rcsb.org/pdb/explore/explore.do?structureId=1RJC,"De Genst E, Silence K, Ghahroudi MA, Decanniere K, Loris R, Kinne J, Wyns L,
-Muyldermans S. Strong in vivo maturation compensates for structurally restricted 
-H3 loops in antibody repertoires. J Biol Chem. 2005 Apr 8;280(14):14114-21. Epub 
-2005 Jan 19. PubMed PMID: 15659390.
-",15659390,y,1,12,,,"(PDB OR ""Protein Data Bank"") AND ""1RJC"" -heinonline -patents ",11,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221RJC%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.016377840147825,1PK3,http://www.rcsb.org/pdb/explore/explore.do?structureId=1PK3,"Kim CA, Sawaya MR, Cascio D, Kim W, Bowie JU. Structural organization of a
-Sex-comb-on-midleg/polyhomeotic copolymer. J Biol Chem. 2005 Jul
-29;280(30):27769-75. Epub 2005 May 19. PubMed PMID: 15905166.
-",15905166,y,1,20,,,"(PDB OR ""Protein Data Bank"") AND ""1PK3"" -heinonline -patents ",4,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221PK3%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.016288223761067,1X32,http://www.rcsb.org/pdb/explore/explore.do?structureId=1X32,"Sivaraja V, Kumar TK, Leena PS, Chang AN, Vidya C, Goforth RL, Rajalingam D,Arvind K, Ye JL, Chou J, Henry R, Yu C. Three-dimensional solution structures ofthe chromodomains of cpSRP43. J Biol Chem. 2005 Dec 16;280(50):41465-71. Epub2005 Sep 23. PubMed PMID: 16183644.",16183644,y,1,11,,,"(PDB OR ""Protein Data Bank"") AND ""1X32"" -heinonline -patents ",0
+0.016303582154831,1RJC,http://www.rcsb.org/pdb/explore/explore.do?structureId=1RJC,"De Genst E, Silence K, Ghahroudi MA, Decanniere K, Loris R, Kinne J, Wyns L,Muyldermans S. Strong in vivo maturation compensates for structurally restrictedH3 loops in antibody repertoires. J Biol Chem. 2005 Apr 8;280(14):14114-21. Epub2005 Jan 19. PubMed PMID: 15659390.",15659390,y,1,12,,,"(PDB OR ""Protein Data Bank"") AND ""1RJC"" -heinonline -patents ",11,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221RJC%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.016377840147825,1PK3,http://www.rcsb.org/pdb/explore/explore.do?structureId=1PK3,"Kim CA, Sawaya MR, Cascio D, Kim W, Bowie JU. Structural organization of aSex-comb-on-midleg/polyhomeotic copolymer. J Biol Chem. 2005 Jul29;280(30):27769-75. Epub 2005 May 19. PubMed PMID: 15905166.",15905166,y,1,20,,,"(PDB OR ""Protein Data Bank"") AND ""1PK3"" -heinonline -patents ",4,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221PK3%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
 0.017102196712128,2BUJ,http://www.rcsb.org/pdb/explore/explore.do?structureId=2BUJ,to be published
-0.017176642079248,1XO2,http://www.rcsb.org/pdb/explore/explore.do?structureId=1XO2,"Lu H, Chang DJ, Baratte B, Meijer L, Schulze-Gahmen U. Crystal structure of a 
-human cyclin-dependent kinase 6 complex with a flavonol inhibitor, fisetin. J Med
-Chem. 2005 Feb 10;48(3):737-43. PubMed PMID: 15689157.
-",15689157,y,1,27,,,"(PDB OR ""Protein Data Bank"") AND ""1XO2"" -heinonline -patents ",15,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221XO2%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.017176642079248,1XO2,http://www.rcsb.org/pdb/explore/explore.do?structureId=1XO2,"Lu H, Chang DJ, Baratte B, Meijer L, Schulze-Gahmen U. Crystal structure of ahuman cyclin-dependent kinase 6 complex with a flavonol inhibitor, fisetin. J MedChem. 2005 Feb 10;48(3):737-43. PubMed PMID: 15689157.",15689157,y,1,27,,,"(PDB OR ""Protein Data Bank"") AND ""1XO2"" -heinonline -patents ",15,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221XO2%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
 0.017414681681747,2B6A,http://www.rcsb.org/pdb/explore/explore.do?structureId=2B6A,to be published
-0.017820932618006,1Z92,http://www.rcsb.org/pdb/explore/explore.do?structureId=1Z92,"Rickert M, Wang X, Boulanger MJ, Goriatcheva N, Garcia KC. The structure of
-interleukin-2 complexed with its alpha receptor. Science. 2005 Jun
-3;308(5727):1477-80. PubMed PMID: 15933202.",15933202,y,1,50,2 citations found,1Z92_RickertM,"(PDB OR ""Protein Data Bank"") AND ""1Z92"" -heinonline -patents ",29,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221Z92%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.018009050562636,1ZX8,http://www.rcsb.org/pdb/explore/explore.do?structureId=1ZX8,"Jin KK, Krishna SS, Schwarzenbacher R, McMullan D, Abdubek P, Agarwalla S,
-Ambing E, Axelrod H, Canaves JM, Chiu HJ, Deacon AM, DiDonato M, Elsliger MA,
-Feuerhelm J, Godzik A, Grittini C, Grzechnik SK, Hale J, Hampton E, Haugen J,
-Hornsby M, Jaroszewski L, Klock HE, Knuth MW, Koesema E, Kreusch A, Kuhn P,
-Lesley SA, Miller MD, Moy K, Nigoghossian E, Okach L, Oommachen S, Paulsen J,
-Quijano K, Reyes R, Rife C, Stevens RC, Spraggon G, van den Bedem H, Velasquez J,
-White A, Wolf G, Han GW, Xu Q, Hodgson KO, Wooley J, Wilson IA. Crystal structure
-of TM1367 from Thermotoga maritima at 1.90 A resolution reveals an atypical
-member of the cyclophilin (peptidylprolyl isomerase) fold. Proteins. 2006 Jun
-1;63(4):1112-8. PubMed PMID: 16544291.
-",16544291,y,1,4,,1Z92_JinKK,"(PDB OR ""Protein Data Bank"") AND ""1ZX8"" -heinonline -patents ",5,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221ZX8%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.017820932618006,1Z92,http://www.rcsb.org/pdb/explore/explore.do?structureId=1Z92,"Rickert M, Wang X, Boulanger MJ, Goriatcheva N, Garcia KC. The structure ofinterleukin-2 complexed with its alpha receptor. Science. 2005 Jun3;308(5727):1477-80. PubMed PMID: 15933202.",15933202,y,1,50,2 citations found,1Z92_RickertM,"(PDB OR ""Protein Data Bank"") AND ""1Z92"" -heinonline -patents ",29,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221Z92%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.018009050562636,1ZX8,http://www.rcsb.org/pdb/explore/explore.do?structureId=1ZX8,"Jin KK, Krishna SS, Schwarzenbacher R, McMullan D, Abdubek P, Agarwalla S,Ambing E, Axelrod H, Canaves JM, Chiu HJ, Deacon AM, DiDonato M, Elsliger MA,Feuerhelm J, Godzik A, Grittini C, Grzechnik SK, Hale J, Hampton E, Haugen J,Hornsby M, Jaroszewski L, Klock HE, Knuth MW, Koesema E, Kreusch A, Kuhn P,Lesley SA, Miller MD, Moy K, Nigoghossian E, Okach L, Oommachen S, Paulsen J,Quijano K, Reyes R, Rife C, Stevens RC, Spraggon G, van den Bedem H, Velasquez J,White A, Wolf G, Han GW, Xu Q, Hodgson KO, Wooley J, Wilson IA. Crystal structureof TM1367 from Thermotoga maritima at 1.90 A resolution reveals an atypicalmember of the cyclophilin (peptidylprolyl isomerase) fold. Proteins. 2006 Jun1;63(4):1112-8. PubMed PMID: 16544291.",16544291,y,1,4,,1Z92_JinKK,"(PDB OR ""Protein Data Bank"") AND ""1ZX8"" -heinonline -patents ",5,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221ZX8%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
 0.018043631833132,1WZL,http://www.rcsb.org/pdb/explore/explore.do?structureId=1WZL,to be published
-0.01808245931426,1Z75,http://www.rcsb.org/pdb/explore/explore.do?structureId=1Z75,"Gatzeva-Topalova PZ, May AP, Sousa MC. Structure and mechanism of ArnA:
-conformational change implies ordered dehydrogenase mechanism in key enzyme for
-polymyxin resistance. Structure. 2005 Jun;13(6):929-42. PubMed PMID: 15939024.
-",15939024,y,1,13,,,"(PDB OR ""Protein Data Bank"") AND ""1Z75"" -heinonline -patents ",0
+0.01808245931426,1Z75,http://www.rcsb.org/pdb/explore/explore.do?structureId=1Z75,"Gatzeva-Topalova PZ, May AP, Sousa MC. Structure and mechanism of ArnA:conformational change implies ordered dehydrogenase mechanism in key enzyme forpolymyxin resistance. Structure. 2005 Jun;13(6):929-42. PubMed PMID: 15939024.",15939024,y,1,13,,,"(PDB OR ""Protein Data Bank"") AND ""1Z75"" -heinonline -patents ",0
 0.01824692300684,1X6B,http://www.rcsb.org/pdb/explore/explore.do?structureId=1X6B,to be published
-0.018311654483176,2BZ8,http://www.rcsb.org/pdb/explore/explore.do?structureId=2BZ8,"Jozic D, Cárdenes N, Deribe YL, Moncalián G, Hoeller D, Groemping Y, Dikic I, 
-Rittinger K, Bravo J. Cbl promotes clustering of endocytic adaptor proteins. Nat 
-Struct Mol Biol. 2005 Nov;12(11):972-9. PubMed PMID: 16228008.
-",16228008,y,1,21,,,"(PDB OR ""Protein Data Bank"") AND ""2BZ8"" -heinonline -patents ",9,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222BZ8%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.018311654483176,2BZ8,http://www.rcsb.org/pdb/explore/explore.do?structureId=2BZ8,"Jozic D, Cárdenes N, Deribe YL, Moncalián G, Hoeller D, Groemping Y, Dikic I,Rittinger K, Bravo J. Cbl promotes clustering of endocytic adaptor proteins. NatStruct Mol Biol. 2005 Nov;12(11):972-9. PubMed PMID: 16228008.",16228008,y,1,21,,,"(PDB OR ""Protein Data Bank"") AND ""2BZ8"" -heinonline -patents ",9,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222BZ8%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
 0.018490090843731,2A77,http://www.rcsb.org/pdb/explore/explore.do?structureId=2A77,to be published
-0.018625495419786,1Z16,http://www.rcsb.org/pdb/explore/explore.do?structureId=1Z16,"Trakhanov S, Vyas NK, Luecke H, Kristensen DM, Ma J, Quiocho FA. Ligand-free
-and -bound structures of the binding protein (LivJ) of the Escherichia coli ABC
-leucine/isoleucine/valine transport system: trajectory and dynamics of the
-interdomain rotation and ligand specificity. Biochemistry. 2005 May
-3;44(17):6597-608. PubMed PMID: 15850393.
-",15850393,y,1,26,,,"(PDB OR ""Protein Data Bank"") AND ""1Z16"" -heinonline -patents ",9,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221Z16%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.018960407131815,1W9X,http://www.rcsb.org/pdb/explore/explore.do?structureId=1W9X,"Davies GJ, Brzozowski AM, Dauter Z, Rasmussen MD, Borchert TV, Wilson KS.
-Structure of a Bacillus halmapalus family 13 alpha-amylase, BHA, in complex with 
-an acarbose-derived nonasaccharide at 2.1 A resolution. Acta Crystallogr D Biol
-Crystallogr. 2005 Feb;61(Pt 2):190-3. Epub 2005 Jan 19. PubMed PMID: 15681870.
-",15681870,y,1,12,,,"(PDB OR ""Protein Data Bank"") AND ""1W9X"" -heinonline -patents ",8,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221W9X%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.019291396216714,1ZWM,http://www.rcsb.org/pdb/explore/explore.do?structureId=1ZWM,"Wu Z, Delaglio F, Wyatt K, Wistow G, Bax A. Solution structure of
-(gamma)S-crystallin by molecular fragment replacement NMR. Protein Sci. 2005
-Dec;14(12):3101-14. Epub 2005 Oct 31. PubMed PMID: 16260758; PubMed Central
-PMCID: PMC2253246.
-",16260758,y,1,10,,,"(PDB OR ""Protein Data Bank"") AND ""1ZWM"" -heinonline -patents ",10,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221ZWM%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.019811282849009,2BE4,http://www.rcsb.org/pdb/explore/explore.do?structureId=2BE4,"Bitto E, Bingman CA, Bittova L, Frederick RO, Fox BG, Phillips GN Jr. X-ray
-structure of Danio rerio secretagogin: A hexa-EF-hand calcium sensor. Proteins.
-2009 Aug 1;76(2):477-83. PubMed PMID: 19241471; PubMed Central PMCID: PMC2742686.
-",19241471,y,1,1,,,"(PDB OR ""Protein Data Bank"") AND ""2BE4"" -heinonline -patents ",4,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222BE4%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.020105534978775,2BV3,http://www.rcsb.org/pdb/explore/explore.do?structureId=2BV3,"Hansson S, Singh R, Gudkov AT, Liljas A, Logan DT. Crystal structure of a
-mutant elongation factor G trapped with a GTP analogue. FEBS Lett. 2005 Aug
-15;579(20):4492-7. PubMed PMID: 16083884.
-",16083884,y,1,26,,,"(PDB OR ""Protein Data Bank"") AND ""2BV3"" -heinonline -patents ",6,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222BV3%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.020118390381256,1SK0,http://www.rcsb.org/pdb/explore/explore.do?structureId=1SK0," DeMel S, Shi J, Martin P, Rosen BP, Edwards BF. Arginine 60 in the ArsC
-arsenate reductase of E. coli plasmid R773 determines the chemical nature of the 
-bound As(III) product. Protein Sci. 2004 Sep;13(9):2330-40. Epub 2004 Aug 4.
-PubMed PMID: 15295115; PubMed Central PMCID: PMC2280019.
-",15295115,y,1,10,,,"(PDB OR ""Protein Data Bank"") AND ""1SK0"" -heinonline -patents ",1,y
-0.020220284966573,2BW2,http://www.rcsb.org/pdb/explore/explore.do?structureId=2BW2,"Patterson HM, Brannigan JA, Cutting SM, Wilson KS, Wilkinson AJ, Ab E, Diercks
-T, de Jong RN, Truffault V, Folkers GE, Kaptein R. The structure of bypass of
-forespore C, an intercompartmental signaling factor during sporulation in
-Bacillus. J Biol Chem. 2005 Oct 28;280(43):36214-20. Epub 2005 Jul 27. PubMed
-PMID: 16049010.
-",16049010,y,1,1,,,"(PDB OR ""Protein Data Bank"") AND ""2BW2"" -heinonline -patents ",1,y
-0.020312641996043,1YN9,http://www.rcsb.org/pdb/explore/explore.do?structureId=1YN9,"Changela A, Martins A, Shuman S, Mondragón A. Crystal structure of baculovirus
-RNA triphosphatase complexed with phosphate. J Biol Chem. 2005 May
-6;280(18):17848-56. Epub 2005 Feb 15. PubMed PMID: 15713658.
-",15713658,y,2,7,,,"(PDB OR ""Protein Data Bank"") AND ""1YN9"" -heinonline -patents ",2,y
-0.020650455623469,1YJJ,http://www.rcsb.org/pdb/explore/explore.do?structureId=1YJJ,"Jain NU, Tjioe E, Savidor A, Boulie J. Redox-dependent structural differences 
-in putidaredoxin derived from homologous structure refinement via residual
-dipolar couplings. Biochemistry. 2005 Jun 28;44(25):9067-78. PubMed PMID:
-15966730.
-",15966730,y,1,9,,,"(PDB OR ""Protein Data Bank"") AND ""1YJJ"" -heinonline -patents ",1,y
+0.018625495419786,1Z16,http://www.rcsb.org/pdb/explore/explore.do?structureId=1Z16,"Trakhanov S, Vyas NK, Luecke H, Kristensen DM, Ma J, Quiocho FA. Ligand-freeand -bound structures of the binding protein (LivJ) of the Escherichia coli ABCleucine/isoleucine/valine transport system: trajectory and dynamics of theinterdomain rotation and ligand specificity. Biochemistry. 2005 May3;44(17):6597-608. PubMed PMID: 15850393.",15850393,y,1,26,,,"(PDB OR ""Protein Data Bank"") AND ""1Z16"" -heinonline -patents ",9,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221Z16%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.018960407131815,1W9X,http://www.rcsb.org/pdb/explore/explore.do?structureId=1W9X,"Davies GJ, Brzozowski AM, Dauter Z, Rasmussen MD, Borchert TV, Wilson KS.Structure of a Bacillus halmapalus family 13 alpha-amylase, BHA, in complex withan acarbose-derived nonasaccharide at 2.1 A resolution. Acta Crystallogr D BiolCrystallogr. 2005 Feb;61(Pt 2):190-3. Epub 2005 Jan 19. PubMed PMID: 15681870.",15681870,y,1,12,,,"(PDB OR ""Protein Data Bank"") AND ""1W9X"" -heinonline -patents ",8,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221W9X%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.019291396216714,1ZWM,http://www.rcsb.org/pdb/explore/explore.do?structureId=1ZWM,"Wu Z, Delaglio F, Wyatt K, Wistow G, Bax A. Solution structure of(gamma)S-crystallin by molecular fragment replacement NMR. Protein Sci. 2005Dec;14(12):3101-14. Epub 2005 Oct 31. PubMed PMID: 16260758; PubMed CentralPMCID: PMC2253246.",16260758,y,1,10,,,"(PDB OR ""Protein Data Bank"") AND ""1ZWM"" -heinonline -patents ",10,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221ZWM%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.019811282849009,2BE4,http://www.rcsb.org/pdb/explore/explore.do?structureId=2BE4,"Bitto E, Bingman CA, Bittova L, Frederick RO, Fox BG, Phillips GN Jr. X-raystructure of Danio rerio secretagogin: A hexa-EF-hand calcium sensor. Proteins.2009 Aug 1;76(2):477-83. PubMed PMID: 19241471; PubMed Central PMCID: PMC2742686.",19241471,y,1,1,,,"(PDB OR ""Protein Data Bank"") AND ""2BE4"" -heinonline -patents ",4,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222BE4%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.020105534978775,2BV3,http://www.rcsb.org/pdb/explore/explore.do?structureId=2BV3,"Hansson S, Singh R, Gudkov AT, Liljas A, Logan DT. Crystal structure of amutant elongation factor G trapped with a GTP analogue. FEBS Lett. 2005 Aug15;579(20):4492-7. PubMed PMID: 16083884.",16083884,y,1,26,,,"(PDB OR ""Protein Data Bank"") AND ""2BV3"" -heinonline -patents ",6,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222BV3%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.020118390381256,1SK0,http://www.rcsb.org/pdb/explore/explore.do?structureId=1SK0," DeMel S, Shi J, Martin P, Rosen BP, Edwards BF. Arginine 60 in the ArsCarsenate reductase of E. coli plasmid R773 determines the chemical nature of thebound As(III) product. Protein Sci. 2004 Sep;13(9):2330-40. Epub 2004 Aug 4.PubMed PMID: 15295115; PubMed Central PMCID: PMC2280019.",15295115,y,1,10,,,"(PDB OR ""Protein Data Bank"") AND ""1SK0"" -heinonline -patents ",1,y
+0.020220284966573,2BW2,http://www.rcsb.org/pdb/explore/explore.do?structureId=2BW2,"Patterson HM, Brannigan JA, Cutting SM, Wilson KS, Wilkinson AJ, Ab E, DiercksT, de Jong RN, Truffault V, Folkers GE, Kaptein R. The structure of bypass offorespore C, an intercompartmental signaling factor during sporulation inBacillus. J Biol Chem. 2005 Oct 28;280(43):36214-20. Epub 2005 Jul 27. PubMedPMID: 16049010.",16049010,y,1,1,,,"(PDB OR ""Protein Data Bank"") AND ""2BW2"" -heinonline -patents ",1,y
+0.020312641996043,1YN9,http://www.rcsb.org/pdb/explore/explore.do?structureId=1YN9,"Changela A, Martins A, Shuman S, Mondragón A. Crystal structure of baculovirusRNA triphosphatase complexed with phosphate. J Biol Chem. 2005 May6;280(18):17848-56. Epub 2005 Feb 15. PubMed PMID: 15713658.",15713658,y,2,7,,,"(PDB OR ""Protein Data Bank"") AND ""1YN9"" -heinonline -patents ",2,y
+0.020650455623469,1YJJ,http://www.rcsb.org/pdb/explore/explore.do?structureId=1YJJ,"Jain NU, Tjioe E, Savidor A, Boulie J. Redox-dependent structural differencesin putidaredoxin derived from homologous structure refinement via residualdipolar couplings. Biochemistry. 2005 Jun 28;44(25):9067-78. PubMed PMID:15966730.",15966730,y,1,9,,,"(PDB OR ""Protein Data Bank"") AND ""1YJJ"" -heinonline -patents ",1,y
 0.020689793274884,1WRY,http://www.rcsb.org/pdb/explore/explore.do?structureId=1WRY,to be published
 0.020779812859698,2B0O,http://www.rcsb.org/pdb/explore/explore.do?structureId=2B0O,to be published
-0.021084469275406,1W8U,http://www.rcsb.org/pdb/explore/explore.do?structureId=1W8U,"Flint J, Bolam DN, Nurizzo D, Taylor EJ, Williamson MP, Walters C, Davies GJ, 
-Gilbert HJ. Probing the mechanism of ligand recognition in family 29
-carbohydrate-binding modules. J Biol Chem. 2005 Jun 24;280(25):23718-26. Epub
-2005 Mar 22. PubMed PMID: 15784618.
-
-",15784618,y,1,14,,,"(PDB OR ""Protein Data Bank"") AND ""1W8U"" -heinonline -patents ",1,y
-0.021489351080901,2C3Q,http://www.rcsb.org/pdb/explore/explore.do?structureId=2C3Q,"Tars K, Larsson AK, Shokeer A, Olin B, Mannervik B, Kleywegt GJ. Structural
-basis of the suppressed catalytic activity of wild-type human glutathione
-transferase T1-1 compared to its W234R mutant. J Mol Biol. 2006 Jan
-6;355(1):96-105. Epub 2005 Nov 8. PubMed PMID: 16298388.
-
-",16298388,y,1,13,,,"(PDB OR ""Protein Data Bank"") AND ""2C3Q"" -heinonline -patents ",7,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222C3Q%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.021508315577702,1YZE,http://www.rcsb.org/pdb/explore/explore.do?structureId=1YZE,"Saridakis V, Sheng Y, Sarkari F, Holowaty MN, Shire K, Nguyen T, Zhang RG,
-Liao J, Lee W, Edwards AM, Arrowsmith CH, Frappier L. Structure of the p53
-binding domain of HAUSP/USP7 bound to Epstein-Barr nuclear antigen 1 implications
-for EBV-mediated immortalization. Mol Cell. 2005 Apr 1;18(1):25-36. PubMed PMID: 
-15808506.
-
-",15808506,y,1,54,,,"(PDB OR ""Protein Data Bank"") AND ""1YZE"" -heinonline -patents ",1,y
-0.021556562394518,1ZRB,http://www.rcsb.org/pdb/explore/explore.do?structureId=1ZRB,"Stauffer KJ, Williams PD, Selnick HG, Nantermet PG, Newton CL, Homnick CF,
-Zrada MM, Lewis SD, Lucas BJ, Krueger JA, Pietrak BL, Lyle EA, Singh R,
-Miller-Stein C, White RB, Wong B, Wallace AA, Sitko GR, Cook JJ, Holahan MA,
-Stranieri-Michener M, Leonard YM, Lynch JJ Jr, McMasters DR, Yan Y.
-9-hydroxyazafluorenes and their use in thrombin inhibitors. J Med Chem. 2005 Apr 
-7;48(7):2282-93. PubMed PMID: 15801822.
-
-",15801822,y,1,9,,,"(PDB OR ""Protein Data Bank"") AND ""1ZRB"" -heinonline -patents ",5,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221ZRB%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.021084469275406,1W8U,http://www.rcsb.org/pdb/explore/explore.do?structureId=1W8U,"Flint J, Bolam DN, Nurizzo D, Taylor EJ, Williamson MP, Walters C, Davies GJ,Gilbert HJ. Probing the mechanism of ligand recognition in family 29carbohydrate-binding modules. J Biol Chem. 2005 Jun 24;280(25):23718-26. Epub2005 Mar 22. PubMed PMID: 15784618.",15784618,y,1,14,,,"(PDB OR ""Protein Data Bank"") AND ""1W8U"" -heinonline -patents ",1,y
+0.021489351080901,2C3Q,http://www.rcsb.org/pdb/explore/explore.do?structureId=2C3Q,"Tars K, Larsson AK, Shokeer A, Olin B, Mannervik B, Kleywegt GJ. Structuralbasis of the suppressed catalytic activity of wild-type human glutathionetransferase T1-1 compared to its W234R mutant. J Mol Biol. 2006 Jan6;355(1):96-105. Epub 2005 Nov 8. PubMed PMID: 16298388.",16298388,y,1,13,,,"(PDB OR ""Protein Data Bank"") AND ""2C3Q"" -heinonline -patents ",7,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222C3Q%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.021508315577702,1YZE,http://www.rcsb.org/pdb/explore/explore.do?structureId=1YZE,"Saridakis V, Sheng Y, Sarkari F, Holowaty MN, Shire K, Nguyen T, Zhang RG,Liao J, Lee W, Edwards AM, Arrowsmith CH, Frappier L. Structure of the p53binding domain of HAUSP/USP7 bound to Epstein-Barr nuclear antigen 1 implicationsfor EBV-mediated immortalization. Mol Cell. 2005 Apr 1;18(1):25-36. PubMed PMID:15808506.",15808506,y,1,54,,,"(PDB OR ""Protein Data Bank"") AND ""1YZE"" -heinonline -patents ",1,y
+0.021556562394518,1ZRB,http://www.rcsb.org/pdb/explore/explore.do?structureId=1ZRB,"Stauffer KJ, Williams PD, Selnick HG, Nantermet PG, Newton CL, Homnick CF,Zrada MM, Lewis SD, Lucas BJ, Krueger JA, Pietrak BL, Lyle EA, Singh R,Miller-Stein C, White RB, Wong B, Wallace AA, Sitko GR, Cook JJ, Holahan MA,Stranieri-Michener M, Leonard YM, Lynch JJ Jr, McMasters DR, Yan Y.9-hydroxyazafluorenes and their use in thrombin inhibitors. J Med Chem. 2005 Apr7;48(7):2282-93. PubMed PMID: 15801822.",15801822,y,1,9,,,"(PDB OR ""Protein Data Bank"") AND ""1ZRB"" -heinonline -patents ",5,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221ZRB%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
 0.021596572536492,1WLM,http://www.rcsb.org/pdb/explore/explore.do?structureId=1WLM,to be published
-0.021716722083342,1YF4,http://www.rcsb.org/pdb/explore/explore.do?structureId=1YF4,"Syed Ibrahim B, Pattabhi V. Trypsin inhibition by a peptide hormone: crystal
-structure of trypsin-vasopressin complex. J Mol Biol. 2005 May 20;348(5):1191-8. 
-Epub 2005 Apr 1. PubMed PMID: 15854654.
-
-",15854654,y,1,5,,,"(PDB OR ""Protein Data Bank"") AND ""1YF4"" -heinonline -patents ",4,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221YF4%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.021716722083342,1YF4,http://www.rcsb.org/pdb/explore/explore.do?structureId=1YF4,"Syed Ibrahim B, Pattabhi V. Trypsin inhibition by a peptide hormone: crystalstructure of trypsin-vasopressin complex. J Mol Biol. 2005 May 20;348(5):1191-8.Epub 2005 Apr 1. PubMed PMID: 15854654.",15854654,y,1,5,,,"(PDB OR ""Protein Data Bank"") AND ""1YF4"" -heinonline -patents ",4,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221YF4%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
 0.021827988916149,1X37,http://www.rcsb.org/pdb/explore/explore.do?structureId=1X37,to be published
-0.022159186851985,1Z9G,http://www.rcsb.org/pdb/explore/explore.do?structureId=1Z9G,"Roderick SL, Fournie-Zaluski MC, Roques BP, Matthews BW. Thiorphan and
-retro-thiorphan display equivalent interactions when bound to crystalline
-thermolysin. Biochemistry. 1989 Feb 21;28(4):1493-7. PubMed PMID: 2719912.",2719912,y,1,70,,,"(PDB OR ""Protein Data Bank"") AND ""1Z9G"" -heinonline -patents ",10,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221Z9G%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.02267280941336,1T4R,http://www.rcsb.org/pdb/explore/explore.do?structureId=1T4R,"Cama E, Pethe S, Boucher JL, Han S, Emig FA, Ash DE, Viola RE, Mansuy D,
-Christianson DW. Inhibitor coordination interactions in the binuclear manganese
-cluster of arginase. Biochemistry. 2004 Jul 20;43(28):8987-99. PubMed PMID:
-15248756.",15248756,y,1,15,,,"(PDB OR ""Protein Data Bank"") AND ""1T4R"" -heinonline -patents ",1,y
-0.022805026789971,2F8M,http://www.rcsb.org/pdb/explore/explore.do?structureId=2F8M,"Holmes MA, Buckner FS, Van Voorhis WC, Verlinde CL, Mehlin C, Boni E, DeTitta 
-G, Luft J, Lauricella A, Anderson L, Kalyuzhniy O, Zucker F, Schoenfeld LW,
-Earnest TN, Hol WG, Merritt EA. Structure of ribose 5-phosphate isomerase from
-Plasmodium falciparum. Acta Crystallogr Sect F Struct Biol Cryst Commun. 2006 May
-1;62(Pt 5):427-31. Epub 2006 Apr 12. PubMed PMID: 16682767; PubMed Central PMCID:
-PMC2219984.",16682767,y,1,4,,,"(PDB OR ""Protein Data Bank"") AND ""2F8M"" -heinonline -patents ",2,y
-0.022827555927263,1U9Q,http://www.rcsb.org/pdb/explore/explore.do?structureId=1U9Q,"Choe Y, Brinen LS, Price MS, Engel JC, Lange M, Grisostomi C, Weston SG,
-Pallai PV, Cheng H, Hardy LW, Hartsough DS, McMakin M, Tilton RF, Baldino CM,
-Craik CS. Development of alpha-keto-based inhibitors of cruzain, a cysteine
-protease implicated in Chagas disease. Bioorg Med Chem. 2005 Mar
-15;13(6):2141-56. PubMed PMID: 15727867.",15727867,y,1,31,,,"(PDB OR ""Protein Data Bank"") AND ""1U9Q"" -heinonline -patents ",10,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221U9Q%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.022960989906965,1YD6,http://www.rcsb.org/pdb/explore/explore.do?structureId=1YD6," Truglio JJ, Rhau B, Croteau DL, Wang L, Skorvaga M, Karakas E, DellaVecchia
-MJ, Wang H, Van Houten B, Kisker C. Structural insights into the first incision
-reaction during nucleotide excision repair. EMBO J. 2005 Mar 9;24(5):885-94. Epub
-2005 Feb 3. PubMed PMID: 15692561; PubMed Central PMCID: PMC554121.",15692561,y,1,27,,,"(PDB OR ""Protein Data Bank"") AND ""1YD6"" -heinonline -patents ",5,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221YD6%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.023032773485457,2A8M,http://www.rcsb.org/pdb/explore/explore.do?structureId=2A8M,"Khan JA, Dunn BM, Tong L. Crystal structure of human Taspase1, a crucial
-protease regulating the function of MLL. Structure. 2005 Oct;13(10):1443-52.
-PubMed PMID: 16216576",16216576,y,1,12,,,"(PDB OR ""Protein Data Bank"") AND ""2A8M"" -heinonline -patents ",0
-0.023054249939101,1XZ8,http://www.rcsb.org/pdb/explore/explore.do?structureId=1XZ8,"Chander P, Halbig KM, Miller JK, Fields CJ, Bonner HK, Grabner GK, Switzer RL,
-Smith JL. Structure of the nucleotide complex of PyrR, the pyr attenuation
-protein from Bacillus caldolyticus, suggests dual regulation by pyrimidine and
-purine nucleotides. J Bacteriol. 2005 Mar;187(5):1773-82. PubMed PMID: 15716449; 
-PubMed Central PMCID: PMC1064020",15716449,y,1,8,,,"(PDB OR ""Protein Data Bank"") AND ""1XZ8"" -heinonline -patents ",0
-0.023956474307237,2BGY,http://www.rcsb.org/pdb/explore/explore.do?structureId=2BGY,"Shaikh TR, Thomas DR, Chen JZ, Samatey FA, Matsunami H, Imada K, Namba K,
-Derosier DJ. A partial atomic structure for the flagellar hook of Salmonella
-typhimurium. Proc Natl Acad Sci U S A. 2005 Jan 25;102(4):1023-8. Epub 2005 Jan
-18. PubMed PMID: 15657146; PubMed Central PMCID: PMC545859",15657146,y,1,13,,,"(PDB OR ""Protein Data Bank"") AND ""2BGY"" -heinonline -patents ",1,y
-0.023997965466472,1Z4R,http://www.rcsb.org/pdb/explore/explore.do?structureId=1Z4R,"Schuetz A, Bernstein G, Dong A, Antoshenko T, Wu H, Loppnau P, Bochkarev A,
-Plotnikov AN. Crystal structure of a binary complex between human GCN5 histone
-acetyltransferase domain and acetyl coenzyme A. Proteins. 2007 Jul 1;68(1):403-7.
-PubMed PMID: 17410582",17410582,y,1,2,,,"(PDB OR ""Protein Data Bank"") AND ""1Z4R"" -heinonline -patents ",6,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221Z4R%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.024031134281478,1Y32,http://www.rcsb.org/pdb/explore/explore.do?structureId=1Y32,"Benaki D, Zikos C, Evangelou A, Livaniou E, Vlassi M, Mikros E, Pelecanou M.
-Solution structure of humanin, a peptide against Alzheimer's disease-related
-neurotoxicity. Biochem Biophys Res Commun. 2005 Apr 1;329(1):152-60. PubMed PMID:
-15721287",15721287,y,2,22,,,"(PDB OR ""Protein Data Bank"") AND ""1Y32"" -heinonline -patents ",2,y
+0.022159186851985,1Z9G,http://www.rcsb.org/pdb/explore/explore.do?structureId=1Z9G,"Roderick SL, Fournie-Zaluski MC, Roques BP, Matthews BW. Thiorphan andretro-thiorphan display equivalent interactions when bound to crystallinethermolysin. Biochemistry. 1989 Feb 21;28(4):1493-7. PubMed PMID: 2719912.",2719912,y,1,70,,,"(PDB OR ""Protein Data Bank"") AND ""1Z9G"" -heinonline -patents ",10,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221Z9G%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.02267280941336,1T4R,http://www.rcsb.org/pdb/explore/explore.do?structureId=1T4R,"Cama E, Pethe S, Boucher JL, Han S, Emig FA, Ash DE, Viola RE, Mansuy D,Christianson DW. Inhibitor coordination interactions in the binuclear manganesecluster of arginase. Biochemistry. 2004 Jul 20;43(28):8987-99. PubMed PMID:15248756.",15248756,y,1,15,,,"(PDB OR ""Protein Data Bank"") AND ""1T4R"" -heinonline -patents ",1,y
+0.022805026789971,2F8M,http://www.rcsb.org/pdb/explore/explore.do?structureId=2F8M,"Holmes MA, Buckner FS, Van Voorhis WC, Verlinde CL, Mehlin C, Boni E, DeTittaG, Luft J, Lauricella A, Anderson L, Kalyuzhniy O, Zucker F, Schoenfeld LW,Earnest TN, Hol WG, Merritt EA. Structure of ribose 5-phosphate isomerase fromPlasmodium falciparum. Acta Crystallogr Sect F Struct Biol Cryst Commun. 2006 May1;62(Pt 5):427-31. Epub 2006 Apr 12. PubMed PMID: 16682767; PubMed Central PMCID:PMC2219984.",16682767,y,1,4,,,"(PDB OR ""Protein Data Bank"") AND ""2F8M"" -heinonline -patents ",2,y
+0.022827555927263,1U9Q,http://www.rcsb.org/pdb/explore/explore.do?structureId=1U9Q,"Choe Y, Brinen LS, Price MS, Engel JC, Lange M, Grisostomi C, Weston SG,Pallai PV, Cheng H, Hardy LW, Hartsough DS, McMakin M, Tilton RF, Baldino CM,Craik CS. Development of alpha-keto-based inhibitors of cruzain, a cysteineprotease implicated in Chagas disease. Bioorg Med Chem. 2005 Mar15;13(6):2141-56. PubMed PMID: 15727867.",15727867,y,1,31,,,"(PDB OR ""Protein Data Bank"") AND ""1U9Q"" -heinonline -patents ",10,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221U9Q%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.022960989906965,1YD6,http://www.rcsb.org/pdb/explore/explore.do?structureId=1YD6," Truglio JJ, Rhau B, Croteau DL, Wang L, Skorvaga M, Karakas E, DellaVecchiaMJ, Wang H, Van Houten B, Kisker C. Structural insights into the first incisionreaction during nucleotide excision repair. EMBO J. 2005 Mar 9;24(5):885-94. Epub2005 Feb 3. PubMed PMID: 15692561; PubMed Central PMCID: PMC554121.",15692561,y,1,27,,,"(PDB OR ""Protein Data Bank"") AND ""1YD6"" -heinonline -patents ",5,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221YD6%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.023032773485457,2A8M,http://www.rcsb.org/pdb/explore/explore.do?structureId=2A8M,"Khan JA, Dunn BM, Tong L. Crystal structure of human Taspase1, a crucialprotease regulating the function of MLL. Structure. 2005 Oct;13(10):1443-52.PubMed PMID: 16216576",16216576,y,1,12,,,"(PDB OR ""Protein Data Bank"") AND ""2A8M"" -heinonline -patents ",0
+0.023054249939101,1XZ8,http://www.rcsb.org/pdb/explore/explore.do?structureId=1XZ8,"Chander P, Halbig KM, Miller JK, Fields CJ, Bonner HK, Grabner GK, Switzer RL,Smith JL. Structure of the nucleotide complex of PyrR, the pyr attenuationprotein from Bacillus caldolyticus, suggests dual regulation by pyrimidine andpurine nucleotides. J Bacteriol. 2005 Mar;187(5):1773-82. PubMed PMID: 15716449;PubMed Central PMCID: PMC1064020",15716449,y,1,8,,,"(PDB OR ""Protein Data Bank"") AND ""1XZ8"" -heinonline -patents ",0
+0.023956474307237,2BGY,http://www.rcsb.org/pdb/explore/explore.do?structureId=2BGY,"Shaikh TR, Thomas DR, Chen JZ, Samatey FA, Matsunami H, Imada K, Namba K,Derosier DJ. A partial atomic structure for the flagellar hook of Salmonellatyphimurium. Proc Natl Acad Sci U S A. 2005 Jan 25;102(4):1023-8. Epub 2005 Jan18. PubMed PMID: 15657146; PubMed Central PMCID: PMC545859",15657146,y,1,13,,,"(PDB OR ""Protein Data Bank"") AND ""2BGY"" -heinonline -patents ",1,y
+0.023997965466472,1Z4R,http://www.rcsb.org/pdb/explore/explore.do?structureId=1Z4R,"Schuetz A, Bernstein G, Dong A, Antoshenko T, Wu H, Loppnau P, Bochkarev A,Plotnikov AN. Crystal structure of a binary complex between human GCN5 histoneacetyltransferase domain and acetyl coenzyme A. Proteins. 2007 Jul 1;68(1):403-7.PubMed PMID: 17410582",17410582,y,1,2,,,"(PDB OR ""Protein Data Bank"") AND ""1Z4R"" -heinonline -patents ",6,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221Z4R%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.024031134281478,1Y32,http://www.rcsb.org/pdb/explore/explore.do?structureId=1Y32,"Benaki D, Zikos C, Evangelou A, Livaniou E, Vlassi M, Mikros E, Pelecanou M.Solution structure of humanin, a peptide against Alzheimer's disease-relatedneurotoxicity. Biochem Biophys Res Commun. 2005 Apr 1;329(1):152-60. PubMed PMID:15721287",15721287,y,2,22,,,"(PDB OR ""Protein Data Bank"") AND ""1Y32"" -heinonline -patents ",2,y
 0.024058417692042,1WEL,http://www.rcsb.org/pdb/explore/explore.do?structureId=1WEL,to be published
 0.02407892760494,2CR8,http://www.rcsb.org/pdb/explore/explore.do?structureId=2CR8,to be published
-0.024102289511953,1TTO,http://www.rcsb.org/pdb/explore/explore.do?structureId=1TTO,"Czaja R, Perbandt M, Betzel C, Hahn U. Purine activity of RNase T1RV is
-further improved by substitution of Trp59 by tyrosine. Biochem Biophys Res
-Commun. 2005 Oct 28;336(3):882-9. PubMed PMID: 16157302",16157302,n
-0.02478815444686,1SB2,http://www.rcsb.org/pdb/explore/explore.do?structureId=1SB2,"Paaventhan P, Kong C, Joseph JS, Chung MC, Kolatkar PR. Structure of
-rhodocetin reveals noncovalently bound heterodimer interface. Protein Sci. 2005
-Jan;14(1):169-75. Epub 2004 Dec 2. PubMed PMID: 15576563; PubMed Central PMCID:
-PMC2253329.",15576563,y,2,12,,,"(PDB OR ""Protein Data Bank"") AND ""1SB2"" -heinonline -patents ",7,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221SB2%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.024919557544814,2C0X,http://www.rcsb.org/pdb/explore/explore.do?structureId=2C0X,"Marvin DA, Welsh LC, Symmons MF, Scott WR, Straus SK. Molecular structure of
-fd (f1, M13) filamentous bacteriophage refined with respect to X-ray fibre
-diffraction and solid-state NMR data supports specific models of phage assembly
-at the bacterial membrane. J Mol Biol. 2006 Jan 13;355(2):294-309. Epub 2005 Nov 
-8. PubMed PMID: 16300790",16300790,y,1,30,,,"(PDB OR ""Protein Data Bank"") AND ""2C0X"" -heinonline -patents ",9,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222C0X%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.025185832866883,1WY3,http://www.rcsb.org/pdb/explore/explore.do?structureId=1WY3,"Chiu TK, Kubelka J, Herbst-Irmer R, Eaton WA, Hofrichter J, Davies DR.
-High-resolution x-ray crystal structures of the villin headpiece subdomain, an
-ultrafast folding protein. Proc Natl Acad Sci U S A. 2005 May 24;102(21):7517-22.
-Epub 2005 May 13. PubMed PMID: 15894611; PubMed Central PMCID: PMC1140446",15894611,y,1,55,,,"(PDB OR ""Protein Data Bank"") AND ""1WY3"" -heinonline -patents ",14,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221WY3%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.024102289511953,1TTO,http://www.rcsb.org/pdb/explore/explore.do?structureId=1TTO,"Czaja R, Perbandt M, Betzel C, Hahn U. Purine activity of RNase T1RV isfurther improved by substitution of Trp59 by tyrosine. Biochem Biophys ResCommun. 2005 Oct 28;336(3):882-9. PubMed PMID: 16157302",16157302,n
+0.02478815444686,1SB2,http://www.rcsb.org/pdb/explore/explore.do?structureId=1SB2,"Paaventhan P, Kong C, Joseph JS, Chung MC, Kolatkar PR. Structure ofrhodocetin reveals noncovalently bound heterodimer interface. Protein Sci. 2005Jan;14(1):169-75. Epub 2004 Dec 2. PubMed PMID: 15576563; PubMed Central PMCID:PMC2253329.",15576563,y,2,12,,,"(PDB OR ""Protein Data Bank"") AND ""1SB2"" -heinonline -patents ",7,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221SB2%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.024919557544814,2C0X,http://www.rcsb.org/pdb/explore/explore.do?structureId=2C0X,"Marvin DA, Welsh LC, Symmons MF, Scott WR, Straus SK. Molecular structure offd (f1, M13) filamentous bacteriophage refined with respect to X-ray fibrediffraction and solid-state NMR data supports specific models of phage assemblyat the bacterial membrane. J Mol Biol. 2006 Jan 13;355(2):294-309. Epub 2005 Nov8. PubMed PMID: 16300790",16300790,y,1,30,,,"(PDB OR ""Protein Data Bank"") AND ""2C0X"" -heinonline -patents ",9,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222C0X%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.025185832866883,1WY3,http://www.rcsb.org/pdb/explore/explore.do?structureId=1WY3,"Chiu TK, Kubelka J, Herbst-Irmer R, Eaton WA, Hofrichter J, Davies DR.High-resolution x-ray crystal structures of the villin headpiece subdomain, anultrafast folding protein. Proc Natl Acad Sci U S A. 2005 May 24;102(21):7517-22.Epub 2005 May 13. PubMed PMID: 15894611; PubMed Central PMCID: PMC1140446",15894611,y,1,55,,,"(PDB OR ""Protein Data Bank"") AND ""1WY3"" -heinonline -patents ",14,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221WY3%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
 0.025217843182778,1YLA,http://www.rcsb.org/pdb/explore/explore.do?structureId=1YLA,to be published
-0.025432932713684,1XYR,http://www.rcsb.org/pdb/explore/explore.do?structureId=1XYR,"Bubeck D, Filman DJ, Cheng N, Steven AC, Hogle JM, Belnap DM. The structure of
-the poliovirus 135S cell entry intermediate at 10-angstrom resolution reveals the
-location of an externalized polypeptide that binds to membranes. J Virol. 2005
-Jun;79(12):7745-55. PubMed PMID: 15919927; PubMed Central PMCID: PMC1143686",15919927,y,2,41,,,"(PDB OR ""Protein Data Bank"") AND ""1XYR"" -heinonline -patents ",5,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221XYR%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.025573612325223,1ZKM,http://www.rcsb.org/pdb/explore/explore.do?structureId=1ZKM,"Duda DM, Walden H, Sfondouris J, Schulman BA. Structural analysis of
-Escherichia coli ThiF. J Mol Biol. 2005 Jun 17;349(4):774-86. PubMed PMID:
-15896804",15896804,y,1,19,,,"(PDB OR ""Protein Data Bank"") AND ""1ZKM"" -heinonline -patents ",0
-0.02572584659058,1YOB,http://www.rcsb.org/pdb/explore/explore.do?structureId=1YOB,"Alagaratnam S, van Pouderoyen G, Pijning T, Dijkstra BW, Cavazzini D, Rossi
-GL, Van Dongen WM, van Mierlo CP, van Berkel WJ, Canters GW. A crystallographic
-study of Cys69Ala flavodoxin II from Azotobacter vinelandii: structural
-determinants of redox potential. Protein Sci. 2005 Sep;14(9):2284-95. PubMed
-PMID: 16131657; PubMed Central PMCID: PMC2253476",16131657,y,2,19,,,"(PDB OR ""Protein Data Bank"") AND ""1YOB"" -heinonline -patents ",10,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221YOB%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.025823432232453,1TJR,http://www.rcsb.org/pdb/explore/explore.do?structureId=1TJR,"Kulik V, Hartmann E, Weyand M, Frey M, Gierl A, Niks D, Dunn MF, Schlichting
-I. On the structural basis of the catalytic mechanism and the regulation of the
-alpha subunit of tryptophan synthase from Salmonella typhimurium and BX1 from
-maize, two evolutionarily related enzymes. J Mol Biol. 2005 Sep 23;352(3):608-20.
-PubMed PMID: 16120446",16120446,y,1,15,,,"(PDB OR ""Protein Data Bank"") AND ""1TJR"" -heinonline -patents ",0
-0.025927144387059,2BAK,http://www.rcsb.org/pdb/explore/explore.do?structureId=2BAK,"Sullivan JE, Holdgate GA, Campbell D, Timms D, Gerhardt S, Breed J, Breeze AL,
-Bermingham A, Pauptit RA, Norman RA, Embrey KJ, Read J, VanScyoc WS, Ward WH.
-Prevention of MKK6-dependent activation by binding to p38alpha MAP kinase.
-Biochemistry. 2005 Dec 20;44(50):16475-90. PubMed PMID: 16342939",16342939,y,1,39,,,"(PDB OR ""Protein Data Bank"") AND ""2BAK"" -heinonline -patents ",17,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222BAK%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.026172110749065,1Y1U,http://www.rcsb.org/pdb/explore/explore.do?structureId=1Y1U,"Neculai D, Neculai AM, Verrier S, Straub K, Klumpp K, Pfitzner E, Becker S.
-Structure of the unphosphorylated STAT5a dimer. J Biol Chem. 2005 Dec
-9;280(49):40782-7. Epub 2005 Sep 28. PubMed PMID: 16192273",16192273,y,1,28,,,"(PDB OR ""Protein Data Bank"") AND ""1Y1U"" -heinonline -patents ",6,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221Y1U%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
-0.026313115997537,1YXN,http://www.rcsb.org/pdb/explore/explore.do?structureId=1YXN,"Morais MC, Choi KH, Koti JS, Chipman PR, Anderson DL, Rossmann MG.
-Conservation of the capsid structure in tailed dsDNA bacteriophages: the
-pseudoatomic structure of phi29. Mol Cell. 2005 Apr 15;18(2):149-59. PubMed PMID:
-15837419",15837419,y,1,67,,,"(PDB OR ""Protein Data Bank"") AND ""1YXN"" -heinonline -patents ",1,y
-0.02644182748619,1XY9,http://www.rcsb.org/pdb/explore/explore.do?structureId=1XY9,"Grace CR, Durrer L, Koerber SC, Erchegyi J, Reubi JC, Rivier JE, Riek R.
-Somatostatin receptor 1 selective analogues: 4. Three-dimensional consensus
-structure by NMR. J Med Chem. 2005 Jan 27;48(2):523-33. PubMed PMID: 15658866",15658866,y,1,18,,,"(PDB OR ""Protein Data Bank"") AND ""1XY9"" -heinonline -patents ",0
-0.026655030954145,1ZL6,http://www.rcsb.org/pdb/explore/explore.do?structureId=1ZL6,"Agarwal R, Binz T, Swaminathan S. Analysis of active site residues of
-botulinum neurotoxin E by mutational, functional, and structural studies:
-Glu335Gln is an apoenzyme. Biochemistry. 2005 Jun 14;44(23):8291-302. PubMed
-PMID: 15938619",15938619,y,1,12,,,"(PDB OR ""Protein Data Bank"") AND ""1ZL6"" -heinonline -patents ",1,y
-0.027203323388131,1YHG,http://www.rcsb.org/pdb/explore/explore.do?structureId=1YHG,"Barondeau DP, Kassmann CJ, Tainer JA, Getzoff ED. Understanding GFP
-chromophore biosynthesis: controlling backbone cyclization and modifying
-post-translational chemistry. Biochemistry. 2005 Feb 15;44(6):1960-70. PubMed
-PMID: 15697221",15697221,y,1,33,,,"(PDB OR ""Protein Data Bank"") AND ""1YHG"" -heinonline -patents ",1,y
+0.025432932713684,1XYR,http://www.rcsb.org/pdb/explore/explore.do?structureId=1XYR,"Bubeck D, Filman DJ, Cheng N, Steven AC, Hogle JM, Belnap DM. The structure ofthe poliovirus 135S cell entry intermediate at 10-angstrom resolution reveals thelocation of an externalized polypeptide that binds to membranes. J Virol. 2005Jun;79(12):7745-55. PubMed PMID: 15919927; PubMed Central PMCID: PMC1143686",15919927,y,2,41,,,"(PDB OR ""Protein Data Bank"") AND ""1XYR"" -heinonline -patents ",5,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221XYR%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.025573612325223,1ZKM,http://www.rcsb.org/pdb/explore/explore.do?structureId=1ZKM,"Duda DM, Walden H, Sfondouris J, Schulman BA. Structural analysis ofEscherichia coli ThiF. J Mol Biol. 2005 Jun 17;349(4):774-86. PubMed PMID:15896804",15896804,y,1,19,,,"(PDB OR ""Protein Data Bank"") AND ""1ZKM"" -heinonline -patents ",0
+0.02572584659058,1YOB,http://www.rcsb.org/pdb/explore/explore.do?structureId=1YOB,"Alagaratnam S, van Pouderoyen G, Pijning T, Dijkstra BW, Cavazzini D, RossiGL, Van Dongen WM, van Mierlo CP, van Berkel WJ, Canters GW. A crystallographicstudy of Cys69Ala flavodoxin II from Azotobacter vinelandii: structuraldeterminants of redox potential. Protein Sci. 2005 Sep;14(9):2284-95. PubMedPMID: 16131657; PubMed Central PMCID: PMC2253476",16131657,y,2,19,,,"(PDB OR ""Protein Data Bank"") AND ""1YOB"" -heinonline -patents ",10,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221YOB%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.025823432232453,1TJR,http://www.rcsb.org/pdb/explore/explore.do?structureId=1TJR,"Kulik V, Hartmann E, Weyand M, Frey M, Gierl A, Niks D, Dunn MF, SchlichtingI. On the structural basis of the catalytic mechanism and the regulation of thealpha subunit of tryptophan synthase from Salmonella typhimurium and BX1 frommaize, two evolutionarily related enzymes. J Mol Biol. 2005 Sep 23;352(3):608-20.PubMed PMID: 16120446",16120446,y,1,15,,,"(PDB OR ""Protein Data Bank"") AND ""1TJR"" -heinonline -patents ",0
+0.025927144387059,2BAK,http://www.rcsb.org/pdb/explore/explore.do?structureId=2BAK,"Sullivan JE, Holdgate GA, Campbell D, Timms D, Gerhardt S, Breed J, Breeze AL,Bermingham A, Pauptit RA, Norman RA, Embrey KJ, Read J, VanScyoc WS, Ward WH.Prevention of MKK6-dependent activation by binding to p38alpha MAP kinase.Biochemistry. 2005 Dec 20;44(50):16475-90. PubMed PMID: 16342939",16342939,y,1,39,,,"(PDB OR ""Protein Data Bank"") AND ""2BAK"" -heinonline -patents ",17,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%222BAK%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.026172110749065,1Y1U,http://www.rcsb.org/pdb/explore/explore.do?structureId=1Y1U,"Neculai D, Neculai AM, Verrier S, Straub K, Klumpp K, Pfitzner E, Becker S.Structure of the unphosphorylated STAT5a dimer. J Biol Chem. 2005 Dec9;280(49):40782-7. Epub 2005 Sep 28. PubMed PMID: 16192273",16192273,y,1,28,,,"(PDB OR ""Protein Data Bank"") AND ""1Y1U"" -heinonline -patents ",6,,http://scholar.google.com/scholar?hl=en&q=%28PDB+OR+%22Protein+Data+Bank%22%29+AND+%221Y1U%22+-heinonline+-patents+&btnG=Search&as_sdt=0%2C50&as_ylo=&as_vis=0
+0.026313115997537,1YXN,http://www.rcsb.org/pdb/explore/explore.do?structureId=1YXN,"Morais MC, Choi KH, Koti JS, Chipman PR, Anderson DL, Rossmann MG.Conservation of the capsid structure in tailed dsDNA bacteriophages: thepseudoatomic structure of phi29. Mol Cell. 2005 Apr 15;18(2):149-59. PubMed PMID:15837419",15837419,y,1,67,,,"(PDB OR ""Protein Data Bank"") AND ""1YXN"" -heinonline -patents ",1,y
+0.02644182748619,1XY9,http://www.rcsb.org/pdb/explore/explore.do?structureId=1XY9,"Grace CR, Durrer L, Koerber SC, Erchegyi J, Reubi JC, Rivier JE, Riek R.Somatostatin receptor 1 selective analogues: 4. Three-dimensional consensusstructure by NMR. J Med Chem. 2005 Jan 27;48(2):523-33. PubMed PMID: 15658866",15658866,y,1,18,,,"(PDB OR ""Protein Data Bank"") AND ""1XY9"" -heinonline -patents ",0
+0.026655030954145,1ZL6,http://www.rcsb.org/pdb/explore/explore.do?structureId=1ZL6,"Agarwal R, Binz T, Swaminathan S. Analysis of active site residues ofbotulinum neurotoxin E by mutational, functional, and structural studies:Glu335Gln is an apoenzyme. Biochemistry. 2005 Jun 14;44(23):8291-302. PubMedPMID: 15938619",15938619,y,1,12,,,"(PDB OR ""Protein Data Bank"") AND ""1ZL6"" -heinonline -patents ",1,y
+0.027203323388131,1YHG,http://www.rcsb.org/pdb/explore/explore.do?structureId=1YHG,"Barondeau DP, Kassmann CJ, Tainer JA, Getzoff ED. Understanding GFPchromophore biosynthesis: controlling backbone cyclization and modifyingpost-translational chemistry. Biochemistry. 2005 Feb 15;44(6):1960-70. PubMedPMID: 15697221",15697221,y,1,33,,,"(PDB OR ""Protein Data Bank"") AND ""1YHG"" -heinonline -patents ",1,y
 0.027228238603979,2D3R,http://www.rcsb.org/pdb/explore/explore.do?structureId=2D3R,,,,,,,,,670
 0.027747189100093,1WZU,http://www.rcsb.org/pdb/explore/explore.do?structureId=1WZU
 0.02827008621506,2AD1,http://www.rcsb.org/pdb/explore/explore.do?structureId=2AD1

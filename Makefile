@@ -57,6 +57,9 @@ data/repo_dataset_counts: scripts/repo_dataset_counts.py data/all_datasets.tsv
 data/repo_reuse_counts: scripts/repo_reuse_counts.py data/reuse_subsample_wos data/reuse_subsample_gs
 	python $< > $@
 
+data/year_citation_counts: scripts/canonical_repo_names.py data/all.tsv
+	tail -n +2 data/all.tsv | python scripts/canonical_repo_names.py | cut -f 8,17,26,36 | sort | uniq -c > $@
+
 figures:
 	mkdir -p figures
 
