@@ -30,7 +30,7 @@ if __name__ == '__main__':
         for line in input_file:
             if not line.strip(): continue
             
-            repo, dataset, wos, gs = line.split('\t')
+            repo, dataset, wos, gs = line.split('\t')[:4]
             repo = clean_repo_name(repo)
             if repo is None or not dataset.strip(): continue
             
