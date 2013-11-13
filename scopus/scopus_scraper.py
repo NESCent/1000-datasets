@@ -10,6 +10,8 @@ print '* starting browser...'
 browser = Browser()
 browser.set_html_parser(PyQuery)
 
+class NoMatchException(Exception): pass
+
 def match_score(a, b):
     return difflib.SequenceMatcher(lambda x: x==' ', a, b).ratio()
 
@@ -55,7 +57,7 @@ def get_info_from_title(title):
         data['title'] = result_title_text
         break
 
-    if not 'title' in data: raise Exception("Couldn't find a good title match")
+    if not 'title' in data: raise NoMatchException("Couldn't find a good title match")
 
     # load the article page on Scopus
     link = result_title_link.get('href')
