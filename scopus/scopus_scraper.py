@@ -13,7 +13,7 @@ browser.set_html_parser(PyQuery)
 class NoMatchException(Exception): pass
 
 def match_score(a, b):
-    return difflib.SequenceMatcher(lambda x: x==' ', a, b).ratio()
+    return difflib.SequenceMatcher(lambda x: x==' ', a.lower(), b.lower()).ratio()
 
 def get_info_from_title(title):
     print '[%s]' % title
@@ -66,8 +66,6 @@ def get_info_from_title(title):
     print link
     browser.load(link)
     soup = browser.soup
-
-    #open('test.html', 'w').write(browser.html)
     
     # get author info
     print '* getting author ids...'
