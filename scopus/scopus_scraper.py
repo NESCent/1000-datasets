@@ -100,7 +100,11 @@ def get_info_from_title(title):
     soup = browser.soup
     date_cols = soup('li.dataCol4')
     years = [int(x.find('div').text) for x in date_cols if x.find('div') is not None]
-    data['years'] = years
+    if len(years) == 200:
+        raise Exception('Warning: 200 citations encountered')
+    else:
+        print 'citations:', len(years), sorted(list(set(years)))
+    data['years'] = sorted(years)
 
     return data
 

@@ -22,6 +22,9 @@ try:
                 title = title.replace('{', '').replace('}', '')
                 if '^' in title: title = title.split('^')[-1]
                 article_data[id] = get_info_from_title(title)
+                for key in ('year', 'journal'):
+                    if key in b:
+                        article_data[id][year] = b[key]
             except KeyError: pass
             except NoMatchException:
                 print '** NO MATCH FOUND **'
