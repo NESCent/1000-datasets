@@ -88,7 +88,7 @@ def get_info_from_title(title):
     data['keywords'] = keywords
         
     # get citation years
-    citation_link = (x.get('href') for x in soup('a') if x.get('href') 
+    citation_link = (x.get('href') for x in soup('div.floatR a') if x.get('href') 
                      and 'citedby.url' in x.get('href')).next()
     print '* loading citations page (%s)...' % citation_link
     browser.load(citation_link)
