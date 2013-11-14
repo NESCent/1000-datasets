@@ -89,21 +89,29 @@ def get_info_from_title(title):
         
     # get citation years
     citation_link = (x.get('href') for x in soup('div.floatR a') if x.get('href') 
-                     and 'citedby.url' in x.get('href')).next()
-    print '* loading citations page (%s)...' % citation_link
-    browser.load(citation_link)
-    # show 200 results per page
-    browser.wk_select('select[name="resultsPerPage"]', '200')
-    browser.runjs("document.SearchResultsForm.displayPerPageFlag.value='t';nextPageResults();")
-    browser.wait_load()
+                     and 'citedby.url' in x.get('href'))
+    try:
+        citation_link = citation_link.next()
+        
+        print '* loading citations page (%s)...' % citation_link
+        browser.load(citation_link)
+        # show 200 results per page
+        browser.wk_select('select[name="resultsPerPage"]', '200')
+        browser.runjs("document.SearchResultsForm.displayPerPageFlag.value='t';nextPageResults();")
+        browser.wait_load()
+    
+        soup = browser.soup
+        date_cols = soup('li.dataCol4')
+        years = [int(x.find('div').text) for x in date_cols if x.find('div') is not None]
+        if len(years) == 200:
+            raise Exception('Warning: 200 citations encountered')
+        else:
+            print 'citations:', len(years), sorted(list(set(years)))
 
-    soup = browser.soup
-    date_cols = soup('li.dataCol4')
-    years = [int(x.find('div').text) for x in date_cols if x.find('div') is not None]
-    if len(years) == 200:
-        raise Exception('Warning: 200 citations encountered')
-    else:
-        print 'citations:', len(years), sorted(list(set(years)))
+    except StopIteration:
+        print 'no citations'
+        years = []
+
     data['years'] = sorted(years)
 
     return data
