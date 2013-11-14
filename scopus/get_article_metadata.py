@@ -24,7 +24,7 @@ try:
                 article_data[id] = get_info_from_title(title)
                 for key in ('year', 'journal'):
                     if key in b:
-                        article_data[id][year] = b[key]
+                        article_data[id][key] = b[key]
             except KeyError: pass
             except NoMatchException:
                 print '** NO MATCH FOUND **'
