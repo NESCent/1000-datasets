@@ -48,7 +48,7 @@ def get_info_from_title(title):
         result_title_text = result_title_link.text
 
         score = match_score(title, result_title_text)
-        if score < 0.9:
+        if score < 0.7:
             print n+1, 'bad match: ', result_title_text, '(%s)' % score
             n += 1
             continue
@@ -104,7 +104,7 @@ def get_info_from_title(title):
         date_cols = soup('li.dataCol4')
         years = [int(x.find('div').text) for x in date_cols if x.find('div') is not None]
         if len(years) == 200:
-            raise Exception('Warning: 200 citations encountered')
+            pass#raise Exception('Warning: 200 citations encountered')
         else:
             print 'citations:', len(years), sorted(list(set(years)))
 
