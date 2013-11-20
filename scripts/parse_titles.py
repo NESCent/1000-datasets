@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import re
-separator = re.compile("(\. |\.\,|, (?=[A-Z]))")
+separator = re.compile("(\. |\.\,|, (?=[A-Z])|; (?=[A-Z]))")
 
 def main():
     import sys

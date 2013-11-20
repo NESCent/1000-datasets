@@ -63,6 +63,9 @@ data/year_citation_counts: scripts/canonical_repo_names.py data/all.tsv
 data/refs.tsv: scripts/get_refs.py data/old_all_datasets.tsv
 	python $^ > $@
 
+data/titles.tsv: scripts/parse_titles.py data/refs.tsv
+	cat data/refs.tsv | python $< > $@
+
 figures:
 	mkdir -p figures
 
