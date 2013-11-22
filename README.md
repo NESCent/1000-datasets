@@ -30,3 +30,7 @@ bar indicates no citations.*
 ![citations and reuse](https://raw.github.com/bendmorris/1000-datasets/master/figures/repo_comparison.png)
 
 *A comparison of per-dataset citation and reuse rates between repositories.*
+
+![citations and reuse](https://raw.github.com/bendmorris/1000-datasets/master/figures/reuse_over_time.png)
+
+*Instances of reuse for a dataset. Shows median and 50%/95% confidence intervals.*

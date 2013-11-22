@@ -1,4 +1,4 @@
-figs=repo_histograms_reuse repo_histograms_citation most_cited_datasets repo_comparison
+figs=repo_histograms_reuse repo_histograms_citation most_cited_datasets repo_comparison reuse_over_time
 sums=journal_list repo_list dataset_list dataset_counts reuse_estimates repo_citation_counts repo_dataset_counts repo_reuse_counts
 fig_format=png
 figures=figures $(patsubst %, figures/%.$(fig_format), $(figs))
@@ -71,6 +71,9 @@ figures:
 
 figures/repo_histograms_%.$(fig_format): scripts/plot_distributions.py data/reuse_estimates
 	python $< $* $@
+
+figures/reuse_over_time.$(fig_format): scripts/reuse_over_time.py data/reuse_estimates data/article_metadata.pkl
+	python $< $@
 
 figures/most_cited_datasets.$(fig_format): scripts/most_cited_datasets.py data/reuse_estimates
 	python $< $@
