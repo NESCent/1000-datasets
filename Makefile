@@ -66,6 +66,9 @@ data/refs.tsv: scripts/get_refs.py data/old_all_datasets.tsv
 data/titles.tsv: scripts/parse_titles.py data/refs.tsv
 	cat data/refs.tsv | python $< > $@
 
+data/keyword_matrix: scripts/keyword_matrix.py
+	python $< > $@
+
 figures:
 	mkdir -p figures
 
