@@ -13,7 +13,11 @@ browser.set_html_parser(PyQuery)
 class NoMatchException(Exception): pass
 
 def match_score(a, b):
-    return difflib.SequenceMatcher(lambda x: x==' ', a.lower(), b.lower()).ratio()
+    shorter = min(len(a), len(b))
+    match = difflib.SequenceMatcher(lambda x: x==' ', a.lower(), b.lower())
+    score1 = match.ratio()
+    score2 = float(match.find_longest_match(0,len(a),0,len(b)).size) / shorter
+    return (score1 + score2) / 2
 
 def get_info_from_title(title):
     print '[%s]' % title
@@ -25,7 +29,7 @@ def get_info_from_title(title):
 
     # fill in search info
     print '* filling search...'
-    browser.wk_fill('input[name="searchterm1"]', title)
+    browser.wk_fill('input[name="searchterm1"]', title.lower())
     browser.wk_select('select[name="field1"]', 'TITLE')
 
     print '* submitting...'
@@ -36,7 +40,7 @@ def get_info_from_title(title):
     open('test.html', 'w').write(browser.html)
 
     # check all results and do fuzzy string comparison to verify which one is
-    # the article you're looking for - title must be at least a 90% match
+    # the article you're looking for - verify match score is above threshold
     soup = browser.soup
     results = soup('div#srchResultsList ul.documentListData.docMain')
     titles = results.find('li.dataCol2')

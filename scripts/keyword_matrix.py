@@ -10,8 +10,8 @@ def main():
         data = pkl.load(data_file)
 
     all_keywords = Counter([k.lower() 
-                            for data_type in data.keys()
-                            for i in data[data_type].values() 
+                            for article_type in data.keys()
+                            for i in data[article_type].values() 
                             for k in i['keywords']
                             ])
     # remove keywords that show up less than KEYWORD_MIN_FREQ times
@@ -20,18 +20,18 @@ def main():
     sys.stderr.write('Keywords: ' + str(len(all_keywords))+'\n')
     sys.stderr.flush()
                         
-    print '\t'.join(['data_type', 'repo'] + all_keywords)
+    print '\t'.join(['article_type', 'repo'] + all_keywords)
 
     n = 0
-    for data_type in data.keys():
-        for s in data[data_type].values():
+    for article_type in data.keys():
+        for s in data[article_type].values():
             try: repo = s['repo']
             except KeyError: repo = 'na'
             k = set([i.lower() for i in s['keywords']])
             kl = ['1' if i in k else '0' for i in all_keywords]
             if not all([i=='0' for i in kl]):
                 n += 1
-                print '\t'.join([data_type, repo] + kl)
+                print '\t'.join([article_type, repo] + kl)
 
     sys.stderr.write('Datasets: %s\n' % (n))
     sys.stderr.flush()

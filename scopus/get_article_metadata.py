@@ -24,13 +24,13 @@ try:
         repo, accession = vals[:2]
         title = '\t'.join(vals[2:])
         article_info = {'title': title, 'repo': repo, 'accession': accession}
-        if not (accession in article_data['datasets']):
+        if not accession in article_data['datasets']:
             data_to_gather['datasets'][accession] = article_info
     
     # get all titles of their citations
     for id in bibdata.entries:
         print '==>', id
-        if not id in article_data:
+        if not id in article_data['citations']:
             b = bibdata.entries[id].fields
             try:
                 article_info = {}
@@ -38,22 +38,24 @@ try:
                 title = title.replace('{', '').replace('}', '')
                 if '^' in title: title = title.split('^')[-1]
                 article_info['title'] = title
+                print article_info
                 for key in ('year', 'journal'):
                     if key in b:
                         article_info[key] = b[key]
                 data_to_gather['citations'][id] = article_info
-            except NoMatchException:
-                print '** NO MATCH FOUND **'
-            except Exception as e:
-                print '** %s **' % e
+            except KeyError: pass
 
     # look everything up on Scopus by title
     for key in data_to_gather:
         for id, article_info in data_to_gather[key].items():
             try:
+                title = article_info['title']
                 article_info.update(get_info_from_title(title))
                 article_data[key][id] = article_info
-            except KeyError: pass
+            except NoMatchException:
+                print '** NO MATCH FOUND **'
+            except Exception as e:
+                print '** %s **' % e
 
     # pickle the result
     with open('data/article_metadata.pkl', 'w') as pkl_file:
