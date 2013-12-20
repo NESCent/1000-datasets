@@ -2,7 +2,7 @@ Instructions
 ============
 
 To generate all figures and analyses, just type `make`. Figures will be saved in 
-the figures directory.
+the "figures" directory, and summaries of analyses in the "results" directory.
 
 
 Prerequisites
@@ -13,6 +13,7 @@ Prerequisites
     * numpy
     * matplotlib
     * mpltools
+* the vegan R package (available from CRAN)
 
 
 Figures

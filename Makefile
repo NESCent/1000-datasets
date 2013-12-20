@@ -1,6 +1,6 @@
 figs=repo_histograms_reuse repo_histograms_citation most_cited_datasets repo_comparison reuse_over_time
 sums=journal_list repo_list dataset_list dataset_counts reuse_estimates repo_citation_counts repo_dataset_counts repo_reuse_counts
-res= publish_vs_reuse
+res= publish_vs_reuse repo_differences
 fig_format=png
 figures=figures $(patsubst %, figures/%.$(fig_format), $(figs))
 summaries=$(patsubst %, data/%, $(sums))
@@ -93,4 +93,7 @@ results:
 	mkdir -p $@
 
 results/publish_vs_reuse: scripts/publish_vs_reuse.R data/keyword_matrix
+	Rscript $< > $@
+
+results/repo_differences: scripts/repo_differences.R data/reuse_estimates
 	Rscript $< > $@
