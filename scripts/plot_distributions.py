@@ -1,18 +1,19 @@
 #!/usr/bin/env python
+import sys
+import matplotlib
+import matplotlib.pyplot as plt
+from matplotlib.font_manager import FontProperties
+import numpy as np
+import math
+from mpltools import style
+from mpltools import layout
+style.use('ggplot')
+
 if __name__ == '__main__':
-    import sys
-    import matplotlib
     # plot is either reuse, or all citations
     plot_type = sys.argv[1]
     if sys.argv[2].endswith('.svg'):
         matplotlib.use('SVG')
-    import matplotlib.pyplot as plt
-    from matplotlib.font_manager import FontProperties
-    import numpy as np
-    import math
-    from mpltools import style
-    from mpltools import layout
-    style.use('ggplot')
     
     font = FontProperties()
     font.set_size('medium')
