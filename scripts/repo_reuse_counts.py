@@ -8,6 +8,9 @@ to have been instances of reuse with high confidence.
 '''
 from collections import defaultdict
 from process_dataset_list import clean_repo_name
+import re
+
+count_re = re.compile('^ *[0-9]+ ')
 
 keys = ('wos', 'gs')
 reuse_counts = {key:defaultdict(lambda: 0) for key in keys}
@@ -18,9 +21,13 @@ for key in keys:
         for line in input_file:
             line = line.rstrip()
             if not line or line.startswith('#'): continue
-            
-            n = int(line[:8])
-            line = line[8:].rstrip('\n')
+
+            try:            
+                count = count_re.findall(line)[0]
+            except IndexError:
+                raise Exception("Invalid input. reuse_subsample_%s should contain output from uniq -c." % key)
+            n = int(count)
+            line = line[len(count):].rstrip('\n')
             confidence, reuse_status, repo = line.split('\t')
             if not reuse_status: continue
             repo = clean_repo_name(repo)
