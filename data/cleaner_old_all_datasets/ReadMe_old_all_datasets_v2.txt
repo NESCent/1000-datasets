@@ -1,6 +1,6 @@
 ReadMe_old_all_datasets_v2.txt describes process to clean old_all_datasets.tsv to produce old_all_datasets_v2.tsv.
 
-Main accomplishment: data aligns appropriately under header rows.
+Main accomplishments: data aligns appropriately under header rows; performed searches to associate publications with datasets (the publication related to deposit of data in a repository); as possible, updated entries to include at least one identifier (e.g., PMID, DOI)
 Data common across datasets in left side of table.
 Data unique to (a) dataset(s) in right side of table. For these, corresponding datasets named in header, with notes as necessary.
 Data collection dates added based on WOS citation file collection dates.
@@ -33,8 +33,18 @@ Data entered in table in new columns :
 MONTH_wos_citingPaper_colxn
 DAY_wos_citingPaper_colxn
 YEAR_wos_citingPaper_colxn
+Added 'article data' column, coded as follows: 
+	1 = identifier available for reference (1151 items);
+	2 = no identifier, but reference complete (29 items); 
+	0 = incomplete reference (63 items).
 
 see 'CHANGES BY DATASET' (datasets listed in order visited) for changes/notes specific to a dataset
+
+
+SEARCH FOR PUBLICATIONS ASSOCIATED WITH SUBMISSION OF A DATASET:
+To match publications to datasets via GS searches, GS search phrase that included the accession number was first searched. If there were more than 10 references, either the first author of the dataset was added to the search in an author search, or a keyword from the title of the dataset, or the species name (either genus species or just the specific name to account for truncation of genera names). In some cases, where there were many results, a combination of these was performed and/or the results were truncated to include only 2000-present. In cases where data was also filed elsewhere (e.g., StemBank), the StemBank accession number and 'Stembank' were also searched, with possible additions of extra query terms as described above. No more than 15 minutes was devoted to searching for any given dataset.
+
+If a publication indicated that the named dataset searched for was deposited or submitted or similar to a data repository, that publication was identified as the 'article reference' for the dataset. 
 
 
 FINALIZING DRAFT DATASET
@@ -133,6 +143,9 @@ note: no article DOI's available in data table
 
 PDB
 Added dates from file list. files names by accession.
+GS Search Terms were constructed for PDB entries that did not yet have publication info, following the example of previous GS Search Term phrases.
+
 
 TreeBase
 When matching dates, file found for S1253 (collected Dec 17 2010), but with no corresponding entry in the data table
+
