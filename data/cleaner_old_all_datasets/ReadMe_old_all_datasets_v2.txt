@@ -1,29 +1,56 @@
 ReadMe_old_all_datasets_v2.txt describes process to clean old_all_datasets.tsv to produce old_all_datasets_v2.tsv.
 
-Main accomplishments: data aligns appropriately under header rows; performed searches to associate publications with datasets (the publication related to deposit of data in a repository); as possible, updated entries to include at least one identifier (e.g., PMID, DOI)
-Data common across datasets in left side of table.
-Data unique to (a) dataset(s) in right side of table. For these, corresponding datasets named in header, with notes as necessary.
-Data collection dates added based on WOS citation file collection dates.
-For datasets with PubMed ID's, DOI's embedded in reference material, not otherwise, these were extracted, included in appropriate columns.
-Empty cells filled with 'NA'.
-Notes in 'article reference' column moved to new 'article reference notes' column.
+Main accomplishments: 
+
+1. All data record rows align appropriately under header row. Initially, the
+different repository datasets had non-identical sets of columns, even if most
+columns were shared. 
+2. Filled in missing publications for data records by performing searches
+(see below for search procedures used).
+3. Whereever possible, updated data records to include at least one
+identifier for a data record's associated publication (e.g., PMID, DOI).
+4. Rearranged columns so that those common across repository datasets come first,
+and those specific to only some follow those that are common.
+5. Consolidated repository dataset-specific columns where possible and
+meaningful. Added the repository dataset-specific meaning in
+parentheses to the column header.
+6. Added 3 columns for Month, Day, and Year the data record citations
+were collected from WOS. These dates are taken from the last modified
+date of the per-data record files holding the collected citation
+data. The citation data file was identified by matching the file name
+using the string documented in column `string matched to (partial) file name to extract data collection date data`.
+7. Where included in the `article reference` but missing from the
+article DOI column (`Data Collection Article DOI`), extracted DOI from
+the reference and filled in missing article DOI. Also, where the
+article was missing but found by searching, entered PubmedID and/or
+DOI into the respective columns.
+8. Filled all empty cells with `NA` so it is clear that the
+corresponding value is not available (rather than missing due to
+pending searches or other data curation tasks). (A final pass over the
+whole dataset [is still pending](https://github.com/NESCent/1000-datasets/issues/10).)
+9. Moved notes previously contained in `article reference` column to a
+new column named `article reference note`. Typically, these notes
+concern the data collection process.
 
 
 IN MORE DETAIL:
 
 
 OPENING old_all_datasets.tsv:
+The original version did not cleanly open in Excel, due to embedded
+non-delimiting tabs and double quotes. 
 In text editing program, opened old_all_datasets.tsv
 replaced " with '
 replaced \t with |
 went through repository change points, adjusted headings
+After this, the table opened (more) cleanly in Excel. 
 
 opened in excel:
 import as unicode 5.1 (UTF-8) - a few authors' names appear broken, but less so than with other encodings
-imported all columns as "Text" (rather than General, the default)
+imported all columns as "Text" (rather than General, which is the default but causes errors)
 replaced empty cells with NA
 
-Opening 'fixes' reduced file to 18 columns
+Opening 'fixes' reduced apparent number of columns in file from more than 30 (depending on encoding) to 18.
 
 
 DATASET LEVEL CHANGES
