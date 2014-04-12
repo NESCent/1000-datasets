@@ -200,13 +200,13 @@ note: no article DOI's available in data table
 
 note: no article DOI's available in data table
 
-### PDB
+#### PDB
 
 Added dates from file list. files names by accession.
 GS Search Terms were constructed for PDB entries that did not yet have publication info, following the example of previous GS Search Term phrases.
 
 
-### TreeBase
+#### TreeBase
 
 When matching dates, file found for S1253 (collected Dec 17 2010), but with no corresponding entry in the data table
 
