@@ -42,40 +42,55 @@ Main accomplishments:
    concern the data collection process.
 
 
-IN MORE DETAIL:
+Details:
+--------
+
+### Initial cleanup
+
+The original version of `old_all_datasets.tsv` did not cleanly open in
+Excel, due to embedded non-delimiting tabs and double quotes. To
+address this, a text editor was used to open the file, and to perform
+the following changes:
+
+- Replaced double quotes with single quotes.
+- Replaced `\t` embedded within fields and replaced with `|` (bar).
+- Based on repository change history, adjusted column headings.
+
+After this, the table opened (more) cleanly in Excel. Further cleanup
+was performed in Excel:
+
+- Imported file as Unicode 5.1 (UTF-8). After this, a few authors'
+  names continue to display incorrectly, but fewer than with other
+  encodings.
+- Imported all columns as "Text" (rather than General, which is the
+  default but causes errors).
+- Replaced empty cells with `NA`.
+
+These cleanup steps reduced the apparent number of columns in the file
+from more than 30 (depending on encoding) to 18.
 
 
-OPENING old_all_datasets.tsv:
-The original version did not cleanly open in Excel, due to embedded
-non-delimiting tabs and double quotes. 
-In text editing program, opened old_all_datasets.tsv
-replaced " with '
-replaced \t with |
-went through repository change points, adjusted headings
-After this, the table opened (more) cleanly in Excel. 
+### Dataset-Level Changes
 
-opened in excel:
-import as unicode 5.1 (UTF-8) - a few authors' names appear broken, but less so than with other encodings
-imported all columns as "Text" (rather than General, which is the default but causes errors)
-replaced empty cells with NA
+- Rearranged the columns to line up data across the repository datasets.
+- Added citation data collection dates for each repository dataset
+  based on Dropbox files at
+  `data/10-wos_citations_to_data_collection_papers/<dataset_name>`
+  (wrote the file list with dates to text using `ls -l >
+  <data_set>_file_list.txt`). Entered dates into table in the form of
+  3 new columns (`MONTH_wos_citingPaper_colxn`,
+  `DAY_wos_citingPaper_colxn`, `YEAR_wos_citingPaper_colxn`).
+- Added `article data` column, coded as follows: 
+    * `1` = identifier available for reference (1151 items);
+    * `2` = no identifier, but reference complete (29 items); 
+    * `0` = incomplete reference (63 items).
 
-Opening 'fixes' reduced apparent number of columns in file from more than 30 (depending on encoding) to 18.
+For further changes and notes specific to a repository dataset see
+"Changes By Dataset" below, which lists the datasets the in order
+visited.
 
 
-DATASET LEVEL CHANGES
-rearranged columns to line up data across datasets
-added date data for each set based on dropbox files at 'data/10-wos_citations_to_data_collection_papers/<dataset_name>: file list written to text (ls -l > <data_set>_file_list.txt) 
-Data entered in table in new columns :
-MONTH_wos_citingPaper_colxn
-DAY_wos_citingPaper_colxn
-YEAR_wos_citingPaper_colxn
-Added 'article data' column, coded as follows: 
-	1 = identifier available for reference (1151 items);
-	2 = no identifier, but reference complete (29 items); 
-	0 = incomplete reference (63 items).
-
-see 'CHANGES BY DATASET' (datasets listed in order visited) for changes/notes specific to a dataset
-
+### Search For Publications Associated A Data Record
 
 SEARCH FOR PUBLICATIONS ASSOCIATED WITH SUBMISSION OF A DATASET:
 To match publications to datasets via GS searches, GS search phrase that included the accession number was first searched. If there were more than 10 references, either the first author of the dataset was added to the search in an author search, or a keyword from the title of the dataset, or the species name (either genus species or just the specific name to account for truncation of genera names). In some cases, where there were many results, a combination of these was performed and/or the results were truncated to include only 2000-present. In cases where data was also filed elsewhere (e.g., StemBank), the StemBank accession number and 'Stembank' were also searched, with possible additions of extra query terms as described above. No more than 15 minutes was devoted to searching for any given dataset.
