@@ -90,37 +90,41 @@ For further changes and notes specific to a repository dataset see
 visited.
 
 
-### Search For Publications Associated With A Data Record
+### Search For Publications Associated With A Dataset
 
-To match publications to datasets via GS searches, GS search phrase
-that included the accession number was first searched. If there were
-more than 10 references, either the first author of the dataset was
+To match publications to datasets using Google Scholar, Google Scholar
+was first searched by the dataset's accession number. If this resulted
+in more than 10 references, either the first author of the dataset was
 added to the search in an author search, or a keyword from the title
 of the dataset, or the species name (either genus species or just the
 specific name to account for truncation of genera names). In some
 cases, where there were many results, a combination of these was
 performed and/or the results were truncated to include only
-2000-present. In cases where data was also filed elsewhere (e.g.,
-StemBank), the StemBank accession number and 'Stembank' were also
-searched, with possible additions of extra query terms as described
-above. No more than 15 minutes was devoted to searching for any given
-dataset.
+2000-present. When data was also filed elsewhere, e.g., StemBank, the
+respectice (such as StemBank) accession number and database name (such
+as 'Stembank') were also searched, with possible additions of extra
+query terms as described above. No more than 15 minutes was devoted to
+searching for any given dataset.
 
-If a publication indicated that the named dataset searched for was
-deposited or submitted or similar to a data repository, that
-publication was identified as the 'article reference' for the dataset.
-
+If a publication indicated that the searched for dataset was deposited
+or submitted or similar to a data repository, that publication was
+identified as the 'article reference' for the dataset.
 
 ### Finalizing Draft Dataset
 
-Re-order entries to correct for changes when matching collection date data
-remove extra (mid-file) headers
-check each column of data, move stray comments to 'COMMENTS' column
-Added 'article reference note' column to remove extra info from 'article reference' column
-Note on 'Dropbox filenames' column: new column, 'string matched to (partial) file name to extract data collection date data' contains either the file name (- '.txt') or partial filename used to match date data
+- Re-ordered entries to correct for changes when matching collection
+  date data.
+- Removed extra (mid-file) headers.
+- Checked each column of data, move stray comments to `COMMENTS` column.
+- Added `article reference note` column to remove extra info from `article reference` column.
+- Added new column, `string matched to (partial) file name to extract
+  data collection date data`, which contains either the full (if with
+  extension) or partial filename used to match the file in Dropbox
+  from which to take the citation collection date data.
 
-Notes:
-'WoS Cited by how many?' appears to hold the same data as 'total citations'. Tested in Pangaea - exactly the same for this set - didn't test others.
+Notes: `WoS Cited by how many?` appears to hold the same data as
+`total citations`. Tested for Pangaea, for which they are exactly the
+same. Didn't test others.
 
 ### Changes By Dataset
 
